@@ -1,0 +1,165 @@
+# Astra Concierge Project Context
+
+This file is the project memory for `astra-concierge`.
+
+Before starting work in a new chat or a resumed session, read this file first so the project stays aligned with the original goal, stack, teaching style, and code-quality standards.
+
+## Project Name
+
+`astra-concierge`
+
+## Main Goal
+
+Build a premium AI concierge chatbot that can be shown to potential clients as proof that we can build sophisticated AI automation and integration products.
+
+This is also a learning project. The developer should understand each major step, not just receive generated code.
+
+## Product Positioning
+
+Astra Concierge is not just a basic chatbot. It should feel like an AI business concierge for service-based companies.
+
+It should be able to:
+
+- Answer user questions clearly and professionally.
+- Explain services, pricing, onboarding, policies, and processes.
+- Use uploaded business documents as its knowledge base.
+- Cite the sources it used when answering from documents.
+- Capture leads from chat.
+- Qualify user intent.
+- Recommend services or packages.
+- Create callback or discovery-call requests.
+- Show an admin dashboard for conversations, leads, documents, and analytics.
+
+The first demo business can be an AI automation agency, because that directly supports the goal of getting AI automation and integration clients.
+
+## Agreed Technology Stack
+
+- Framework: Next.js with App Router
+- Language: TypeScript
+- AI model provider: Gemini API
+- AI chat plumbing: Vercel AI SDK with `@ai-sdk/google`
+- Database: Neon Postgres
+- Vector search: `pgvector`
+- ORM and migrations: Drizzle ORM
+- UI system: Tailwind CSS and shadcn/ui
+- Motion: Framer Motion for tasteful micro-interactions
+- Deployment: Vercel Hobby for the portfolio/demo deployment
+
+Important note: Vercel AI SDK is used as a free/open-source TypeScript toolkit. We are not depending on Vercel AI Gateway for model access. Gemini API is the model provider.
+
+## Core Architecture
+
+Chat flow:
+
+```txt
+User sends message
+  -> Next.js chat UI
+  -> /api/chat route
+  -> load conversation context
+  -> search relevant document chunks in Neon with pgvector
+  -> send user message + retrieved context to Gemini
+  -> stream the answer back to the UI
+  -> save the assistant response and metadata
+```
+
+Knowledge base flow:
+
+```txt
+Admin uploads document
+  -> extract text
+  -> split text into chunks
+  -> create Gemini embeddings
+  -> store documents, chunks, and vectors in Neon
+  -> retrieve relevant chunks during chat
+```
+
+## Planned Work Chunks
+
+1. Project scaffold
+   - Learn: Next.js App Router, TypeScript, project structure.
+
+2. Premium UI shell
+   - Learn: Tailwind, shadcn/ui, layout, responsive design, visual polish.
+
+3. Basic chat UI
+   - Learn: message state, input handling, loading states, streaming UX.
+
+4. Gemini streaming chat API
+   - Learn: server routes, environment variables, Gemini model calls, Vercel AI SDK streaming.
+
+5. Neon and Drizzle setup
+   - Learn: database connection, schema design, migrations.
+
+6. Conversation persistence
+   - Learn: storing conversations and messages cleanly.
+
+7. Knowledge base upload
+   - Learn: file upload, text extraction, document records.
+
+8. Embeddings and vector search
+   - Learn: embeddings, `pgvector`, similarity search, document chunks.
+
+9. RAG answers with citations
+   - Learn: retrieval augmented generation, grounding, source citations.
+
+10. Tool calling and automations
+    - Learn: lead capture, callback request creation, structured tool inputs.
+
+11. Admin dashboard
+    - Learn: dashboards, tables, filters, analytics, document management.
+
+12. Polish and deployment
+    - Learn: production checks, env vars, Vercel deployment, demo readiness.
+
+## Teaching Protocol
+
+For every meaningful chunk, the assistant should teach while building.
+
+Use this rhythm:
+
+1. Explain the goal in plain English.
+2. List the files that will be touched.
+3. Implement the code.
+4. Explain the important code section by section.
+5. Run or describe verification.
+6. Summarize what the developer should now understand.
+7. Suggest a small practice change when useful.
+
+Do not dump unexplained code. The developer wants to learn the system deeply enough to explain it to clients.
+
+## Code Quality Standards
+
+The codebase must be highly organized, modular, maintainable, and easy to understand.
+
+Follow these rules:
+
+- Prefer small, focused modules over large files.
+- Use clear names for files, functions, components, variables, and database tables.
+- Keep business logic separate from UI rendering where practical.
+- Keep database schema, AI logic, retrieval logic, and UI components in predictable folders.
+- Avoid clever code when simple code is clearer.
+- Add comments only where they explain why something exists or clarify non-obvious logic.
+- Use TypeScript types to make data flow understandable.
+- Validate inputs at API boundaries.
+- Handle loading, empty, success, and error states in the UI.
+- Keep the design premium but practical, with no unnecessary decorative clutter.
+- Prefer reusable components only when reuse is real and helpful.
+- Keep each milestone working before moving to the next.
+
+The target is a codebase that a beginner can navigate and a professional can respect.
+
+## First Milestone
+
+Build:
+
+- A clean Next.js project scaffold.
+- A premium first-screen chat experience.
+- A basic Gemini streaming chat endpoint.
+
+Do not start with the database. First make the assistant feel alive, then add memory, documents, retrieval, automations, and the dashboard step by step.
+
+## Progress Log
+
+- Chunk 1 complete: created the initial Next.js App Router scaffold with TypeScript, Tailwind CSS, ESLint, project metadata, root layout, and a simple landing page.
+- Verification for Chunk 1: `npm run lint`, `npm run typecheck`, and `npm run build` all pass. The local dev server renders `http://localhost:3000` with no browser console errors or Next.js error overlay.
+
