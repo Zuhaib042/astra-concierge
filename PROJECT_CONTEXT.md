@@ -90,6 +90,9 @@ Admin uploads document
 5. Neon and Drizzle setup
    - Learn: database connection, schema design, migrations.
 
+5a. Synthetic knowledge base generation
+   - Learn: generating realistic qualitative and quantitative demo knowledge without hand-writing every source document.
+
 6. Conversation persistence
    - Learn: storing conversations and messages cleanly.
 
@@ -170,3 +173,5 @@ Do not start with the database. First make the assistant feel alive, then add me
 - Verification for Chunk 4: `npm run lint`, `npm run typecheck`, and `npm run build` all pass. Browser checks passed on desktop and 390px mobile width with no console errors, no Next.js error overlay, and no horizontal overflow. Because `.env.local` is not configured yet, submitting a prompt returns the expected setup state from `/api/chat` instead of a live Gemini answer.
 - Setup note for Chunk 4: create `.env.local` with `GOOGLE_GENERATIVE_AI_API_KEY` before expecting live Gemini responses locally or in Vercel.
 - Audit note: `npm audit` currently reports 2 moderate advisories from PostCSS bundled inside Next.js. The suggested `npm audit fix --force` would downgrade Next, so do not apply it automatically.
+- Knowledge-base generation chunk complete: added `@faker-js/faker`, `json-schema-faker`, and `scripts/generate-knowledge-base.mjs`. The generator creates a deterministic synthetic corpus under `content/knowledge` with 437 Markdown source documents and structured JSON datasets for 250 leads, 320 support tickets, 40 integration metric records, 180 analytics records, and 4 package-pricing records.
+- Verification for knowledge-base generation: `npm run kb:generate`, `npm run lint`, `npm run typecheck`, and `npm run build` all pass. The generated Markdown corpus is about 101k words and includes service briefs, integration playbooks, case studies, FAQs, objection handling, security policies, implementation plans, lead playbooks, and support policies.

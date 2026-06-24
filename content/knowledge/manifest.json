@@ -1,0 +1,5476 @@
+{
+  "generatedAt": "2026-06-24T00:00:00.000Z",
+  "seed": 20260624,
+  "documentCount": 437,
+  "datasetStats": {
+    "leads": 250,
+    "supportTickets": 320,
+    "integrationMetrics": 40,
+    "analytics": 180,
+    "packagePricing": 4
+  },
+  "documents": [
+    {
+      "id": "svc-001",
+      "title": "AI Website Concierge for automotive service centers",
+      "category": "services",
+      "file": "services/svc-001-ai-website-concierge-for-automotive-service-centers.md",
+      "tags": [
+        "service",
+        "automotive service centers",
+        "AI Website Concierge",
+        "Zendesk",
+        "Resend",
+        "Asana"
+      ]
+    },
+    {
+      "id": "svc-002",
+      "title": "Document-Grounded Support Assistant for property management teams",
+      "category": "services",
+      "file": "services/svc-002-document-grounded-support-assistant-for-property-management-teams.md",
+      "tags": [
+        "service",
+        "property management teams",
+        "Document-Grounded Support Assistant",
+        "Zapier",
+        "Jotform",
+        "Jira"
+      ]
+    },
+    {
+      "id": "svc-003",
+      "title": "Lead Qualification Chatbot for fitness studios",
+      "category": "services",
+      "file": "services/svc-003-lead-qualification-chatbot-for-fitness-studios.md",
+      "tags": [
+        "service",
+        "fitness studios",
+        "Lead Qualification Chatbot",
+        "Calendly",
+        "Linear",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "svc-004",
+      "title": "CRM Handoff Automation for event venues",
+      "category": "services",
+      "file": "services/svc-004-crm-handoff-automation-for-event-venues.md",
+      "tags": [
+        "service",
+        "event venues",
+        "CRM Handoff Automation",
+        "Typeform",
+        "Segment",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "svc-005",
+      "title": "Internal Knowledge Copilot for recruiting agencies",
+      "category": "services",
+      "file": "services/svc-005-internal-knowledge-copilot-for-recruiting-agencies.md",
+      "tags": [
+        "service",
+        "recruiting agencies",
+        "Internal Knowledge Copilot",
+        "Freshdesk",
+        "Webflow",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "svc-006",
+      "title": "Appointment Booking Assistant for education providers",
+      "category": "services",
+      "file": "services/svc-006-appointment-booking-assistant-for-education-providers.md",
+      "tags": [
+        "service",
+        "education providers",
+        "Appointment Booking Assistant",
+        "Salesforce",
+        "QuickBooks",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "svc-007",
+      "title": "Proposal Intake Assistant for accounting firms",
+      "category": "services",
+      "file": "services/svc-007-proposal-intake-assistant-for-accounting-firms.md",
+      "tags": [
+        "service",
+        "accounting firms",
+        "Proposal Intake Assistant",
+        "ClickUp",
+        "Zendesk",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "svc-008",
+      "title": "Customer Onboarding Guide for fitness studios",
+      "category": "services",
+      "file": "services/svc-008-customer-onboarding-guide-for-fitness-studios.md",
+      "tags": [
+        "service",
+        "fitness studios",
+        "Customer Onboarding Guide",
+        "Notion",
+        "Outlook",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "svc-009",
+      "title": "Support Deflection Bot for financial advisory firms",
+      "category": "services",
+      "file": "services/svc-009-support-deflection-bot-for-financial-advisory-firms.md",
+      "tags": [
+        "service",
+        "financial advisory firms",
+        "Support Deflection Bot",
+        "Salesforce",
+        "Stripe",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "svc-010",
+      "title": "Sales Discovery Assistant for consulting practices",
+      "category": "services",
+      "file": "services/svc-010-sales-discovery-assistant-for-consulting-practices.md",
+      "tags": [
+        "service",
+        "consulting practices",
+        "Sales Discovery Assistant",
+        "Calendly",
+        "Twilio",
+        "Notion"
+      ]
+    },
+    {
+      "id": "svc-011",
+      "title": "Policy Explanation Assistant for managed IT providers",
+      "category": "services",
+      "file": "services/svc-011-policy-explanation-assistant-for-managed-it-providers.md",
+      "tags": [
+        "service",
+        "managed IT providers",
+        "Policy Explanation Assistant",
+        "SendGrid",
+        "Microsoft Teams",
+        "Square"
+      ]
+    },
+    {
+      "id": "svc-012",
+      "title": "Multi-Location Service Bot for marketing agencies",
+      "category": "services",
+      "file": "services/svc-012-multi-location-service-bot-for-marketing-agencies.md",
+      "tags": [
+        "service",
+        "marketing agencies",
+        "Multi-Location Service Bot",
+        "Segment",
+        "Zendesk",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "svc-013",
+      "title": "Product Recommendation Assistant for marketing agencies",
+      "category": "services",
+      "file": "services/svc-013-product-recommendation-assistant-for-marketing-agencies.md",
+      "tags": [
+        "service",
+        "marketing agencies",
+        "Product Recommendation Assistant",
+        "Salesforce",
+        "Webflow",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "svc-014",
+      "title": "Quote Request Automation for property management teams",
+      "category": "services",
+      "file": "services/svc-014-quote-request-automation-for-property-management-teams.md",
+      "tags": [
+        "service",
+        "property management teams",
+        "Quote Request Automation",
+        "SendGrid",
+        "Trello",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "svc-015",
+      "title": "Missed Call Follow-Up Agent for event venues",
+      "category": "services",
+      "file": "services/svc-015-missed-call-follow-up-agent-for-event-venues.md",
+      "tags": [
+        "service",
+        "event venues",
+        "Missed Call Follow-Up Agent",
+        "Salesforce",
+        "Webflow",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "svc-016",
+      "title": "Review Response Assistant for dental clinics",
+      "category": "services",
+      "file": "services/svc-016-review-response-assistant-for-dental-clinics.md",
+      "tags": [
+        "service",
+        "dental clinics",
+        "Review Response Assistant",
+        "Trello",
+        "Monday.com",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "svc-017",
+      "title": "Post-Purchase Support Assistant for event venues",
+      "category": "services",
+      "file": "services/svc-017-post-purchase-support-assistant-for-event-venues.md",
+      "tags": [
+        "service",
+        "event venues",
+        "Post-Purchase Support Assistant",
+        "Notion",
+        "Gmail",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "svc-018",
+      "title": "Operations SOP Copilot for B2B SaaS teams",
+      "category": "services",
+      "file": "services/svc-018-operations-sop-copilot-for-b2b-saas-teams.md",
+      "tags": [
+        "service",
+        "B2B SaaS teams",
+        "Operations SOP Copilot",
+        "Jira",
+        "Zapier",
+        "Square"
+      ]
+    },
+    {
+      "id": "svc-019",
+      "title": "HR Candidate Screening Assistant for automotive service centers",
+      "category": "services",
+      "file": "services/svc-019-hr-candidate-screening-assistant-for-automotive-service-centers.md",
+      "tags": [
+        "service",
+        "automotive service centers",
+        "HR Candidate Screening Assistant",
+        "Square",
+        "Customer.io",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "svc-020",
+      "title": "Invoice and Billing Helpdesk for insurance agencies",
+      "category": "services",
+      "file": "services/svc-020-invoice-and-billing-helpdesk-for-insurance-agencies.md",
+      "tags": [
+        "service",
+        "insurance agencies",
+        "Invoice and Billing Helpdesk",
+        "Square",
+        "Intercom",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "svc-021",
+      "title": "Client Portal Search Assistant for managed IT providers",
+      "category": "services",
+      "file": "services/svc-021-client-portal-search-assistant-for-managed-it-providers.md",
+      "tags": [
+        "service",
+        "managed IT providers",
+        "Client Portal Search Assistant",
+        "Square",
+        "Monday.com",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "svc-022",
+      "title": "Escalation Triage Agent for ecommerce brands",
+      "category": "services",
+      "file": "services/svc-022-escalation-triage-agent-for-ecommerce-brands.md",
+      "tags": [
+        "service",
+        "ecommerce brands",
+        "Escalation Triage Agent",
+        "Freshdesk",
+        "Pipedrive",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "svc-023",
+      "title": "Training Content Assistant for solar installation companies",
+      "category": "services",
+      "file": "services/svc-023-training-content-assistant-for-solar-installation-companies.md",
+      "tags": [
+        "service",
+        "solar installation companies",
+        "Training Content Assistant",
+        "Make",
+        "Intercom",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "svc-024",
+      "title": "Executive Briefing Assistant for fitness studios",
+      "category": "services",
+      "file": "services/svc-024-executive-briefing-assistant-for-fitness-studios.md",
+      "tags": [
+        "service",
+        "fitness studios",
+        "Executive Briefing Assistant",
+        "SendGrid",
+        "Google Calendar",
+        "WooCommerce"
+      ]
+    },
+    {
+      "id": "int-001",
+      "title": "HubSpot integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-001-hubspot-integration-playbook.md",
+      "tags": [
+        "integration",
+        "HubSpot",
+        "real estate brokerages",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-002",
+      "title": "Salesforce integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-002-salesforce-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Salesforce",
+        "insurance agencies",
+        "scheduled enrichment sync"
+      ]
+    },
+    {
+      "id": "int-003",
+      "title": "Airtable integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-003-airtable-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Airtable",
+        "medical clinics",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-004",
+      "title": "Notion integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-004-notion-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Notion",
+        "accounting firms",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-005",
+      "title": "Slack integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-005-slack-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Slack",
+        "law firms",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-006",
+      "title": "Google Sheets integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-006-google-sheets-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Google Sheets",
+        "fitness studios",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-007",
+      "title": "Gmail integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-007-gmail-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Gmail",
+        "insurance agencies",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-008",
+      "title": "Calendly integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-008-calendly-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Calendly",
+        "dental clinics",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-009",
+      "title": "Make integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-009-make-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Make",
+        "property management teams",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-010",
+      "title": "Zapier integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-010-zapier-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Zapier",
+        "law firms",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-011",
+      "title": "Pipedrive integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-011-pipedrive-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Pipedrive",
+        "dental clinics",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-012",
+      "title": "Zoho CRM integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-012-zoho-crm-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Zoho CRM",
+        "ecommerce brands",
+        "scheduled enrichment sync"
+      ]
+    },
+    {
+      "id": "int-013",
+      "title": "Intercom integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-013-intercom-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Intercom",
+        "law firms",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-014",
+      "title": "Zendesk integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-014-zendesk-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Zendesk",
+        "property management teams",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-015",
+      "title": "Freshdesk integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-015-freshdesk-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Freshdesk",
+        "home services companies",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-016",
+      "title": "Typeform integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-016-typeform-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Typeform",
+        "consulting practices",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-017",
+      "title": "Jotform integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-017-jotform-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Jotform",
+        "insurance agencies",
+        "scheduled enrichment sync"
+      ]
+    },
+    {
+      "id": "int-018",
+      "title": "Stripe integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-018-stripe-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Stripe",
+        "recruiting agencies",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-019",
+      "title": "Square integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-019-square-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Square",
+        "B2B SaaS teams",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-020",
+      "title": "QuickBooks integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-020-quickbooks-integration-playbook.md",
+      "tags": [
+        "integration",
+        "QuickBooks",
+        "law firms",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-021",
+      "title": "Google Calendar integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-021-google-calendar-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Google Calendar",
+        "solar installation companies",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-022",
+      "title": "Microsoft Teams integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-022-microsoft-teams-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Microsoft Teams",
+        "event venues",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-023",
+      "title": "Outlook integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-023-outlook-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Outlook",
+        "ecommerce brands",
+        "scheduled enrichment sync"
+      ]
+    },
+    {
+      "id": "int-024",
+      "title": "Monday.com integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-024-monday-com-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Monday.com",
+        "automotive service centers",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-025",
+      "title": "Asana integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-025-asana-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Asana",
+        "dental clinics",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-026",
+      "title": "Trello integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-026-trello-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Trello",
+        "B2B SaaS teams",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-027",
+      "title": "ClickUp integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-027-clickup-integration-playbook.md",
+      "tags": [
+        "integration",
+        "ClickUp",
+        "medical clinics",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-028",
+      "title": "Linear integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-028-linear-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Linear",
+        "insurance agencies",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-029",
+      "title": "Jira integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-029-jira-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Jira",
+        "financial advisory firms",
+        "scheduled enrichment sync"
+      ]
+    },
+    {
+      "id": "int-030",
+      "title": "Shopify integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-030-shopify-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Shopify",
+        "accounting firms",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-031",
+      "title": "WooCommerce integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-031-woocommerce-integration-playbook.md",
+      "tags": [
+        "integration",
+        "WooCommerce",
+        "marketing agencies",
+        "event-triggered webhook"
+      ]
+    },
+    {
+      "id": "int-032",
+      "title": "Webflow integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-032-webflow-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Webflow",
+        "ecommerce brands",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-033",
+      "title": "WordPress integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-033-wordpress-integration-playbook.md",
+      "tags": [
+        "integration",
+        "WordPress",
+        "marketing agencies",
+        "scheduled enrichment sync"
+      ]
+    },
+    {
+      "id": "int-034",
+      "title": "Twilio integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-034-twilio-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Twilio",
+        "managed IT providers",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-035",
+      "title": "SendGrid integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-035-sendgrid-integration-playbook.md",
+      "tags": [
+        "integration",
+        "SendGrid",
+        "home services companies",
+        "scheduled enrichment sync"
+      ]
+    },
+    {
+      "id": "int-036",
+      "title": "Resend integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-036-resend-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Resend",
+        "event venues",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-037",
+      "title": "Postmark integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-037-postmark-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Postmark",
+        "accounting firms",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-038",
+      "title": "Customer.io integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-038-customer-io-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Customer.io",
+        "property management teams",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "int-039",
+      "title": "Segment integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-039-segment-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Segment",
+        "B2B SaaS teams",
+        "one-way lead push"
+      ]
+    },
+    {
+      "id": "int-040",
+      "title": "Snowflake integration playbook",
+      "category": "integrations",
+      "file": "integrations/int-040-snowflake-integration-playbook.md",
+      "tags": [
+        "integration",
+        "Snowflake",
+        "B2B SaaS teams",
+        "two-way status sync"
+      ]
+    },
+    {
+      "id": "case-001",
+      "title": "Langworth, Pfannerstill and Auer: insurance agencies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-001-langworth-pfannerstill-and-auer.md",
+      "tags": [
+        "case study",
+        "insurance agencies",
+        "Starter Concierge",
+        "Outlook",
+        "SendGrid",
+        "Segment",
+        "Monday.com"
+      ]
+    },
+    {
+      "id": "case-002",
+      "title": "Altenwerth Inc: marketing agencies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-002-altenwerth-inc.md",
+      "tags": [
+        "case study",
+        "marketing agencies",
+        "Scale Copilot Suite",
+        "Snowflake",
+        "Asana",
+        "Zapier",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "case-003",
+      "title": "Roob - Gutmann: ecommerce brands AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-003-roob-gutmann.md",
+      "tags": [
+        "case study",
+        "ecommerce brands",
+        "Starter Concierge",
+        "Calendly",
+        "Webflow",
+        "Jotform",
+        "Jira"
+      ]
+    },
+    {
+      "id": "case-004",
+      "title": "Lesch - Pfannerstill: real estate brokerages AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-004-lesch-pfannerstill.md",
+      "tags": [
+        "case study",
+        "real estate brokerages",
+        "Scale Copilot Suite",
+        "WooCommerce",
+        "ClickUp",
+        "Resend",
+        "Google Calendar"
+      ]
+    },
+    {
+      "id": "case-005",
+      "title": "Morissette - Lesch: consulting practices AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-005-morissette-lesch.md",
+      "tags": [
+        "case study",
+        "consulting practices",
+        "Starter Concierge",
+        "Zoho CRM",
+        "QuickBooks",
+        "Segment",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "case-006",
+      "title": "Marvin and Sons: B2B SaaS teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-006-marvin-and-sons.md",
+      "tags": [
+        "case study",
+        "B2B SaaS teams",
+        "Scale Copilot Suite",
+        "Salesforce",
+        "Resend",
+        "QuickBooks",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "case-007",
+      "title": "Bergnaum-O'Connell, Hayes and Brekke: property management teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-007-bergnaum-o-connell-hayes-and-brekke.md",
+      "tags": [
+        "case study",
+        "property management teams",
+        "Scale Copilot Suite",
+        "SendGrid",
+        "Zapier",
+        "Gmail",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "case-008",
+      "title": "Ullrich Group: consulting practices AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-008-ullrich-group.md",
+      "tags": [
+        "case study",
+        "consulting practices",
+        "Growth Automation",
+        "Salesforce",
+        "Notion",
+        "Airtable",
+        "Resend"
+      ]
+    },
+    {
+      "id": "case-009",
+      "title": "Runolfsson, Torphy and Schneider: home services companies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-009-runolfsson-torphy-and-schneider.md",
+      "tags": [
+        "case study",
+        "home services companies",
+        "Custom Integration Build",
+        "Jira",
+        "Typeform",
+        "Slack",
+        "Asana"
+      ]
+    },
+    {
+      "id": "case-010",
+      "title": "Kessler Inc: fitness studios AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-010-kessler-inc.md",
+      "tags": [
+        "case study",
+        "fitness studios",
+        "Scale Copilot Suite",
+        "Calendly",
+        "Google Calendar",
+        "Intercom",
+        "Jira"
+      ]
+    },
+    {
+      "id": "case-011",
+      "title": "Franecki - Green: solar installation companies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-011-franecki-green.md",
+      "tags": [
+        "case study",
+        "solar installation companies",
+        "Growth Automation",
+        "Trello",
+        "Outlook",
+        "Typeform",
+        "Google Calendar"
+      ]
+    },
+    {
+      "id": "case-012",
+      "title": "Hahn, Abshire and Ferry: consulting practices AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-012-hahn-abshire-and-ferry.md",
+      "tags": [
+        "case study",
+        "consulting practices",
+        "Starter Concierge",
+        "Zendesk",
+        "Square",
+        "ClickUp",
+        "WooCommerce"
+      ]
+    },
+    {
+      "id": "case-013",
+      "title": "Batz and Sons: real estate brokerages AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-013-batz-and-sons.md",
+      "tags": [
+        "case study",
+        "real estate brokerages",
+        "Starter Concierge",
+        "Pipedrive",
+        "Customer.io",
+        "SendGrid",
+        "HubSpot"
+      ]
+    },
+    {
+      "id": "case-014",
+      "title": "Hirthe, Mosciski and Gislason: recruiting agencies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-014-hirthe-mosciski-and-gislason.md",
+      "tags": [
+        "case study",
+        "recruiting agencies",
+        "Custom Integration Build",
+        "Intercom",
+        "Zendesk",
+        "Calendly",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "case-015",
+      "title": "Murphy Group: event venues AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-015-murphy-group.md",
+      "tags": [
+        "case study",
+        "event venues",
+        "Starter Concierge",
+        "Asana",
+        "QuickBooks",
+        "Linear",
+        "Resend"
+      ]
+    },
+    {
+      "id": "case-016",
+      "title": "Smitham, Walker and Ryan: financial advisory firms AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-016-smitham-walker-and-ryan.md",
+      "tags": [
+        "case study",
+        "financial advisory firms",
+        "Growth Automation",
+        "Google Sheets",
+        "Asana",
+        "Intercom",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "case-017",
+      "title": "Ziemann - Sporer: home services companies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-017-ziemann-sporer.md",
+      "tags": [
+        "case study",
+        "home services companies",
+        "Custom Integration Build",
+        "Zoho CRM",
+        "Google Calendar",
+        "Resend",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "case-018",
+      "title": "Hickle, Nitzsche and Donnelly: medical clinics AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-018-hickle-nitzsche-and-donnelly.md",
+      "tags": [
+        "case study",
+        "medical clinics",
+        "Starter Concierge",
+        "Customer.io",
+        "Zapier",
+        "Zendesk",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "case-019",
+      "title": "Bashirian LLC: event venues AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-019-bashirian-llc.md",
+      "tags": [
+        "case study",
+        "event venues",
+        "Growth Automation",
+        "Outlook",
+        "Microsoft Teams",
+        "Intercom",
+        "Trello"
+      ]
+    },
+    {
+      "id": "case-020",
+      "title": "Schuppe, Ferry and Luettgen: dental clinics AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-020-schuppe-ferry-and-luettgen.md",
+      "tags": [
+        "case study",
+        "dental clinics",
+        "Custom Integration Build",
+        "SendGrid",
+        "Zoho CRM",
+        "WooCommerce",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "case-021",
+      "title": "Schmeler, Hayes and Brekke: accounting firms AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-021-schmeler-hayes-and-brekke.md",
+      "tags": [
+        "case study",
+        "accounting firms",
+        "Growth Automation",
+        "Airtable",
+        "Salesforce",
+        "Snowflake",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "case-022",
+      "title": "Lynch - Bergnaum: recruiting agencies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-022-lynch-bergnaum.md",
+      "tags": [
+        "case study",
+        "recruiting agencies",
+        "Starter Concierge",
+        "WooCommerce",
+        "Zendesk",
+        "Postmark",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "case-023",
+      "title": "Towne Inc: B2B SaaS teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-023-towne-inc.md",
+      "tags": [
+        "case study",
+        "B2B SaaS teams",
+        "Scale Copilot Suite",
+        "SendGrid",
+        "Jotform",
+        "Twilio",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "case-024",
+      "title": "Marvin Inc: financial advisory firms AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-024-marvin-inc.md",
+      "tags": [
+        "case study",
+        "financial advisory firms",
+        "Custom Integration Build",
+        "ClickUp",
+        "Zapier",
+        "Google Sheets",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "case-025",
+      "title": "Schultz, Heaney and O'Keefe: managed IT providers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-025-schultz-heaney-and-o-keefe.md",
+      "tags": [
+        "case study",
+        "managed IT providers",
+        "Scale Copilot Suite",
+        "Zoho CRM",
+        "Square",
+        "Customer.io",
+        "Typeform"
+      ]
+    },
+    {
+      "id": "case-026",
+      "title": "Mosciski Inc: event venues AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-026-mosciski-inc.md",
+      "tags": [
+        "case study",
+        "event venues",
+        "Custom Integration Build",
+        "Slack",
+        "Freshdesk",
+        "Webflow",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "case-027",
+      "title": "Upton, Halvorson and Gislason: automotive service centers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-027-upton-halvorson-and-gislason.md",
+      "tags": [
+        "case study",
+        "automotive service centers",
+        "Scale Copilot Suite",
+        "QuickBooks",
+        "Gmail",
+        "Jotform",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "case-028",
+      "title": "Dickens, Wolf and Dicki: real estate brokerages AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-028-dickens-wolf-and-dicki.md",
+      "tags": [
+        "case study",
+        "real estate brokerages",
+        "Custom Integration Build",
+        "Typeform",
+        "Stripe",
+        "Customer.io",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "case-029",
+      "title": "Abernathy - Carter: dental clinics AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-029-abernathy-carter.md",
+      "tags": [
+        "case study",
+        "dental clinics",
+        "Starter Concierge",
+        "QuickBooks",
+        "Postmark",
+        "ClickUp",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "case-030",
+      "title": "Bosco - Monahan: property management teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-030-bosco-monahan.md",
+      "tags": [
+        "case study",
+        "property management teams",
+        "Custom Integration Build",
+        "Stripe",
+        "ClickUp",
+        "QuickBooks",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "case-031",
+      "title": "Wunsch Group: solar installation companies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-031-wunsch-group.md",
+      "tags": [
+        "case study",
+        "solar installation companies",
+        "Growth Automation",
+        "Google Calendar",
+        "Postmark",
+        "Segment",
+        "Slack"
+      ]
+    },
+    {
+      "id": "case-032",
+      "title": "Price Inc: law firms AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-032-price-inc.md",
+      "tags": [
+        "case study",
+        "law firms",
+        "Custom Integration Build",
+        "Webflow",
+        "Intercom",
+        "Monday.com",
+        "Square"
+      ]
+    },
+    {
+      "id": "case-033",
+      "title": "Boyer - Williamson: property management teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-033-boyer-williamson.md",
+      "tags": [
+        "case study",
+        "property management teams",
+        "Growth Automation",
+        "Square",
+        "Trello",
+        "Jira",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "case-034",
+      "title": "Kris, Okuneva-Harris and Botsford: automotive service centers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-034-kris-okuneva-harris-and-botsford.md",
+      "tags": [
+        "case study",
+        "automotive service centers",
+        "Scale Copilot Suite",
+        "Jira",
+        "WooCommerce",
+        "Google Calendar",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "case-035",
+      "title": "Waters, Moore-Schmitt and Reichert: ecommerce brands AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-035-waters-moore-schmitt-and-reichert.md",
+      "tags": [
+        "case study",
+        "ecommerce brands",
+        "Starter Concierge",
+        "Zapier",
+        "Resend",
+        "Intercom",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "case-036",
+      "title": "Ortiz-Mohr - Purdy: education providers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-036-ortiz-mohr-purdy.md",
+      "tags": [
+        "case study",
+        "education providers",
+        "Starter Concierge",
+        "Zoho CRM",
+        "HubSpot",
+        "Postmark",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "case-037",
+      "title": "Donnelly - Rempel: law firms AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-037-donnelly-rempel.md",
+      "tags": [
+        "case study",
+        "law firms",
+        "Growth Automation",
+        "Trello",
+        "Freshdesk",
+        "Google Calendar",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "case-038",
+      "title": "Crist - Bailey: accounting firms AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-038-crist-bailey.md",
+      "tags": [
+        "case study",
+        "accounting firms",
+        "Growth Automation",
+        "Shopify",
+        "Zendesk",
+        "Postmark",
+        "Square"
+      ]
+    },
+    {
+      "id": "case-039",
+      "title": "Walsh - O'Kon: managed IT providers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-039-walsh-o-kon.md",
+      "tags": [
+        "case study",
+        "managed IT providers",
+        "Growth Automation",
+        "Square",
+        "Twilio",
+        "SendGrid",
+        "Trello"
+      ]
+    },
+    {
+      "id": "case-040",
+      "title": "Schoen, Kunde and Considine: B2B SaaS teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-040-schoen-kunde-and-considine.md",
+      "tags": [
+        "case study",
+        "B2B SaaS teams",
+        "Scale Copilot Suite",
+        "Jira",
+        "Zendesk",
+        "Pipedrive",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "case-041",
+      "title": "Hackett, Heaney and Upton: ecommerce brands AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-041-hackett-heaney-and-upton.md",
+      "tags": [
+        "case study",
+        "ecommerce brands",
+        "Scale Copilot Suite",
+        "Postmark",
+        "Calendly",
+        "Pipedrive",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "case-042",
+      "title": "Pfeffer, VonRueden and Lowe: ecommerce brands AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-042-pfeffer-vonrueden-and-lowe.md",
+      "tags": [
+        "case study",
+        "ecommerce brands",
+        "Growth Automation",
+        "Webflow",
+        "Notion",
+        "ClickUp",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "case-043",
+      "title": "Tremblay - Funk: fitness studios AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-043-tremblay-funk.md",
+      "tags": [
+        "case study",
+        "fitness studios",
+        "Custom Integration Build",
+        "WooCommerce",
+        "Square",
+        "WordPress",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "case-044",
+      "title": "Parker Inc: education providers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-044-parker-inc.md",
+      "tags": [
+        "case study",
+        "education providers",
+        "Starter Concierge",
+        "Jotform",
+        "Google Sheets",
+        "Typeform",
+        "Intercom"
+      ]
+    },
+    {
+      "id": "case-045",
+      "title": "Volkman LLC: medical clinics AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-045-volkman-llc.md",
+      "tags": [
+        "case study",
+        "medical clinics",
+        "Custom Integration Build",
+        "Jira",
+        "Square",
+        "Pipedrive",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "case-046",
+      "title": "Hettinger - O'Reilly: solar installation companies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-046-hettinger-o-reilly.md",
+      "tags": [
+        "case study",
+        "solar installation companies",
+        "Starter Concierge",
+        "WordPress",
+        "Linear",
+        "Webflow",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "case-047",
+      "title": "Schoen, Becker and Emmerich: solar installation companies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-047-schoen-becker-and-emmerich.md",
+      "tags": [
+        "case study",
+        "solar installation companies",
+        "Scale Copilot Suite",
+        "Snowflake",
+        "Asana",
+        "Outlook",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "case-048",
+      "title": "Barton, Romaguera and Klein: home services companies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-048-barton-romaguera-and-klein.md",
+      "tags": [
+        "case study",
+        "home services companies",
+        "Starter Concierge",
+        "Airtable",
+        "Customer.io",
+        "Webflow",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "case-049",
+      "title": "Wintheiser Inc: automotive service centers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-049-wintheiser-inc.md",
+      "tags": [
+        "case study",
+        "automotive service centers",
+        "Custom Integration Build",
+        "HubSpot",
+        "Asana",
+        "Jira",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "case-050",
+      "title": "Macejkovic-VonRueden and Sons: accounting firms AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-050-macejkovic-vonrueden-and-sons.md",
+      "tags": [
+        "case study",
+        "accounting firms",
+        "Scale Copilot Suite",
+        "Freshdesk",
+        "Zoho CRM",
+        "Microsoft Teams",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "case-051",
+      "title": "Willms Group: managed IT providers AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-051-willms-group.md",
+      "tags": [
+        "case study",
+        "managed IT providers",
+        "Custom Integration Build",
+        "Customer.io",
+        "Resend",
+        "Make",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "case-052",
+      "title": "Grady Group: consulting practices AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-052-grady-group.md",
+      "tags": [
+        "case study",
+        "consulting practices",
+        "Growth Automation",
+        "Zapier",
+        "Asana",
+        "Airtable",
+        "Jira"
+      ]
+    },
+    {
+      "id": "case-053",
+      "title": "Bashirian - Wuckert: fitness studios AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-053-bashirian-wuckert.md",
+      "tags": [
+        "case study",
+        "fitness studios",
+        "Scale Copilot Suite",
+        "SendGrid",
+        "Google Sheets",
+        "Typeform",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "case-054",
+      "title": "Collins, Morissette and Upton: property management teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-054-collins-morissette-and-upton.md",
+      "tags": [
+        "case study",
+        "property management teams",
+        "Starter Concierge",
+        "Zapier",
+        "Linear",
+        "Jotform",
+        "Segment"
+      ]
+    },
+    {
+      "id": "case-055",
+      "title": "Hessel - Murphy: insurance agencies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-055-hessel-murphy.md",
+      "tags": [
+        "case study",
+        "insurance agencies",
+        "Scale Copilot Suite",
+        "Snowflake",
+        "Trello",
+        "Customer.io",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "case-056",
+      "title": "Brekke Group: real estate brokerages AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-056-brekke-group.md",
+      "tags": [
+        "case study",
+        "real estate brokerages",
+        "Starter Concierge",
+        "Outlook",
+        "Postmark",
+        "Segment",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "case-057",
+      "title": "Luettgen - Torphy: marketing agencies AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-057-luettgen-torphy.md",
+      "tags": [
+        "case study",
+        "marketing agencies",
+        "Growth Automation",
+        "Jira",
+        "WooCommerce",
+        "Zapier",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "case-058",
+      "title": "Kerluke Group: fitness studios AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-058-kerluke-group.md",
+      "tags": [
+        "case study",
+        "fitness studios",
+        "Scale Copilot Suite",
+        "Jira",
+        "Pipedrive",
+        "Zendesk",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "case-059",
+      "title": "Hermann-Kris, Cartwright and Spencer: B2B SaaS teams AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-059-hermann-kris-cartwright-and-spencer.md",
+      "tags": [
+        "case study",
+        "B2B SaaS teams",
+        "Scale Copilot Suite",
+        "Google Calendar",
+        "Segment",
+        "HubSpot",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "case-060",
+      "title": "Hammes Group: dental clinics AI concierge case study",
+      "category": "case-studies",
+      "file": "case-studies/case-060-hammes-group.md",
+      "tags": [
+        "case study",
+        "dental clinics",
+        "Starter Concierge",
+        "Salesforce",
+        "Postmark",
+        "Asana",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "faq-001",
+      "title": "How much does multi-location service bot cost for property management teams?",
+      "category": "faqs",
+      "file": "faqs/faq-001-how-much-does-multi-location-service-bot-cost-for-property-management-teams.md",
+      "tags": [
+        "faq",
+        "property management teams",
+        "Multi-Location Service Bot",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "faq-002",
+      "title": "Can Astra integrate with SendGrid?",
+      "category": "faqs",
+      "file": "faqs/faq-002-can-astra-integrate-with-sendgrid.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Policy Explanation Assistant",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "faq-003",
+      "title": "How long would implementation take for marketing agencies?",
+      "category": "faqs",
+      "file": "faqs/faq-003-how-long-would-implementation-take-for-marketing-agencies.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "Customer Onboarding Guide",
+        "HubSpot"
+      ]
+    },
+    {
+      "id": "faq-004",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-004-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "financial advisory firms",
+        "Invoice and Billing Helpdesk",
+        "Linear"
+      ]
+    },
+    {
+      "id": "faq-005",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-005-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Sales Discovery Assistant",
+        "Asana"
+      ]
+    },
+    {
+      "id": "faq-006",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-006-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "law firms",
+        "Sales Discovery Assistant",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "faq-007",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-007-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "law firms",
+        "Proposal Intake Assistant",
+        "Resend"
+      ]
+    },
+    {
+      "id": "faq-008",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-008-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "event venues",
+        "Quote Request Automation",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "faq-009",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-009-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "medical clinics",
+        "AI Website Concierge",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "faq-010",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-010-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "medical clinics",
+        "Training Content Assistant",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "faq-011",
+      "title": "How much does ai website concierge cost for dental clinics?",
+      "category": "faqs",
+      "file": "faqs/faq-011-how-much-does-ai-website-concierge-cost-for-dental-clinics.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "AI Website Concierge",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "faq-012",
+      "title": "Can Astra integrate with Google Calendar?",
+      "category": "faqs",
+      "file": "faqs/faq-012-can-astra-integrate-with-google-calendar.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "Review Response Assistant",
+        "Google Calendar"
+      ]
+    },
+    {
+      "id": "faq-013",
+      "title": "How long would implementation take for real estate brokerages?",
+      "category": "faqs",
+      "file": "faqs/faq-013-how-long-would-implementation-take-for-real-estate-brokerages.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Support Deflection Bot",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "faq-014",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-014-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "Training Content Assistant",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "faq-015",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-015-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "Executive Briefing Assistant",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "faq-016",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-016-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "law firms",
+        "Review Response Assistant",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "faq-017",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-017-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "property management teams",
+        "Policy Explanation Assistant",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "faq-018",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-018-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "Quote Request Automation",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "faq-019",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-019-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Multi-Location Service Bot",
+        "HubSpot"
+      ]
+    },
+    {
+      "id": "faq-020",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-020-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "managed IT providers",
+        "Proposal Intake Assistant",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "faq-021",
+      "title": "How much does document-grounded support assistant cost for medical clinics?",
+      "category": "faqs",
+      "file": "faqs/faq-021-how-much-does-document-grounded-support-assistant-cost-for-medical-clinics.md",
+      "tags": [
+        "faq",
+        "medical clinics",
+        "Document-Grounded Support Assistant",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "faq-022",
+      "title": "Can Astra integrate with Monday.com?",
+      "category": "faqs",
+      "file": "faqs/faq-022-can-astra-integrate-with-monday-com.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "CRM Handoff Automation",
+        "Monday.com"
+      ]
+    },
+    {
+      "id": "faq-023",
+      "title": "How long would implementation take for recruiting agencies?",
+      "category": "faqs",
+      "file": "faqs/faq-023-how-long-would-implementation-take-for-recruiting-agencies.md",
+      "tags": [
+        "faq",
+        "recruiting agencies",
+        "Missed Call Follow-Up Agent",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "faq-024",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-024-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "home services companies",
+        "Internal Knowledge Copilot",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "faq-025",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-025-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "home services companies",
+        "Missed Call Follow-Up Agent",
+        "Trello"
+      ]
+    },
+    {
+      "id": "faq-026",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-026-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "financial advisory firms",
+        "Executive Briefing Assistant",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "faq-027",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-027-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "Missed Call Follow-Up Agent",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "faq-028",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-028-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "Review Response Assistant",
+        "Linear"
+      ]
+    },
+    {
+      "id": "faq-029",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-029-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "Client Portal Search Assistant",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "faq-030",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-030-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "financial advisory firms",
+        "Quote Request Automation",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "faq-031",
+      "title": "How much does document-grounded support assistant cost for marketing agencies?",
+      "category": "faqs",
+      "file": "faqs/faq-031-how-much-does-document-grounded-support-assistant-cost-for-marketing-agencies.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "Document-Grounded Support Assistant",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "faq-032",
+      "title": "Can Astra integrate with Zendesk?",
+      "category": "faqs",
+      "file": "faqs/faq-032-can-astra-integrate-with-zendesk.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "Lead Qualification Chatbot",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "faq-033",
+      "title": "How long would implementation take for law firms?",
+      "category": "faqs",
+      "file": "faqs/faq-033-how-long-would-implementation-take-for-law-firms.md",
+      "tags": [
+        "faq",
+        "law firms",
+        "Policy Explanation Assistant",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "faq-034",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-034-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "Support Deflection Bot",
+        "Jira"
+      ]
+    },
+    {
+      "id": "faq-035",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-035-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "ecommerce brands",
+        "Product Recommendation Assistant",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "faq-036",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-036-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "consulting practices",
+        "Multi-Location Service Bot",
+        "Segment"
+      ]
+    },
+    {
+      "id": "faq-037",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-037-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "managed IT providers",
+        "Policy Explanation Assistant",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "faq-038",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-038-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Support Deflection Bot",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "faq-039",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-039-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "CRM Handoff Automation",
+        "Intercom"
+      ]
+    },
+    {
+      "id": "faq-040",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-040-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "home services companies",
+        "Multi-Location Service Bot",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "faq-041",
+      "title": "How much does invoice and billing helpdesk cost for marketing agencies?",
+      "category": "faqs",
+      "file": "faqs/faq-041-how-much-does-invoice-and-billing-helpdesk-cost-for-marketing-agencies.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "Invoice and Billing Helpdesk",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "faq-042",
+      "title": "Can Astra integrate with Webflow?",
+      "category": "faqs",
+      "file": "faqs/faq-042-can-astra-integrate-with-webflow.md",
+      "tags": [
+        "faq",
+        "consulting practices",
+        "HR Candidate Screening Assistant",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "faq-043",
+      "title": "How long would implementation take for consulting practices?",
+      "category": "faqs",
+      "file": "faqs/faq-043-how-long-would-implementation-take-for-consulting-practices.md",
+      "tags": [
+        "faq",
+        "consulting practices",
+        "Product Recommendation Assistant",
+        "Google Calendar"
+      ]
+    },
+    {
+      "id": "faq-044",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-044-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Post-Purchase Support Assistant",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "faq-045",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-045-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "event venues",
+        "HR Candidate Screening Assistant",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "faq-046",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-046-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "Policy Explanation Assistant",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "faq-047",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-047-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "recruiting agencies",
+        "Sales Discovery Assistant",
+        "Notion"
+      ]
+    },
+    {
+      "id": "faq-048",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-048-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "Policy Explanation Assistant",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "faq-049",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-049-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "recruiting agencies",
+        "Operations SOP Copilot",
+        "Make"
+      ]
+    },
+    {
+      "id": "faq-050",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-050-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "fitness studios",
+        "Missed Call Follow-Up Agent",
+        "Linear"
+      ]
+    },
+    {
+      "id": "faq-051",
+      "title": "How much does lead qualification chatbot cost for financial advisory firms?",
+      "category": "faqs",
+      "file": "faqs/faq-051-how-much-does-lead-qualification-chatbot-cost-for-financial-advisory-firms.md",
+      "tags": [
+        "faq",
+        "financial advisory firms",
+        "Lead Qualification Chatbot",
+        "Trello"
+      ]
+    },
+    {
+      "id": "faq-052",
+      "title": "Can Astra integrate with Outlook?",
+      "category": "faqs",
+      "file": "faqs/faq-052-can-astra-integrate-with-outlook.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "Review Response Assistant",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "faq-053",
+      "title": "How long would implementation take for solar installation companies?",
+      "category": "faqs",
+      "file": "faqs/faq-053-how-long-would-implementation-take-for-solar-installation-companies.md",
+      "tags": [
+        "faq",
+        "solar installation companies",
+        "Internal Knowledge Copilot",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "faq-054",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-054-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "law firms",
+        "Review Response Assistant",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "faq-055",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-055-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "solar installation companies",
+        "Review Response Assistant",
+        "HubSpot"
+      ]
+    },
+    {
+      "id": "faq-056",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-056-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "insurance agencies",
+        "Customer Onboarding Guide",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "faq-057",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-057-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "Policy Explanation Assistant",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "faq-058",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-058-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "event venues",
+        "Appointment Booking Assistant",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "faq-059",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-059-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Multi-Location Service Bot",
+        "Linear"
+      ]
+    },
+    {
+      "id": "faq-060",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-060-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Missed Call Follow-Up Agent",
+        "WooCommerce"
+      ]
+    },
+    {
+      "id": "faq-061",
+      "title": "How much does policy explanation assistant cost for event venues?",
+      "category": "faqs",
+      "file": "faqs/faq-061-how-much-does-policy-explanation-assistant-cost-for-event-venues.md",
+      "tags": [
+        "faq",
+        "event venues",
+        "Policy Explanation Assistant",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "faq-062",
+      "title": "Can Astra integrate with Microsoft Teams?",
+      "category": "faqs",
+      "file": "faqs/faq-062-can-astra-integrate-with-microsoft-teams.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Multi-Location Service Bot",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "faq-063",
+      "title": "How long would implementation take for real estate brokerages?",
+      "category": "faqs",
+      "file": "faqs/faq-063-how-long-would-implementation-take-for-real-estate-brokerages.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "CRM Handoff Automation",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "faq-064",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-064-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "recruiting agencies",
+        "Product Recommendation Assistant",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "faq-065",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-065-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "fitness studios",
+        "Appointment Booking Assistant",
+        "Asana"
+      ]
+    },
+    {
+      "id": "faq-066",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-066-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "consulting practices",
+        "CRM Handoff Automation",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "faq-067",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-067-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "consulting practices",
+        "AI Website Concierge",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "faq-068",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-068-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "accounting firms",
+        "Customer Onboarding Guide",
+        "Jira"
+      ]
+    },
+    {
+      "id": "faq-069",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-069-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "law firms",
+        "Quote Request Automation",
+        "Google Calendar"
+      ]
+    },
+    {
+      "id": "faq-070",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-070-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "Support Deflection Bot",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "faq-071",
+      "title": "How much does hr candidate screening assistant cost for law firms?",
+      "category": "faqs",
+      "file": "faqs/faq-071-how-much-does-hr-candidate-screening-assistant-cost-for-law-firms.md",
+      "tags": [
+        "faq",
+        "law firms",
+        "HR Candidate Screening Assistant",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "faq-072",
+      "title": "Can Astra integrate with Pipedrive?",
+      "category": "faqs",
+      "file": "faqs/faq-072-can-astra-integrate-with-pipedrive.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "Training Content Assistant",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "faq-073",
+      "title": "How long would implementation take for medical clinics?",
+      "category": "faqs",
+      "file": "faqs/faq-073-how-long-would-implementation-take-for-medical-clinics.md",
+      "tags": [
+        "faq",
+        "medical clinics",
+        "Customer Onboarding Guide",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "faq-074",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-074-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "property management teams",
+        "Post-Purchase Support Assistant",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "faq-075",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-075-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "insurance agencies",
+        "Executive Briefing Assistant",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "faq-076",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-076-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "accounting firms",
+        "Internal Knowledge Copilot",
+        "Notion"
+      ]
+    },
+    {
+      "id": "faq-077",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-077-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "solar installation companies",
+        "Review Response Assistant",
+        "Make"
+      ]
+    },
+    {
+      "id": "faq-078",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-078-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "fitness studios",
+        "Quote Request Automation",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "faq-079",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-079-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Training Content Assistant",
+        "Intercom"
+      ]
+    },
+    {
+      "id": "faq-080",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-080-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "insurance agencies",
+        "Sales Discovery Assistant",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "faq-081",
+      "title": "How much does sales discovery assistant cost for fitness studios?",
+      "category": "faqs",
+      "file": "faqs/faq-081-how-much-does-sales-discovery-assistant-cost-for-fitness-studios.md",
+      "tags": [
+        "faq",
+        "fitness studios",
+        "Sales Discovery Assistant",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "faq-082",
+      "title": "Can Astra integrate with Notion?",
+      "category": "faqs",
+      "file": "faqs/faq-082-can-astra-integrate-with-notion.md",
+      "tags": [
+        "faq",
+        "medical clinics",
+        "CRM Handoff Automation",
+        "Notion"
+      ]
+    },
+    {
+      "id": "faq-083",
+      "title": "How long would implementation take for solar installation companies?",
+      "category": "faqs",
+      "file": "faqs/faq-083-how-long-would-implementation-take-for-solar-installation-companies.md",
+      "tags": [
+        "faq",
+        "solar installation companies",
+        "Customer Onboarding Guide",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "faq-084",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-084-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "Document-Grounded Support Assistant",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "faq-085",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-085-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "home services companies",
+        "Appointment Booking Assistant",
+        "Slack"
+      ]
+    },
+    {
+      "id": "faq-086",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-086-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "insurance agencies",
+        "Lead Qualification Chatbot",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "faq-087",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-087-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "solar installation companies",
+        "Customer Onboarding Guide",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "faq-088",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-088-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "automotive service centers",
+        "Invoice and Billing Helpdesk",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "faq-089",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-089-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "automotive service centers",
+        "Proposal Intake Assistant",
+        "Typeform"
+      ]
+    },
+    {
+      "id": "faq-090",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-090-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Operations SOP Copilot",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "faq-091",
+      "title": "How much does ai website concierge cost for event venues?",
+      "category": "faqs",
+      "file": "faqs/faq-091-how-much-does-ai-website-concierge-cost-for-event-venues.md",
+      "tags": [
+        "faq",
+        "event venues",
+        "AI Website Concierge",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "faq-092",
+      "title": "Can Astra integrate with Shopify?",
+      "category": "faqs",
+      "file": "faqs/faq-092-can-astra-integrate-with-shopify.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Training Content Assistant",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "faq-093",
+      "title": "How long would implementation take for insurance agencies?",
+      "category": "faqs",
+      "file": "faqs/faq-093-how-long-would-implementation-take-for-insurance-agencies.md",
+      "tags": [
+        "faq",
+        "insurance agencies",
+        "Document-Grounded Support Assistant",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "faq-094",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-094-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "B2B SaaS teams",
+        "Training Content Assistant",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "faq-095",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-095-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Client Portal Search Assistant",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "faq-096",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-096-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "financial advisory firms",
+        "Document-Grounded Support Assistant",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "faq-097",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-097-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Invoice and Billing Helpdesk",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "faq-098",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-098-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "consulting practices",
+        "Lead Qualification Chatbot",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "faq-099",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-099-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "solar installation companies",
+        "Executive Briefing Assistant",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "faq-100",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-100-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Executive Briefing Assistant",
+        "Make"
+      ]
+    },
+    {
+      "id": "faq-101",
+      "title": "How much does review response assistant cost for insurance agencies?",
+      "category": "faqs",
+      "file": "faqs/faq-101-how-much-does-review-response-assistant-cost-for-insurance-agencies.md",
+      "tags": [
+        "faq",
+        "insurance agencies",
+        "Review Response Assistant",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "faq-102",
+      "title": "Can Astra integrate with Freshdesk?",
+      "category": "faqs",
+      "file": "faqs/faq-102-can-astra-integrate-with-freshdesk.md",
+      "tags": [
+        "faq",
+        "automotive service centers",
+        "Multi-Location Service Bot",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "faq-103",
+      "title": "How long would implementation take for property management teams?",
+      "category": "faqs",
+      "file": "faqs/faq-103-how-long-would-implementation-take-for-property-management-teams.md",
+      "tags": [
+        "faq",
+        "property management teams",
+        "Post-Purchase Support Assistant",
+        "Jira"
+      ]
+    },
+    {
+      "id": "faq-104",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-104-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "marketing agencies",
+        "HR Candidate Screening Assistant",
+        "Asana"
+      ]
+    },
+    {
+      "id": "faq-105",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-105-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "real estate brokerages",
+        "Document-Grounded Support Assistant",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "faq-106",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-106-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "ecommerce brands",
+        "Review Response Assistant",
+        "Jira"
+      ]
+    },
+    {
+      "id": "faq-107",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-107-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "medical clinics",
+        "Support Deflection Bot",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "faq-108",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-108-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "automotive service centers",
+        "Escalation Triage Agent",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "faq-109",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-109-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "solar installation companies",
+        "Client Portal Search Assistant",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "faq-110",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-110-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "insurance agencies",
+        "Missed Call Follow-Up Agent",
+        "Slack"
+      ]
+    },
+    {
+      "id": "faq-111",
+      "title": "How much does client portal search assistant cost for automotive service centers?",
+      "category": "faqs",
+      "file": "faqs/faq-111-how-much-does-client-portal-search-assistant-cost-for-automotive-service-centers.md",
+      "tags": [
+        "faq",
+        "automotive service centers",
+        "Client Portal Search Assistant",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "faq-112",
+      "title": "Can Astra integrate with Jotform?",
+      "category": "faqs",
+      "file": "faqs/faq-112-can-astra-integrate-with-jotform.md",
+      "tags": [
+        "faq",
+        "education providers",
+        "Document-Grounded Support Assistant",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "faq-113",
+      "title": "How long would implementation take for recruiting agencies?",
+      "category": "faqs",
+      "file": "faqs/faq-113-how-long-would-implementation-take-for-recruiting-agencies.md",
+      "tags": [
+        "faq",
+        "recruiting agencies",
+        "Sales Discovery Assistant",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "faq-114",
+      "title": "What documents do we need before launch?",
+      "category": "faqs",
+      "file": "faqs/faq-114-what-documents-do-we-need-before-launch.md",
+      "tags": [
+        "faq",
+        "automotive service centers",
+        "Client Portal Search Assistant",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "faq-115",
+      "title": "Can the assistant qualify leads before sending them to our team?",
+      "category": "faqs",
+      "file": "faqs/faq-115-can-the-assistant-qualify-leads-before-sending-them-to-our-team.md",
+      "tags": [
+        "faq",
+        "event venues",
+        "Quote Request Automation",
+        "Monday.com"
+      ]
+    },
+    {
+      "id": "faq-116",
+      "title": "What happens when Astra does not know the answer?",
+      "category": "faqs",
+      "file": "faqs/faq-116-what-happens-when-astra-does-not-know-the-answer.md",
+      "tags": [
+        "faq",
+        "accounting firms",
+        "Sales Discovery Assistant",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "faq-117",
+      "title": "Can we hide exact pricing and only show ranges?",
+      "category": "faqs",
+      "file": "faqs/faq-117-can-we-hide-exact-pricing-and-only-show-ranges.md",
+      "tags": [
+        "faq",
+        "event venues",
+        "Support Deflection Bot",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "faq-118",
+      "title": "How often should the knowledge base be updated?",
+      "category": "faqs",
+      "file": "faqs/faq-118-how-often-should-the-knowledge-base-be-updated.md",
+      "tags": [
+        "faq",
+        "medical clinics",
+        "Policy Explanation Assistant",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "faq-119",
+      "title": "Can Astra explain our policies without making legal promises?",
+      "category": "faqs",
+      "file": "faqs/faq-119-can-astra-explain-our-policies-without-making-legal-promises.md",
+      "tags": [
+        "faq",
+        "automotive service centers",
+        "Quote Request Automation",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "faq-120",
+      "title": "What is the difference between a basic chatbot and a RAG assistant?",
+      "category": "faqs",
+      "file": "faqs/faq-120-what-is-the-difference-between-a-basic-chatbot-and-a-rag-assistant.md",
+      "tags": [
+        "faq",
+        "dental clinics",
+        "Product Recommendation Assistant",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "obj-001",
+      "title": "Objection handling: we already use ChatGPT",
+      "category": "objections",
+      "file": "objections/obj-001-we-already-use-chatgpt.md",
+      "tags": [
+        "objection",
+        "we already use ChatGPT",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-002",
+      "title": "Objection handling: our documentation is messy",
+      "category": "objections",
+      "file": "objections/obj-002-our-documentation-is-messy.md",
+      "tags": [
+        "objection",
+        "our documentation is messy",
+        "financial advisory firms"
+      ]
+    },
+    {
+      "id": "obj-003",
+      "title": "Objection handling: AI might hallucinate",
+      "category": "objections",
+      "file": "objections/obj-003-ai-might-hallucinate.md",
+      "tags": [
+        "objection",
+        "AI might hallucinate",
+        "consulting practices"
+      ]
+    },
+    {
+      "id": "obj-004",
+      "title": "Objection handling: the budget feels high",
+      "category": "objections",
+      "file": "objections/obj-004-the-budget-feels-high.md",
+      "tags": [
+        "objection",
+        "the budget feels high",
+        "dental clinics"
+      ]
+    },
+    {
+      "id": "obj-005",
+      "title": "Objection handling: our team will not adopt it",
+      "category": "objections",
+      "file": "objections/obj-005-our-team-will-not-adopt-it.md",
+      "tags": [
+        "objection",
+        "our team will not adopt it",
+        "B2B SaaS teams"
+      ]
+    },
+    {
+      "id": "obj-006",
+      "title": "Objection handling: we need human approval",
+      "category": "objections",
+      "file": "objections/obj-006-we-need-human-approval.md",
+      "tags": [
+        "objection",
+        "we need human approval",
+        "consulting practices"
+      ]
+    },
+    {
+      "id": "obj-007",
+      "title": "Objection handling: we are worried about privacy",
+      "category": "objections",
+      "file": "objections/obj-007-we-are-worried-about-privacy.md",
+      "tags": [
+        "objection",
+        "we are worried about privacy",
+        "B2B SaaS teams"
+      ]
+    },
+    {
+      "id": "obj-008",
+      "title": "Objection handling: we do not know our exact scope",
+      "category": "objections",
+      "file": "objections/obj-008-we-do-not-know-our-exact-scope.md",
+      "tags": [
+        "objection",
+        "we do not know our exact scope",
+        "law firms"
+      ]
+    },
+    {
+      "id": "obj-009",
+      "title": "Objection handling: we need results fast",
+      "category": "objections",
+      "file": "objections/obj-009-we-need-results-fast.md",
+      "tags": [
+        "objection",
+        "we need results fast",
+        "financial advisory firms"
+      ]
+    },
+    {
+      "id": "obj-010",
+      "title": "Objection handling: we have too many edge cases",
+      "category": "objections",
+      "file": "objections/obj-010-we-have-too-many-edge-cases.md",
+      "tags": [
+        "objection",
+        "we have too many edge cases",
+        "medical clinics"
+      ]
+    },
+    {
+      "id": "obj-011",
+      "title": "Objection handling: our CRM is custom",
+      "category": "objections",
+      "file": "objections/obj-011-our-crm-is-custom.md",
+      "tags": [
+        "objection",
+        "our CRM is custom",
+        "law firms"
+      ]
+    },
+    {
+      "id": "obj-012",
+      "title": "Objection handling: we need multilingual support",
+      "category": "objections",
+      "file": "objections/obj-012-we-need-multilingual-support.md",
+      "tags": [
+        "objection",
+        "we need multilingual support",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-013",
+      "title": "Objection handling: our service changes often",
+      "category": "objections",
+      "file": "objections/obj-013-our-service-changes-often.md",
+      "tags": [
+        "objection",
+        "our service changes often",
+        "insurance agencies"
+      ]
+    },
+    {
+      "id": "obj-014",
+      "title": "Objection handling: we cannot expose pricing publicly",
+      "category": "objections",
+      "file": "objections/obj-014-we-cannot-expose-pricing-publicly.md",
+      "tags": [
+        "objection",
+        "we cannot expose pricing publicly",
+        "fitness studios"
+      ]
+    },
+    {
+      "id": "obj-015",
+      "title": "Objection handling: we want voice later",
+      "category": "objections",
+      "file": "objections/obj-015-we-want-voice-later.md",
+      "tags": [
+        "objection",
+        "we want voice later",
+        "B2B SaaS teams"
+      ]
+    },
+    {
+      "id": "obj-016",
+      "title": "Objection handling: our sales team is skeptical",
+      "category": "objections",
+      "file": "objections/obj-016-our-sales-team-is-skeptical.md",
+      "tags": [
+        "objection",
+        "our sales team is skeptical",
+        "financial advisory firms"
+      ]
+    },
+    {
+      "id": "obj-017",
+      "title": "Objection handling: we need executive approval",
+      "category": "objections",
+      "file": "objections/obj-017-we-need-executive-approval.md",
+      "tags": [
+        "objection",
+        "we need executive approval",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-018",
+      "title": "Objection handling: we tried a chatbot before",
+      "category": "objections",
+      "file": "objections/obj-018-we-tried-a-chatbot-before.md",
+      "tags": [
+        "objection",
+        "we tried a chatbot before",
+        "automotive service centers"
+      ]
+    },
+    {
+      "id": "obj-019",
+      "title": "Objection handling: we want a cheaper plugin",
+      "category": "objections",
+      "file": "objections/obj-019-we-want-a-cheaper-plugin.md",
+      "tags": [
+        "objection",
+        "we want a cheaper plugin",
+        "medical clinics"
+      ]
+    },
+    {
+      "id": "obj-020",
+      "title": "Objection handling: we need HIPAA-style safeguards",
+      "category": "objections",
+      "file": "objections/obj-020-we-need-hipaa-style-safeguards.md",
+      "tags": [
+        "objection",
+        "we need HIPAA-style safeguards",
+        "fitness studios"
+      ]
+    },
+    {
+      "id": "obj-021",
+      "title": "Objection handling: we already use ChatGPT",
+      "category": "objections",
+      "file": "objections/obj-021-we-already-use-chatgpt.md",
+      "tags": [
+        "objection",
+        "we already use ChatGPT",
+        "B2B SaaS teams"
+      ]
+    },
+    {
+      "id": "obj-022",
+      "title": "Objection handling: our documentation is messy",
+      "category": "objections",
+      "file": "objections/obj-022-our-documentation-is-messy.md",
+      "tags": [
+        "objection",
+        "our documentation is messy",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-023",
+      "title": "Objection handling: AI might hallucinate",
+      "category": "objections",
+      "file": "objections/obj-023-ai-might-hallucinate.md",
+      "tags": [
+        "objection",
+        "AI might hallucinate",
+        "B2B SaaS teams"
+      ]
+    },
+    {
+      "id": "obj-024",
+      "title": "Objection handling: the budget feels high",
+      "category": "objections",
+      "file": "objections/obj-024-the-budget-feels-high.md",
+      "tags": [
+        "objection",
+        "the budget feels high",
+        "managed IT providers"
+      ]
+    },
+    {
+      "id": "obj-025",
+      "title": "Objection handling: our team will not adopt it",
+      "category": "objections",
+      "file": "objections/obj-025-our-team-will-not-adopt-it.md",
+      "tags": [
+        "objection",
+        "our team will not adopt it",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-026",
+      "title": "Objection handling: we need human approval",
+      "category": "objections",
+      "file": "objections/obj-026-we-need-human-approval.md",
+      "tags": [
+        "objection",
+        "we need human approval",
+        "automotive service centers"
+      ]
+    },
+    {
+      "id": "obj-027",
+      "title": "Objection handling: we are worried about privacy",
+      "category": "objections",
+      "file": "objections/obj-027-we-are-worried-about-privacy.md",
+      "tags": [
+        "objection",
+        "we are worried about privacy",
+        "fitness studios"
+      ]
+    },
+    {
+      "id": "obj-028",
+      "title": "Objection handling: we do not know our exact scope",
+      "category": "objections",
+      "file": "objections/obj-028-we-do-not-know-our-exact-scope.md",
+      "tags": [
+        "objection",
+        "we do not know our exact scope",
+        "consulting practices"
+      ]
+    },
+    {
+      "id": "obj-029",
+      "title": "Objection handling: we need results fast",
+      "category": "objections",
+      "file": "objections/obj-029-we-need-results-fast.md",
+      "tags": [
+        "objection",
+        "we need results fast",
+        "managed IT providers"
+      ]
+    },
+    {
+      "id": "obj-030",
+      "title": "Objection handling: we have too many edge cases",
+      "category": "objections",
+      "file": "objections/obj-030-we-have-too-many-edge-cases.md",
+      "tags": [
+        "objection",
+        "we have too many edge cases",
+        "managed IT providers"
+      ]
+    },
+    {
+      "id": "obj-031",
+      "title": "Objection handling: our CRM is custom",
+      "category": "objections",
+      "file": "objections/obj-031-our-crm-is-custom.md",
+      "tags": [
+        "objection",
+        "our CRM is custom",
+        "home services companies"
+      ]
+    },
+    {
+      "id": "obj-032",
+      "title": "Objection handling: we need multilingual support",
+      "category": "objections",
+      "file": "objections/obj-032-we-need-multilingual-support.md",
+      "tags": [
+        "objection",
+        "we need multilingual support",
+        "law firms"
+      ]
+    },
+    {
+      "id": "obj-033",
+      "title": "Objection handling: our service changes often",
+      "category": "objections",
+      "file": "objections/obj-033-our-service-changes-often.md",
+      "tags": [
+        "objection",
+        "our service changes often",
+        "law firms"
+      ]
+    },
+    {
+      "id": "obj-034",
+      "title": "Objection handling: we cannot expose pricing publicly",
+      "category": "objections",
+      "file": "objections/obj-034-we-cannot-expose-pricing-publicly.md",
+      "tags": [
+        "objection",
+        "we cannot expose pricing publicly",
+        "property management teams"
+      ]
+    },
+    {
+      "id": "obj-035",
+      "title": "Objection handling: we want voice later",
+      "category": "objections",
+      "file": "objections/obj-035-we-want-voice-later.md",
+      "tags": [
+        "objection",
+        "we want voice later",
+        "ecommerce brands"
+      ]
+    },
+    {
+      "id": "obj-036",
+      "title": "Objection handling: our sales team is skeptical",
+      "category": "objections",
+      "file": "objections/obj-036-our-sales-team-is-skeptical.md",
+      "tags": [
+        "objection",
+        "our sales team is skeptical",
+        "ecommerce brands"
+      ]
+    },
+    {
+      "id": "obj-037",
+      "title": "Objection handling: we need executive approval",
+      "category": "objections",
+      "file": "objections/obj-037-we-need-executive-approval.md",
+      "tags": [
+        "objection",
+        "we need executive approval",
+        "medical clinics"
+      ]
+    },
+    {
+      "id": "obj-038",
+      "title": "Objection handling: we tried a chatbot before",
+      "category": "objections",
+      "file": "objections/obj-038-we-tried-a-chatbot-before.md",
+      "tags": [
+        "objection",
+        "we tried a chatbot before",
+        "financial advisory firms"
+      ]
+    },
+    {
+      "id": "obj-039",
+      "title": "Objection handling: we want a cheaper plugin",
+      "category": "objections",
+      "file": "objections/obj-039-we-want-a-cheaper-plugin.md",
+      "tags": [
+        "objection",
+        "we want a cheaper plugin",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-040",
+      "title": "Objection handling: we need HIPAA-style safeguards",
+      "category": "objections",
+      "file": "objections/obj-040-we-need-hipaa-style-safeguards.md",
+      "tags": [
+        "objection",
+        "we need HIPAA-style safeguards",
+        "accounting firms"
+      ]
+    },
+    {
+      "id": "obj-041",
+      "title": "Objection handling: we already use ChatGPT",
+      "category": "objections",
+      "file": "objections/obj-041-we-already-use-chatgpt.md",
+      "tags": [
+        "objection",
+        "we already use ChatGPT",
+        "medical clinics"
+      ]
+    },
+    {
+      "id": "obj-042",
+      "title": "Objection handling: our documentation is messy",
+      "category": "objections",
+      "file": "objections/obj-042-our-documentation-is-messy.md",
+      "tags": [
+        "objection",
+        "our documentation is messy",
+        "home services companies"
+      ]
+    },
+    {
+      "id": "obj-043",
+      "title": "Objection handling: AI might hallucinate",
+      "category": "objections",
+      "file": "objections/obj-043-ai-might-hallucinate.md",
+      "tags": [
+        "objection",
+        "AI might hallucinate",
+        "property management teams"
+      ]
+    },
+    {
+      "id": "obj-044",
+      "title": "Objection handling: the budget feels high",
+      "category": "objections",
+      "file": "objections/obj-044-the-budget-feels-high.md",
+      "tags": [
+        "objection",
+        "the budget feels high",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-045",
+      "title": "Objection handling: our team will not adopt it",
+      "category": "objections",
+      "file": "objections/obj-045-our-team-will-not-adopt-it.md",
+      "tags": [
+        "objection",
+        "our team will not adopt it",
+        "financial advisory firms"
+      ]
+    },
+    {
+      "id": "obj-046",
+      "title": "Objection handling: we need human approval",
+      "category": "objections",
+      "file": "objections/obj-046-we-need-human-approval.md",
+      "tags": [
+        "objection",
+        "we need human approval",
+        "real estate brokerages"
+      ]
+    },
+    {
+      "id": "obj-047",
+      "title": "Objection handling: we are worried about privacy",
+      "category": "objections",
+      "file": "objections/obj-047-we-are-worried-about-privacy.md",
+      "tags": [
+        "objection",
+        "we are worried about privacy",
+        "marketing agencies"
+      ]
+    },
+    {
+      "id": "obj-048",
+      "title": "Objection handling: we do not know our exact scope",
+      "category": "objections",
+      "file": "objections/obj-048-we-do-not-know-our-exact-scope.md",
+      "tags": [
+        "objection",
+        "we do not know our exact scope",
+        "accounting firms"
+      ]
+    },
+    {
+      "id": "obj-049",
+      "title": "Objection handling: we need results fast",
+      "category": "objections",
+      "file": "objections/obj-049-we-need-results-fast.md",
+      "tags": [
+        "objection",
+        "we need results fast",
+        "managed IT providers"
+      ]
+    },
+    {
+      "id": "obj-050",
+      "title": "Objection handling: we have too many edge cases",
+      "category": "objections",
+      "file": "objections/obj-050-we-have-too-many-edge-cases.md",
+      "tags": [
+        "objection",
+        "we have too many edge cases",
+        "solar installation companies"
+      ]
+    },
+    {
+      "id": "obj-051",
+      "title": "Objection handling: our CRM is custom",
+      "category": "objections",
+      "file": "objections/obj-051-our-crm-is-custom.md",
+      "tags": [
+        "objection",
+        "our CRM is custom",
+        "consulting practices"
+      ]
+    },
+    {
+      "id": "obj-052",
+      "title": "Objection handling: we need multilingual support",
+      "category": "objections",
+      "file": "objections/obj-052-we-need-multilingual-support.md",
+      "tags": [
+        "objection",
+        "we need multilingual support",
+        "education providers"
+      ]
+    },
+    {
+      "id": "obj-053",
+      "title": "Objection handling: our service changes often",
+      "category": "objections",
+      "file": "objections/obj-053-our-service-changes-often.md",
+      "tags": [
+        "objection",
+        "our service changes often",
+        "marketing agencies"
+      ]
+    },
+    {
+      "id": "obj-054",
+      "title": "Objection handling: we cannot expose pricing publicly",
+      "category": "objections",
+      "file": "objections/obj-054-we-cannot-expose-pricing-publicly.md",
+      "tags": [
+        "objection",
+        "we cannot expose pricing publicly",
+        "managed IT providers"
+      ]
+    },
+    {
+      "id": "obj-055",
+      "title": "Objection handling: we want voice later",
+      "category": "objections",
+      "file": "objections/obj-055-we-want-voice-later.md",
+      "tags": [
+        "objection",
+        "we want voice later",
+        "insurance agencies"
+      ]
+    },
+    {
+      "id": "obj-056",
+      "title": "Objection handling: our sales team is skeptical",
+      "category": "objections",
+      "file": "objections/obj-056-our-sales-team-is-skeptical.md",
+      "tags": [
+        "objection",
+        "our sales team is skeptical",
+        "ecommerce brands"
+      ]
+    },
+    {
+      "id": "obj-057",
+      "title": "Objection handling: we need executive approval",
+      "category": "objections",
+      "file": "objections/obj-057-we-need-executive-approval.md",
+      "tags": [
+        "objection",
+        "we need executive approval",
+        "education providers"
+      ]
+    },
+    {
+      "id": "obj-058",
+      "title": "Objection handling: we tried a chatbot before",
+      "category": "objections",
+      "file": "objections/obj-058-we-tried-a-chatbot-before.md",
+      "tags": [
+        "objection",
+        "we tried a chatbot before",
+        "education providers"
+      ]
+    },
+    {
+      "id": "obj-059",
+      "title": "Objection handling: we want a cheaper plugin",
+      "category": "objections",
+      "file": "objections/obj-059-we-want-a-cheaper-plugin.md",
+      "tags": [
+        "objection",
+        "we want a cheaper plugin",
+        "property management teams"
+      ]
+    },
+    {
+      "id": "obj-060",
+      "title": "Objection handling: we need HIPAA-style safeguards",
+      "category": "objections",
+      "file": "objections/obj-060-we-need-hipaa-style-safeguards.md",
+      "tags": [
+        "objection",
+        "we need HIPAA-style safeguards",
+        "property management teams"
+      ]
+    },
+    {
+      "id": "sec-001",
+      "title": "Security and privacy policy: API key handling",
+      "category": "security",
+      "file": "security/sec-001-api-key-handling.md",
+      "tags": [
+        "security",
+        "privacy",
+        "API key handling",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "sec-002",
+      "title": "Security and privacy policy: source citation policy",
+      "category": "security",
+      "file": "security/sec-002-source-citation-policy.md",
+      "tags": [
+        "security",
+        "privacy",
+        "source citation policy",
+        "Segment"
+      ]
+    },
+    {
+      "id": "sec-003",
+      "title": "Security and privacy policy: lead data minimization",
+      "category": "security",
+      "file": "security/sec-003-lead-data-minimization.md",
+      "tags": [
+        "security",
+        "privacy",
+        "lead data minimization",
+        "Segment"
+      ]
+    },
+    {
+      "id": "sec-004",
+      "title": "Security and privacy policy: human handoff controls",
+      "category": "security",
+      "file": "security/sec-004-human-handoff-controls.md",
+      "tags": [
+        "security",
+        "privacy",
+        "human handoff controls",
+        "Trello"
+      ]
+    },
+    {
+      "id": "sec-005",
+      "title": "Security and privacy policy: admin access roles",
+      "category": "security",
+      "file": "security/sec-005-admin-access-roles.md",
+      "tags": [
+        "security",
+        "privacy",
+        "admin access roles",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "sec-006",
+      "title": "Security and privacy policy: audit logging",
+      "category": "security",
+      "file": "security/sec-006-audit-logging.md",
+      "tags": [
+        "security",
+        "privacy",
+        "audit logging",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "sec-007",
+      "title": "Security and privacy policy: retention windows",
+      "category": "security",
+      "file": "security/sec-007-retention-windows.md",
+      "tags": [
+        "security",
+        "privacy",
+        "retention windows",
+        "Resend"
+      ]
+    },
+    {
+      "id": "sec-008",
+      "title": "Security and privacy policy: prompt injection resistance",
+      "category": "security",
+      "file": "security/sec-008-prompt-injection-resistance.md",
+      "tags": [
+        "security",
+        "privacy",
+        "prompt injection resistance",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "sec-009",
+      "title": "Security and privacy policy: private document boundaries",
+      "category": "security",
+      "file": "security/sec-009-private-document-boundaries.md",
+      "tags": [
+        "security",
+        "privacy",
+        "private document boundaries",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "sec-010",
+      "title": "Security and privacy policy: integration secrets",
+      "category": "security",
+      "file": "security/sec-010-integration-secrets.md",
+      "tags": [
+        "security",
+        "privacy",
+        "integration secrets",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "sec-011",
+      "title": "Security and privacy policy: PII redaction",
+      "category": "security",
+      "file": "security/sec-011-pii-redaction.md",
+      "tags": [
+        "security",
+        "privacy",
+        "PII redaction",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "sec-012",
+      "title": "Security and privacy policy: analytics privacy",
+      "category": "security",
+      "file": "security/sec-012-analytics-privacy.md",
+      "tags": [
+        "security",
+        "privacy",
+        "analytics privacy",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "sec-013",
+      "title": "Security and privacy policy: client approval workflow",
+      "category": "security",
+      "file": "security/sec-013-client-approval-workflow.md",
+      "tags": [
+        "security",
+        "privacy",
+        "client approval workflow",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "sec-014",
+      "title": "Security and privacy policy: regulated-data disclaimers",
+      "category": "security",
+      "file": "security/sec-014-regulated-data-disclaimers.md",
+      "tags": [
+        "security",
+        "privacy",
+        "regulated-data disclaimers",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "sec-015",
+      "title": "Security and privacy policy: API key handling",
+      "category": "security",
+      "file": "security/sec-015-api-key-handling.md",
+      "tags": [
+        "security",
+        "privacy",
+        "API key handling",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "sec-016",
+      "title": "Security and privacy policy: source citation policy",
+      "category": "security",
+      "file": "security/sec-016-source-citation-policy.md",
+      "tags": [
+        "security",
+        "privacy",
+        "source citation policy",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "sec-017",
+      "title": "Security and privacy policy: lead data minimization",
+      "category": "security",
+      "file": "security/sec-017-lead-data-minimization.md",
+      "tags": [
+        "security",
+        "privacy",
+        "lead data minimization",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "sec-018",
+      "title": "Security and privacy policy: human handoff controls",
+      "category": "security",
+      "file": "security/sec-018-human-handoff-controls.md",
+      "tags": [
+        "security",
+        "privacy",
+        "human handoff controls",
+        "HubSpot"
+      ]
+    },
+    {
+      "id": "sec-019",
+      "title": "Security and privacy policy: admin access roles",
+      "category": "security",
+      "file": "security/sec-019-admin-access-roles.md",
+      "tags": [
+        "security",
+        "privacy",
+        "admin access roles",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "sec-020",
+      "title": "Security and privacy policy: audit logging",
+      "category": "security",
+      "file": "security/sec-020-audit-logging.md",
+      "tags": [
+        "security",
+        "privacy",
+        "audit logging",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "sec-021",
+      "title": "Security and privacy policy: retention windows",
+      "category": "security",
+      "file": "security/sec-021-retention-windows.md",
+      "tags": [
+        "security",
+        "privacy",
+        "retention windows",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "sec-022",
+      "title": "Security and privacy policy: prompt injection resistance",
+      "category": "security",
+      "file": "security/sec-022-prompt-injection-resistance.md",
+      "tags": [
+        "security",
+        "privacy",
+        "prompt injection resistance",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "sec-023",
+      "title": "Security and privacy policy: private document boundaries",
+      "category": "security",
+      "file": "security/sec-023-private-document-boundaries.md",
+      "tags": [
+        "security",
+        "privacy",
+        "private document boundaries",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "sec-024",
+      "title": "Security and privacy policy: integration secrets",
+      "category": "security",
+      "file": "security/sec-024-integration-secrets.md",
+      "tags": [
+        "security",
+        "privacy",
+        "integration secrets",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "sec-025",
+      "title": "Security and privacy policy: PII redaction",
+      "category": "security",
+      "file": "security/sec-025-pii-redaction.md",
+      "tags": [
+        "security",
+        "privacy",
+        "PII redaction",
+        "HubSpot"
+      ]
+    },
+    {
+      "id": "sec-026",
+      "title": "Security and privacy policy: analytics privacy",
+      "category": "security",
+      "file": "security/sec-026-analytics-privacy.md",
+      "tags": [
+        "security",
+        "privacy",
+        "analytics privacy",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "sec-027",
+      "title": "Security and privacy policy: client approval workflow",
+      "category": "security",
+      "file": "security/sec-027-client-approval-workflow.md",
+      "tags": [
+        "security",
+        "privacy",
+        "client approval workflow",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "sec-028",
+      "title": "Security and privacy policy: regulated-data disclaimers",
+      "category": "security",
+      "file": "security/sec-028-regulated-data-disclaimers.md",
+      "tags": [
+        "security",
+        "privacy",
+        "regulated-data disclaimers",
+        "Trello"
+      ]
+    },
+    {
+      "id": "impl-001",
+      "title": "Implementation plan: Post-Purchase Support Assistant for fitness studios",
+      "category": "implementation",
+      "file": "implementation/impl-001-implementation-plan-post-purchase-support-assistant-for-fitness-studios.md",
+      "tags": [
+        "implementation",
+        "Post-Purchase Support Assistant",
+        "fitness studios",
+        "Postmark",
+        "WordPress",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "impl-002",
+      "title": "Implementation plan: Client Portal Search Assistant for insurance agencies",
+      "category": "implementation",
+      "file": "implementation/impl-002-implementation-plan-client-portal-search-assistant-for-insurance-agencies.md",
+      "tags": [
+        "implementation",
+        "Client Portal Search Assistant",
+        "insurance agencies",
+        "HubSpot",
+        "WordPress",
+        "Square"
+      ]
+    },
+    {
+      "id": "impl-003",
+      "title": "Implementation plan: Escalation Triage Agent for event venues",
+      "category": "implementation",
+      "file": "implementation/impl-003-implementation-plan-escalation-triage-agent-for-event-venues.md",
+      "tags": [
+        "implementation",
+        "Escalation Triage Agent",
+        "event venues",
+        "WordPress",
+        "Square",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "impl-004",
+      "title": "Implementation plan: AI Website Concierge for recruiting agencies",
+      "category": "implementation",
+      "file": "implementation/impl-004-implementation-plan-ai-website-concierge-for-recruiting-agencies.md",
+      "tags": [
+        "implementation",
+        "AI Website Concierge",
+        "recruiting agencies",
+        "Asana",
+        "Outlook",
+        "Jira"
+      ]
+    },
+    {
+      "id": "impl-005",
+      "title": "Implementation plan: Escalation Triage Agent for ecommerce brands",
+      "category": "implementation",
+      "file": "implementation/impl-005-implementation-plan-escalation-triage-agent-for-ecommerce-brands.md",
+      "tags": [
+        "implementation",
+        "Escalation Triage Agent",
+        "ecommerce brands",
+        "SendGrid",
+        "Segment",
+        "Jotform"
+      ]
+    },
+    {
+      "id": "impl-006",
+      "title": "Implementation plan: Lead Qualification Chatbot for B2B SaaS teams",
+      "category": "implementation",
+      "file": "implementation/impl-006-implementation-plan-lead-qualification-chatbot-for-b2b-saas-teams.md",
+      "tags": [
+        "implementation",
+        "Lead Qualification Chatbot",
+        "B2B SaaS teams",
+        "Airtable",
+        "Salesforce",
+        "Intercom"
+      ]
+    },
+    {
+      "id": "impl-007",
+      "title": "Implementation plan: AI Website Concierge for consulting practices",
+      "category": "implementation",
+      "file": "implementation/impl-007-implementation-plan-ai-website-concierge-for-consulting-practices.md",
+      "tags": [
+        "implementation",
+        "AI Website Concierge",
+        "consulting practices",
+        "Postmark",
+        "Typeform",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "impl-008",
+      "title": "Implementation plan: Multi-Location Service Bot for consulting practices",
+      "category": "implementation",
+      "file": "implementation/impl-008-implementation-plan-multi-location-service-bot-for-consulting-practices.md",
+      "tags": [
+        "implementation",
+        "Multi-Location Service Bot",
+        "consulting practices",
+        "Gmail",
+        "Customer.io",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "impl-009",
+      "title": "Implementation plan: AI Website Concierge for ecommerce brands",
+      "category": "implementation",
+      "file": "implementation/impl-009-implementation-plan-ai-website-concierge-for-ecommerce-brands.md",
+      "tags": [
+        "implementation",
+        "AI Website Concierge",
+        "ecommerce brands",
+        "Shopify",
+        "Customer.io",
+        "Linear"
+      ]
+    },
+    {
+      "id": "impl-010",
+      "title": "Implementation plan: HR Candidate Screening Assistant for real estate brokerages",
+      "category": "implementation",
+      "file": "implementation/impl-010-implementation-plan-hr-candidate-screening-assistant-for-real-estate-brokerages.md",
+      "tags": [
+        "implementation",
+        "HR Candidate Screening Assistant",
+        "real estate brokerages",
+        "WordPress",
+        "Asana",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "impl-011",
+      "title": "Implementation plan: Training Content Assistant for insurance agencies",
+      "category": "implementation",
+      "file": "implementation/impl-011-implementation-plan-training-content-assistant-for-insurance-agencies.md",
+      "tags": [
+        "implementation",
+        "Training Content Assistant",
+        "insurance agencies",
+        "Zoho CRM",
+        "Microsoft Teams",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "impl-012",
+      "title": "Implementation plan: Operations SOP Copilot for dental clinics",
+      "category": "implementation",
+      "file": "implementation/impl-012-implementation-plan-operations-sop-copilot-for-dental-clinics.md",
+      "tags": [
+        "implementation",
+        "Operations SOP Copilot",
+        "dental clinics",
+        "Make",
+        "Pipedrive",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "impl-013",
+      "title": "Implementation plan: Client Portal Search Assistant for automotive service centers",
+      "category": "implementation",
+      "file": "implementation/impl-013-implementation-plan-client-portal-search-assistant-for-automotive-service-centers.md",
+      "tags": [
+        "implementation",
+        "Client Portal Search Assistant",
+        "automotive service centers",
+        "QuickBooks",
+        "Stripe",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "impl-014",
+      "title": "Implementation plan: Policy Explanation Assistant for property management teams",
+      "category": "implementation",
+      "file": "implementation/impl-014-implementation-plan-policy-explanation-assistant-for-property-management-teams.md",
+      "tags": [
+        "implementation",
+        "Policy Explanation Assistant",
+        "property management teams",
+        "Calendly",
+        "ClickUp",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "impl-015",
+      "title": "Implementation plan: Lead Qualification Chatbot for ecommerce brands",
+      "category": "implementation",
+      "file": "implementation/impl-015-implementation-plan-lead-qualification-chatbot-for-ecommerce-brands.md",
+      "tags": [
+        "implementation",
+        "Lead Qualification Chatbot",
+        "ecommerce brands",
+        "ClickUp",
+        "Trello",
+        "Notion"
+      ]
+    },
+    {
+      "id": "impl-016",
+      "title": "Implementation plan: Document-Grounded Support Assistant for medical clinics",
+      "category": "implementation",
+      "file": "implementation/impl-016-implementation-plan-document-grounded-support-assistant-for-medical-clinics.md",
+      "tags": [
+        "implementation",
+        "Document-Grounded Support Assistant",
+        "medical clinics",
+        "ClickUp",
+        "Customer.io",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "impl-017",
+      "title": "Implementation plan: Invoice and Billing Helpdesk for dental clinics",
+      "category": "implementation",
+      "file": "implementation/impl-017-implementation-plan-invoice-and-billing-helpdesk-for-dental-clinics.md",
+      "tags": [
+        "implementation",
+        "Invoice and Billing Helpdesk",
+        "dental clinics",
+        "Monday.com",
+        "Jotform",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "impl-018",
+      "title": "Implementation plan: Training Content Assistant for property management teams",
+      "category": "implementation",
+      "file": "implementation/impl-018-implementation-plan-training-content-assistant-for-property-management-teams.md",
+      "tags": [
+        "implementation",
+        "Training Content Assistant",
+        "property management teams",
+        "Zendesk",
+        "Postmark",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "impl-019",
+      "title": "Implementation plan: Internal Knowledge Copilot for event venues",
+      "category": "implementation",
+      "file": "implementation/impl-019-implementation-plan-internal-knowledge-copilot-for-event-venues.md",
+      "tags": [
+        "implementation",
+        "Internal Knowledge Copilot",
+        "event venues",
+        "Shopify",
+        "Customer.io",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "impl-020",
+      "title": "Implementation plan: CRM Handoff Automation for ecommerce brands",
+      "category": "implementation",
+      "file": "implementation/impl-020-implementation-plan-crm-handoff-automation-for-ecommerce-brands.md",
+      "tags": [
+        "implementation",
+        "CRM Handoff Automation",
+        "ecommerce brands",
+        "ClickUp",
+        "Jira",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "impl-021",
+      "title": "Implementation plan: Lead Qualification Chatbot for medical clinics",
+      "category": "implementation",
+      "file": "implementation/impl-021-implementation-plan-lead-qualification-chatbot-for-medical-clinics.md",
+      "tags": [
+        "implementation",
+        "Lead Qualification Chatbot",
+        "medical clinics",
+        "WordPress",
+        "Resend",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "impl-022",
+      "title": "Implementation plan: Multi-Location Service Bot for medical clinics",
+      "category": "implementation",
+      "file": "implementation/impl-022-implementation-plan-multi-location-service-bot-for-medical-clinics.md",
+      "tags": [
+        "implementation",
+        "Multi-Location Service Bot",
+        "medical clinics",
+        "WordPress",
+        "Jotform",
+        "Slack"
+      ]
+    },
+    {
+      "id": "impl-023",
+      "title": "Implementation plan: Post-Purchase Support Assistant for law firms",
+      "category": "implementation",
+      "file": "implementation/impl-023-implementation-plan-post-purchase-support-assistant-for-law-firms.md",
+      "tags": [
+        "implementation",
+        "Post-Purchase Support Assistant",
+        "law firms",
+        "Salesforce",
+        "SendGrid",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "impl-024",
+      "title": "Implementation plan: Operations SOP Copilot for financial advisory firms",
+      "category": "implementation",
+      "file": "implementation/impl-024-implementation-plan-operations-sop-copilot-for-financial-advisory-firms.md",
+      "tags": [
+        "implementation",
+        "Operations SOP Copilot",
+        "financial advisory firms",
+        "Freshdesk",
+        "Shopify",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "impl-025",
+      "title": "Implementation plan: Internal Knowledge Copilot for real estate brokerages",
+      "category": "implementation",
+      "file": "implementation/impl-025-implementation-plan-internal-knowledge-copilot-for-real-estate-brokerages.md",
+      "tags": [
+        "implementation",
+        "Internal Knowledge Copilot",
+        "real estate brokerages",
+        "Shopify",
+        "Freshdesk",
+        "SendGrid"
+      ]
+    },
+    {
+      "id": "impl-026",
+      "title": "Implementation plan: Executive Briefing Assistant for recruiting agencies",
+      "category": "implementation",
+      "file": "implementation/impl-026-implementation-plan-executive-briefing-assistant-for-recruiting-agencies.md",
+      "tags": [
+        "implementation",
+        "Executive Briefing Assistant",
+        "recruiting agencies",
+        "Linear",
+        "Twilio",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "impl-027",
+      "title": "Implementation plan: HR Candidate Screening Assistant for insurance agencies",
+      "category": "implementation",
+      "file": "implementation/impl-027-implementation-plan-hr-candidate-screening-assistant-for-insurance-agencies.md",
+      "tags": [
+        "implementation",
+        "HR Candidate Screening Assistant",
+        "insurance agencies",
+        "WooCommerce",
+        "Typeform",
+        "Google Calendar"
+      ]
+    },
+    {
+      "id": "impl-028",
+      "title": "Implementation plan: Escalation Triage Agent for property management teams",
+      "category": "implementation",
+      "file": "implementation/impl-028-implementation-plan-escalation-triage-agent-for-property-management-teams.md",
+      "tags": [
+        "implementation",
+        "Escalation Triage Agent",
+        "property management teams",
+        "Stripe",
+        "Zendesk",
+        "HubSpot"
+      ]
+    },
+    {
+      "id": "impl-029",
+      "title": "Implementation plan: CRM Handoff Automation for marketing agencies",
+      "category": "implementation",
+      "file": "implementation/impl-029-implementation-plan-crm-handoff-automation-for-marketing-agencies.md",
+      "tags": [
+        "implementation",
+        "CRM Handoff Automation",
+        "marketing agencies",
+        "Zapier",
+        "Google Sheets",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "impl-030",
+      "title": "Implementation plan: Support Deflection Bot for dental clinics",
+      "category": "implementation",
+      "file": "implementation/impl-030-implementation-plan-support-deflection-bot-for-dental-clinics.md",
+      "tags": [
+        "implementation",
+        "Support Deflection Bot",
+        "dental clinics",
+        "Twilio",
+        "Airtable",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "impl-031",
+      "title": "Implementation plan: Training Content Assistant for ecommerce brands",
+      "category": "implementation",
+      "file": "implementation/impl-031-implementation-plan-training-content-assistant-for-ecommerce-brands.md",
+      "tags": [
+        "implementation",
+        "Training Content Assistant",
+        "ecommerce brands",
+        "Make",
+        "Airtable",
+        "Trello"
+      ]
+    },
+    {
+      "id": "impl-032",
+      "title": "Implementation plan: Review Response Assistant for consulting practices",
+      "category": "implementation",
+      "file": "implementation/impl-032-implementation-plan-review-response-assistant-for-consulting-practices.md",
+      "tags": [
+        "implementation",
+        "Review Response Assistant",
+        "consulting practices",
+        "Jotform",
+        "Resend",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "impl-033",
+      "title": "Implementation plan: Missed Call Follow-Up Agent for insurance agencies",
+      "category": "implementation",
+      "file": "implementation/impl-033-implementation-plan-missed-call-follow-up-agent-for-insurance-agencies.md",
+      "tags": [
+        "implementation",
+        "Missed Call Follow-Up Agent",
+        "insurance agencies",
+        "Slack",
+        "Twilio",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "impl-034",
+      "title": "Implementation plan: AI Website Concierge for managed IT providers",
+      "category": "implementation",
+      "file": "implementation/impl-034-implementation-plan-ai-website-concierge-for-managed-it-providers.md",
+      "tags": [
+        "implementation",
+        "AI Website Concierge",
+        "managed IT providers",
+        "Zoho CRM",
+        "Outlook",
+        "Notion"
+      ]
+    },
+    {
+      "id": "impl-035",
+      "title": "Implementation plan: Product Recommendation Assistant for law firms",
+      "category": "implementation",
+      "file": "implementation/impl-035-implementation-plan-product-recommendation-assistant-for-law-firms.md",
+      "tags": [
+        "implementation",
+        "Product Recommendation Assistant",
+        "law firms",
+        "Postmark",
+        "Microsoft Teams",
+        "Trello"
+      ]
+    },
+    {
+      "id": "impl-036",
+      "title": "Implementation plan: Training Content Assistant for accounting firms",
+      "category": "implementation",
+      "file": "implementation/impl-036-implementation-plan-training-content-assistant-for-accounting-firms.md",
+      "tags": [
+        "implementation",
+        "Training Content Assistant",
+        "accounting firms",
+        "Trello",
+        "QuickBooks",
+        "Notion"
+      ]
+    },
+    {
+      "id": "impl-037",
+      "title": "Implementation plan: Multi-Location Service Bot for insurance agencies",
+      "category": "implementation",
+      "file": "implementation/impl-037-implementation-plan-multi-location-service-bot-for-insurance-agencies.md",
+      "tags": [
+        "implementation",
+        "Multi-Location Service Bot",
+        "insurance agencies",
+        "Google Sheets",
+        "Pipedrive",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "impl-038",
+      "title": "Implementation plan: Quote Request Automation for property management teams",
+      "category": "implementation",
+      "file": "implementation/impl-038-implementation-plan-quote-request-automation-for-property-management-teams.md",
+      "tags": [
+        "implementation",
+        "Quote Request Automation",
+        "property management teams",
+        "Postmark",
+        "Jotform",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "impl-039",
+      "title": "Implementation plan: Client Portal Search Assistant for automotive service centers",
+      "category": "implementation",
+      "file": "implementation/impl-039-implementation-plan-client-portal-search-assistant-for-automotive-service-centers.md",
+      "tags": [
+        "implementation",
+        "Client Portal Search Assistant",
+        "automotive service centers",
+        "Asana",
+        "SendGrid",
+        "Slack"
+      ]
+    },
+    {
+      "id": "impl-040",
+      "title": "Implementation plan: Missed Call Follow-Up Agent for automotive service centers",
+      "category": "implementation",
+      "file": "implementation/impl-040-implementation-plan-missed-call-follow-up-agent-for-automotive-service-centers.md",
+      "tags": [
+        "implementation",
+        "Missed Call Follow-Up Agent",
+        "automotive service centers",
+        "Jotform",
+        "Google Calendar",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "lead-001",
+      "title": "Lead qualification playbook for managed IT providers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-001-managed-it-providers.md",
+      "tags": [
+        "lead qualification",
+        "managed IT providers",
+        "Support Deflection Bot",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "lead-002",
+      "title": "Lead qualification playbook for financial advisory firms",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-002-financial-advisory-firms.md",
+      "tags": [
+        "lead qualification",
+        "financial advisory firms",
+        "Missed Call Follow-Up Agent",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "lead-003",
+      "title": "Lead qualification playbook for law firms",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-003-law-firms.md",
+      "tags": [
+        "lead qualification",
+        "law firms",
+        "Multi-Location Service Bot",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "lead-004",
+      "title": "Lead qualification playbook for B2B SaaS teams",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-004-b2b-saas-teams.md",
+      "tags": [
+        "lead qualification",
+        "B2B SaaS teams",
+        "Escalation Triage Agent",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "lead-005",
+      "title": "Lead qualification playbook for dental clinics",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-005-dental-clinics.md",
+      "tags": [
+        "lead qualification",
+        "dental clinics",
+        "Quote Request Automation",
+        "Trello"
+      ]
+    },
+    {
+      "id": "lead-006",
+      "title": "Lead qualification playbook for dental clinics",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-006-dental-clinics.md",
+      "tags": [
+        "lead qualification",
+        "dental clinics",
+        "Executive Briefing Assistant",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "lead-007",
+      "title": "Lead qualification playbook for insurance agencies",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-007-insurance-agencies.md",
+      "tags": [
+        "lead qualification",
+        "insurance agencies",
+        "Product Recommendation Assistant",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "lead-008",
+      "title": "Lead qualification playbook for education providers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-008-education-providers.md",
+      "tags": [
+        "lead qualification",
+        "education providers",
+        "Client Portal Search Assistant",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "lead-009",
+      "title": "Lead qualification playbook for property management teams",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-009-property-management-teams.md",
+      "tags": [
+        "lead qualification",
+        "property management teams",
+        "Proposal Intake Assistant",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "lead-010",
+      "title": "Lead qualification playbook for fitness studios",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-010-fitness-studios.md",
+      "tags": [
+        "lead qualification",
+        "fitness studios",
+        "Executive Briefing Assistant",
+        "Resend"
+      ]
+    },
+    {
+      "id": "lead-011",
+      "title": "Lead qualification playbook for recruiting agencies",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-011-recruiting-agencies.md",
+      "tags": [
+        "lead qualification",
+        "recruiting agencies",
+        "Invoice and Billing Helpdesk",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "lead-012",
+      "title": "Lead qualification playbook for medical clinics",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-012-medical-clinics.md",
+      "tags": [
+        "lead qualification",
+        "medical clinics",
+        "Lead Qualification Chatbot",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "lead-013",
+      "title": "Lead qualification playbook for law firms",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-013-law-firms.md",
+      "tags": [
+        "lead qualification",
+        "law firms",
+        "CRM Handoff Automation",
+        "Resend"
+      ]
+    },
+    {
+      "id": "lead-014",
+      "title": "Lead qualification playbook for fitness studios",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-014-fitness-studios.md",
+      "tags": [
+        "lead qualification",
+        "fitness studios",
+        "Missed Call Follow-Up Agent",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "lead-015",
+      "title": "Lead qualification playbook for managed IT providers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-015-managed-it-providers.md",
+      "tags": [
+        "lead qualification",
+        "managed IT providers",
+        "Lead Qualification Chatbot",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "lead-016",
+      "title": "Lead qualification playbook for financial advisory firms",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-016-financial-advisory-firms.md",
+      "tags": [
+        "lead qualification",
+        "financial advisory firms",
+        "Proposal Intake Assistant",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "lead-017",
+      "title": "Lead qualification playbook for real estate brokerages",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-017-real-estate-brokerages.md",
+      "tags": [
+        "lead qualification",
+        "real estate brokerages",
+        "Escalation Triage Agent",
+        "WooCommerce"
+      ]
+    },
+    {
+      "id": "lead-018",
+      "title": "Lead qualification playbook for automotive service centers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-018-automotive-service-centers.md",
+      "tags": [
+        "lead qualification",
+        "automotive service centers",
+        "Policy Explanation Assistant",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "lead-019",
+      "title": "Lead qualification playbook for automotive service centers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-019-automotive-service-centers.md",
+      "tags": [
+        "lead qualification",
+        "automotive service centers",
+        "Product Recommendation Assistant",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "lead-020",
+      "title": "Lead qualification playbook for managed IT providers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-020-managed-it-providers.md",
+      "tags": [
+        "lead qualification",
+        "managed IT providers",
+        "Customer Onboarding Guide",
+        "Intercom"
+      ]
+    },
+    {
+      "id": "lead-021",
+      "title": "Lead qualification playbook for dental clinics",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-021-dental-clinics.md",
+      "tags": [
+        "lead qualification",
+        "dental clinics",
+        "Executive Briefing Assistant",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "lead-022",
+      "title": "Lead qualification playbook for property management teams",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-022-property-management-teams.md",
+      "tags": [
+        "lead qualification",
+        "property management teams",
+        "AI Website Concierge",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "lead-023",
+      "title": "Lead qualification playbook for medical clinics",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-023-medical-clinics.md",
+      "tags": [
+        "lead qualification",
+        "medical clinics",
+        "Internal Knowledge Copilot",
+        "Postmark"
+      ]
+    },
+    {
+      "id": "lead-024",
+      "title": "Lead qualification playbook for managed IT providers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-024-managed-it-providers.md",
+      "tags": [
+        "lead qualification",
+        "managed IT providers",
+        "Review Response Assistant",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "lead-025",
+      "title": "Lead qualification playbook for B2B SaaS teams",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-025-b2b-saas-teams.md",
+      "tags": [
+        "lead qualification",
+        "B2B SaaS teams",
+        "Escalation Triage Agent",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "lead-026",
+      "title": "Lead qualification playbook for solar installation companies",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-026-solar-installation-companies.md",
+      "tags": [
+        "lead qualification",
+        "solar installation companies",
+        "Escalation Triage Agent",
+        "Intercom"
+      ]
+    },
+    {
+      "id": "lead-027",
+      "title": "Lead qualification playbook for property management teams",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-027-property-management-teams.md",
+      "tags": [
+        "lead qualification",
+        "property management teams",
+        "Appointment Booking Assistant",
+        "Jira"
+      ]
+    },
+    {
+      "id": "lead-028",
+      "title": "Lead qualification playbook for financial advisory firms",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-028-financial-advisory-firms.md",
+      "tags": [
+        "lead qualification",
+        "financial advisory firms",
+        "Review Response Assistant",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "lead-029",
+      "title": "Lead qualification playbook for real estate brokerages",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-029-real-estate-brokerages.md",
+      "tags": [
+        "lead qualification",
+        "real estate brokerages",
+        "Policy Explanation Assistant",
+        "QuickBooks"
+      ]
+    },
+    {
+      "id": "lead-030",
+      "title": "Lead qualification playbook for B2B SaaS teams",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-030-b2b-saas-teams.md",
+      "tags": [
+        "lead qualification",
+        "B2B SaaS teams",
+        "Escalation Triage Agent",
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "lead-031",
+      "title": "Lead qualification playbook for managed IT providers",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-031-managed-it-providers.md",
+      "tags": [
+        "lead qualification",
+        "managed IT providers",
+        "Internal Knowledge Copilot",
+        "Resend"
+      ]
+    },
+    {
+      "id": "lead-032",
+      "title": "Lead qualification playbook for ecommerce brands",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-032-ecommerce-brands.md",
+      "tags": [
+        "lead qualification",
+        "ecommerce brands",
+        "Training Content Assistant",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "lead-033",
+      "title": "Lead qualification playbook for financial advisory firms",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-033-financial-advisory-firms.md",
+      "tags": [
+        "lead qualification",
+        "financial advisory firms",
+        "Post-Purchase Support Assistant",
+        "Pipedrive"
+      ]
+    },
+    {
+      "id": "lead-034",
+      "title": "Lead qualification playbook for law firms",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-034-law-firms.md",
+      "tags": [
+        "lead qualification",
+        "law firms",
+        "CRM Handoff Automation",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "lead-035",
+      "title": "Lead qualification playbook for B2B SaaS teams",
+      "category": "lead-playbooks",
+      "file": "lead-playbooks/lead-035-b2b-saas-teams.md",
+      "tags": [
+        "lead qualification",
+        "B2B SaaS teams",
+        "Missed Call Follow-Up Agent",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "sup-001",
+      "title": "Support policy: unanswered visitor question",
+      "category": "support",
+      "file": "support/sup-001-unanswered-visitor-question.md",
+      "tags": [
+        "support",
+        "unanswered visitor question",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "sup-002",
+      "title": "Support policy: CRM sync failure",
+      "category": "support",
+      "file": "support/sup-002-crm-sync-failure.md",
+      "tags": [
+        "support",
+        "CRM sync failure",
+        "Slack"
+      ]
+    },
+    {
+      "id": "sup-003",
+      "title": "Support policy: lead submitted incomplete contact details",
+      "category": "support",
+      "file": "support/sup-003-lead-submitted-incomplete-contact-details.md",
+      "tags": [
+        "support",
+        "lead submitted incomplete contact details",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "sup-004",
+      "title": "Support policy: document source conflict",
+      "category": "support",
+      "file": "support/sup-004-document-source-conflict.md",
+      "tags": [
+        "support",
+        "document source conflict",
+        "Jira"
+      ]
+    },
+    {
+      "id": "sup-005",
+      "title": "Support policy: low-confidence answer",
+      "category": "support",
+      "file": "support/sup-005-low-confidence-answer.md",
+      "tags": [
+        "support",
+        "low-confidence answer",
+        "Notion"
+      ]
+    },
+    {
+      "id": "sup-006",
+      "title": "Support policy: visitor requests human callback",
+      "category": "support",
+      "file": "support/sup-006-visitor-requests-human-callback.md",
+      "tags": [
+        "support",
+        "visitor requests human callback",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "sup-007",
+      "title": "Support policy: appointment slot unavailable",
+      "category": "support",
+      "file": "support/sup-007-appointment-slot-unavailable.md",
+      "tags": [
+        "support",
+        "appointment slot unavailable",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "sup-008",
+      "title": "Support policy: payment question outside approved policy",
+      "category": "support",
+      "file": "support/sup-008-payment-question-outside-approved-policy.md",
+      "tags": [
+        "support",
+        "payment question outside approved policy",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "sup-009",
+      "title": "Support policy: competitor comparison request",
+      "category": "support",
+      "file": "support/sup-009-competitor-comparison-request.md",
+      "tags": [
+        "support",
+        "competitor comparison request",
+        "Monday.com"
+      ]
+    },
+    {
+      "id": "sup-010",
+      "title": "Support policy: after-hours urgent inquiry",
+      "category": "support",
+      "file": "support/sup-010-after-hours-urgent-inquiry.md",
+      "tags": [
+        "support",
+        "after-hours urgent inquiry",
+        "Trello"
+      ]
+    },
+    {
+      "id": "sup-011",
+      "title": "Support policy: unanswered visitor question",
+      "category": "support",
+      "file": "support/sup-011-unanswered-visitor-question.md",
+      "tags": [
+        "support",
+        "unanswered visitor question",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "sup-012",
+      "title": "Support policy: CRM sync failure",
+      "category": "support",
+      "file": "support/sup-012-crm-sync-failure.md",
+      "tags": [
+        "support",
+        "CRM sync failure",
+        "Intercom"
+      ]
+    },
+    {
+      "id": "sup-013",
+      "title": "Support policy: lead submitted incomplete contact details",
+      "category": "support",
+      "file": "support/sup-013-lead-submitted-incomplete-contact-details.md",
+      "tags": [
+        "support",
+        "lead submitted incomplete contact details",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "sup-014",
+      "title": "Support policy: document source conflict",
+      "category": "support",
+      "file": "support/sup-014-document-source-conflict.md",
+      "tags": [
+        "support",
+        "document source conflict",
+        "Linear"
+      ]
+    },
+    {
+      "id": "sup-015",
+      "title": "Support policy: low-confidence answer",
+      "category": "support",
+      "file": "support/sup-015-low-confidence-answer.md",
+      "tags": [
+        "support",
+        "low-confidence answer",
+        "Segment"
+      ]
+    },
+    {
+      "id": "sup-016",
+      "title": "Support policy: visitor requests human callback",
+      "category": "support",
+      "file": "support/sup-016-visitor-requests-human-callback.md",
+      "tags": [
+        "support",
+        "visitor requests human callback",
+        "Airtable"
+      ]
+    },
+    {
+      "id": "sup-017",
+      "title": "Support policy: appointment slot unavailable",
+      "category": "support",
+      "file": "support/sup-017-appointment-slot-unavailable.md",
+      "tags": [
+        "support",
+        "appointment slot unavailable",
+        "Customer.io"
+      ]
+    },
+    {
+      "id": "sup-018",
+      "title": "Support policy: payment question outside approved policy",
+      "category": "support",
+      "file": "support/sup-018-payment-question-outside-approved-policy.md",
+      "tags": [
+        "support",
+        "payment question outside approved policy",
+        "Zoho CRM"
+      ]
+    },
+    {
+      "id": "sup-019",
+      "title": "Support policy: competitor comparison request",
+      "category": "support",
+      "file": "support/sup-019-competitor-comparison-request.md",
+      "tags": [
+        "support",
+        "competitor comparison request",
+        "Resend"
+      ]
+    },
+    {
+      "id": "sup-020",
+      "title": "Support policy: after-hours urgent inquiry",
+      "category": "support",
+      "file": "support/sup-020-after-hours-urgent-inquiry.md",
+      "tags": [
+        "support",
+        "after-hours urgent inquiry",
+        "Typeform"
+      ]
+    },
+    {
+      "id": "sup-021",
+      "title": "Support policy: unanswered visitor question",
+      "category": "support",
+      "file": "support/sup-021-unanswered-visitor-question.md",
+      "tags": [
+        "support",
+        "unanswered visitor question",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "sup-022",
+      "title": "Support policy: CRM sync failure",
+      "category": "support",
+      "file": "support/sup-022-crm-sync-failure.md",
+      "tags": [
+        "support",
+        "CRM sync failure",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "sup-023",
+      "title": "Support policy: lead submitted incomplete contact details",
+      "category": "support",
+      "file": "support/sup-023-lead-submitted-incomplete-contact-details.md",
+      "tags": [
+        "support",
+        "lead submitted incomplete contact details",
+        "Webflow"
+      ]
+    },
+    {
+      "id": "sup-024",
+      "title": "Support policy: document source conflict",
+      "category": "support",
+      "file": "support/sup-024-document-source-conflict.md",
+      "tags": [
+        "support",
+        "document source conflict",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "sup-025",
+      "title": "Support policy: low-confidence answer",
+      "category": "support",
+      "file": "support/sup-025-low-confidence-answer.md",
+      "tags": [
+        "support",
+        "low-confidence answer",
+        "Segment"
+      ]
+    },
+    {
+      "id": "sup-026",
+      "title": "Support policy: visitor requests human callback",
+      "category": "support",
+      "file": "support/sup-026-visitor-requests-human-callback.md",
+      "tags": [
+        "support",
+        "visitor requests human callback",
+        "Monday.com"
+      ]
+    },
+    {
+      "id": "sup-027",
+      "title": "Support policy: appointment slot unavailable",
+      "category": "support",
+      "file": "support/sup-027-appointment-slot-unavailable.md",
+      "tags": [
+        "support",
+        "appointment slot unavailable",
+        "Monday.com"
+      ]
+    },
+    {
+      "id": "sup-028",
+      "title": "Support policy: payment question outside approved policy",
+      "category": "support",
+      "file": "support/sup-028-payment-question-outside-approved-policy.md",
+      "tags": [
+        "support",
+        "payment question outside approved policy",
+        "Resend"
+      ]
+    },
+    {
+      "id": "sup-029",
+      "title": "Support policy: competitor comparison request",
+      "category": "support",
+      "file": "support/sup-029-competitor-comparison-request.md",
+      "tags": [
+        "support",
+        "competitor comparison request",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "sup-030",
+      "title": "Support policy: after-hours urgent inquiry",
+      "category": "support",
+      "file": "support/sup-030-after-hours-urgent-inquiry.md",
+      "tags": [
+        "support",
+        "after-hours urgent inquiry",
+        "Typeform"
+      ]
+    }
+  ]
+}

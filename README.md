@@ -13,11 +13,20 @@ npm run dev
 
 Then open `http://localhost:3000`.
 
+## Synthetic Knowledge Base
+
+Generate the demo knowledge corpus with:
+
+```bash
+npm run kb:generate
+```
+
+This creates `content/knowledge` with synthetic Markdown source documents, lead records, support tickets, integration metrics, analytics, package pricing, and a manifest for future ingestion.
+
 ## First Milestone
 
 - Clean Next.js scaffold
 - Premium first-screen chat experience
 - Basic Gemini streaming chat endpoint
 
-This scaffold covers the first part. The UI, Gemini endpoint, database, and RAG features will be added in later chunks.
-
+The UI, Gemini endpoint, and synthetic knowledge base seed are now in place. Database, embeddings, RAG retrieval, citations, and dashboards will be added in later chunks.
