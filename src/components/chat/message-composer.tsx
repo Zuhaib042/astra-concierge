@@ -54,10 +54,6 @@ export function MessageComposer({
           <Send className="h-4 w-4" aria-hidden="true" />
         </Button>
       </div>
-      <p className="mt-2 text-xs text-muted-foreground">
-        Press Enter to send. Press Shift + Enter for a new line.
-      </p>
     </form>
   );
 }
-

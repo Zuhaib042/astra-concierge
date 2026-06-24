@@ -1,56 +1,42 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useChat } from "@ai-sdk/react";
 import { AnimatePresence } from "framer-motion";
-import { Bot, ShieldCheck } from "lucide-react";
+import { AlertCircle, Bot, CircleStop, ShieldCheck } from "lucide-react";
+import { DefaultChatTransport } from "ai";
 
 import { ChatMessage } from "@/components/chat/chat-message";
 import { MessageComposer } from "@/components/chat/message-composer";
 import { SuggestedPrompts } from "@/components/chat/suggested-prompts";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import {
-  buildDemoReply,
+  getAutomationLabelForPrompt,
   INITIAL_CHAT_MESSAGES,
-  splitReplyIntoChunks,
-  type ChatMessage as ChatMessageType,
 } from "@/lib/chat-demo";
 
-function createMessageId(role: ChatMessageType["role"]) {
-  return `${role}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-}
-
-function getCurrentTimeLabel() {
-  return new Intl.DateTimeFormat("en", {
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(new Date());
-}
-
 export function ChatWorkspace() {
-  const [messages, setMessages] = useState<ChatMessageType[]>(
-    INITIAL_CHAT_MESSAGES,
-  );
   const [draft, setDraft] = useState("");
-  const [isStreaming, setIsStreaming] = useState(false);
   const [lastAutomation, setLastAutomation] = useState(
     "Conversation summary ready",
   );
 
   const bottomRef = useRef<HTMLDivElement>(null);
-  const streamTimerRef = useRef<number | null>(null);
+  const { clearError, error, messages, regenerate, sendMessage, status, stop } =
+    useChat({
+      transport: new DefaultChatTransport({
+        api: "/api/chat",
+      }),
+    });
+
+  const isStreaming = status === "submitted" || status === "streaming";
+  const statusLabel = error ? "Needs setup" : isStreaming ? "Answering" : "Ready";
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-  }, [messages]);
-
-  useEffect(() => {
-    return () => {
-      if (streamTimerRef.current) {
-        window.clearInterval(streamTimerRef.current);
-      }
-    };
-  }, []);
+  }, [messages, status]);
 
   function submitMessage(nextPrompt = draft) {
     const prompt = nextPrompt.trim();
@@ -59,67 +45,10 @@ export function ChatWorkspace() {
       return;
     }
 
-    const reply = buildDemoReply(prompt);
-    const assistantMessageId = createMessageId("assistant");
-    const chunks = splitReplyIntoChunks(reply.content);
-    const timestamp = getCurrentTimeLabel();
-
-    const visitorMessage: ChatMessageType = {
-      id: createMessageId("visitor"),
-      role: "visitor",
-      name: "Visitor",
-      content: prompt,
-      sources: [],
-      timestamp,
-      status: "complete",
-    };
-
-    const assistantMessage: ChatMessageType = {
-      id: assistantMessageId,
-      role: "assistant",
-      name: "Astra",
-      content: "",
-      sources: reply.sources,
-      timestamp,
-      status: "streaming",
-    };
-
     setDraft("");
-    setIsStreaming(true);
-    setLastAutomation(reply.automationLabel);
-    setMessages((currentMessages) => [
-      ...currentMessages,
-      visitorMessage,
-      assistantMessage,
-    ]);
-
-    let chunkIndex = 0;
-
-    streamTimerRef.current = window.setInterval(() => {
-      chunkIndex += 1;
-
-      setMessages((currentMessages) =>
-        currentMessages.map((message) => {
-          if (message.id !== assistantMessageId) {
-            return message;
-          }
-
-          const isComplete = chunkIndex >= chunks.length;
-
-          return {
-            ...message,
-            content: chunks.slice(0, chunkIndex).join(""),
-            status: isComplete ? "complete" : "streaming",
-          };
-        }),
-      );
-
-      if (chunkIndex >= chunks.length && streamTimerRef.current) {
-        window.clearInterval(streamTimerRef.current);
-        streamTimerRef.current = null;
-        setIsStreaming(false);
-      }
-    }, 28);
+    clearError();
+    setLastAutomation(getAutomationLabelForPrompt(prompt));
+    void sendMessage({ text: prompt });
   }
 
   return (
@@ -138,14 +67,32 @@ export function ChatWorkspace() {
                 Astra Concierge
               </h2>
               <p className="text-xs text-muted-foreground">
-                Interactive local demo for an AI automation agency
+                Gemini streaming demo for an AI automation agency
               </p>
             </div>
           </div>
-          <Badge variant="success" className="gap-1.5">
-            <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" />
-            {isStreaming ? "Answering" : "Ready"}
-          </Badge>
+          <div className="flex items-center gap-2">
+            {isStreaming ? (
+              <Button
+                type="button"
+                size="icon-sm"
+                variant="ghost"
+                onClick={stop}
+                aria-label="Stop response"
+                className="shrink-0"
+              >
+                <CircleStop className="h-4 w-4" aria-hidden="true" />
+              </Button>
+            ) : null}
+            <Badge variant={error ? "secondary" : "success"} className="gap-1.5">
+              {error ? (
+                <AlertCircle className="h-3.5 w-3.5" aria-hidden="true" />
+              ) : (
+                <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" />
+              )}
+              {statusLabel}
+            </Badge>
+          </div>
         </div>
       </div>
 
@@ -162,10 +109,33 @@ export function ChatWorkspace() {
 
       <div className="max-h-[520px] min-h-[420px] space-y-4 overflow-y-auto px-5 py-5">
         <AnimatePresence initial={false}>
+          {INITIAL_CHAT_MESSAGES.map((message) => (
+            <ChatMessage key={message.id} message={message} />
+          ))}
           {messages.map((message) => (
             <ChatMessage key={message.id} message={message} />
           ))}
         </AnimatePresence>
+        {error ? (
+          <div className="rounded-lg border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive-foreground">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <p>
+                Live Gemini chat is not configured yet. Add a Gemini API key to
+                the server environment and restart the app.
+              </p>
+              <Button
+                type="button"
+                size="sm"
+                variant="secondary"
+                onClick={() => regenerate()}
+                disabled={messages.length === 0 || isStreaming}
+                className="shrink-0"
+              >
+                Retry
+              </Button>
+            </div>
+          </div>
+        ) : null}
         <div ref={bottomRef} />
       </div>
 
@@ -179,4 +149,3 @@ export function ChatWorkspace() {
     </Card>
   );
 }
-

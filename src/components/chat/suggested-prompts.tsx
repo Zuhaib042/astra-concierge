@@ -22,7 +22,7 @@ export function SuggestedPrompts({
           Try a prompt
         </Badge>
         <span className="hidden text-xs text-muted-foreground sm:inline">
-          Local demo logic for now
+          Gemini streaming route
         </span>
       </div>
 
@@ -42,4 +42,3 @@ export function SuggestedPrompts({
     </div>
   );
 }
-
