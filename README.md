@@ -23,6 +23,14 @@ npm run kb:generate
 
 This creates `content/knowledge` with synthetic Markdown source documents, lead records, support tickets, integration metrics, analytics, package pricing, and a manifest for future ingestion.
 
+After running database migrations, ingest the generated corpus into Neon with:
+
+```bash
+npm run kb:ingest
+```
+
+This stores Markdown files as `documents` and `document_chunks`, and stores JSON files as `datasets` and `dataset_records`.
+
 ## Database
 
 The project uses Neon Postgres with Drizzle ORM. Add your Neon connection string to `.env.local`:
@@ -47,4 +55,4 @@ The first migration creates conversations, messages, documents, document chunks,
 - Premium first-screen chat experience
 - Basic Gemini streaming chat endpoint
 
-The UI, Gemini endpoint, synthetic knowledge base seed, and database foundation are now in place. Conversation persistence, embeddings, RAG retrieval, citations, and dashboards will be added in later chunks.
+The UI, Gemini endpoint, synthetic knowledge base seed, database foundation, and Neon knowledge ingestion are now in place. Conversation persistence, embeddings, RAG retrieval, citations, and dashboards will be added in later chunks.

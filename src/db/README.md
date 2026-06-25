@@ -22,3 +22,5 @@ This folder owns the database boundary for Astra Concierge.
 The schema separates durable business objects from AI processing details. A document is the original source. A document chunk is the smaller unit we retrieve during RAG. A message is the exact conversation turn we can replay or audit later. A lead is a business outcome extracted from the chat.
 
 The vector column uses 768 dimensions so the later Gemini embedding step can store compact vectors for semantic search.
+
+The `kb:ingest` script fills the knowledge tables before embeddings exist. That gives us inspectable text chunks first, then a later embedding step can update those chunks with vectors.

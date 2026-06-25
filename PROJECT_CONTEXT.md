@@ -93,6 +93,9 @@ Admin uploads document
 5a. Synthetic knowledge base generation
    - Learn: generating realistic qualitative and quantitative demo knowledge without hand-writing every source document.
 
+5b. Knowledge base ingestion into Neon
+   - Learn: turning generated Markdown and JSON files into durable database records.
+
 6. Conversation persistence
    - Learn: storing conversations and messages cleanly.
 
@@ -177,3 +180,6 @@ Do not start with the database. First make the assistant feel alive, then add me
 - Verification for knowledge-base generation: `npm run kb:generate`, `npm run lint`, `npm run typecheck`, and `npm run build` all pass. The generated Markdown corpus is about 101k words and includes service briefs, integration playbooks, case studies, FAQs, objection handling, security policies, implementation plans, lead playbooks, and support policies.
 - Chunk 5 complete: added Neon + Drizzle database foundation with `drizzle.config.ts`, a lazy build-safe database client, schema definitions, typed table helpers, database npm scripts, `.env.example` documentation, and the first SQL migration. The schema covers conversations, messages, documents, document chunks with nullable `pgvector` embeddings, leads, datasets, and dataset records.
 - Verification for Chunk 5: `npm run db:generate`, `npm run lint`, `npm run typecheck`, and `npm run build` all pass without `DATABASE_URL` configured, because the database client initializes lazily.
+- Database activation complete: `npm run db:migrate` successfully applied the first Drizzle migration to Neon after `DATABASE_URL` was configured.
+- Chunk 5b complete: added `scripts/ingest-knowledge-base.ts` and `npm run kb:ingest`. The importer reads `content/knowledge/manifest.json`, stores generated Markdown as `documents` and `document_chunks`, and stores generated JSON datasets as `datasets` and `dataset_records`. The importer is idempotent and batched for Neon, so it can refresh the generated corpus without duplicating rows.
+- Verification for Chunk 5b: `npm run kb:ingest` completed against Neon with 437 documents, 2,303 document chunks, 5 datasets, and 794 dataset records. `npm run lint`, `npm run typecheck`, and `npm run build` pass.

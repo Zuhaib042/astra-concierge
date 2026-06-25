@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "kb:generate": "node scripts/generate-knowledge-base.mjs",
+    "kb:ingest": "tsx scripts/ingest-knowledge-base.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio"
