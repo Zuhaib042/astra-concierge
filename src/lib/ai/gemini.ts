@@ -1,6 +1,7 @@
 import { createGoogleGenerativeAI } from "@ai-sdk/google";
 
 const DEFAULT_GEMINI_MODEL = "gemini-2.5-flash";
+const DEFAULT_GEMINI_EMBEDDING_MODEL = "gemini-embedding-001";
 
 export class MissingGeminiApiKeyError extends Error {
   constructor() {
@@ -19,14 +20,26 @@ function getGeminiApiKey() {
   );
 }
 
-export function getGeminiModel() {
+function getGoogleProvider() {
   const apiKey = getGeminiApiKey();
 
   if (!apiKey) {
     throw new MissingGeminiApiKeyError();
   }
 
-  const google = createGoogleGenerativeAI({ apiKey });
+  return createGoogleGenerativeAI({ apiKey });
+}
+
+export function getGeminiModel() {
+  const google = getGoogleProvider();
 
   return google(process.env.GEMINI_MODEL_ID ?? DEFAULT_GEMINI_MODEL);
+}
+
+export function getGeminiEmbeddingModel() {
+  const google = getGoogleProvider();
+
+  return google.embedding(
+    process.env.GEMINI_EMBEDDING_MODEL_ID ?? DEFAULT_GEMINI_EMBEDDING_MODEL,
+  );
 }

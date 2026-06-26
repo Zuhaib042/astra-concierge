@@ -10,6 +10,8 @@
     "typecheck": "tsc --noEmit",
     "kb:generate": "node scripts/generate-knowledge-base.mjs",
     "kb:ingest": "tsx scripts/ingest-knowledge-base.ts",
+    "kb:embed": "tsx scripts/embed-knowledge-base.ts",
+    "kb:search": "tsx scripts/search-knowledge-base.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio"
