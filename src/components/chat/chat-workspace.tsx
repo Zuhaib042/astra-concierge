@@ -17,12 +17,15 @@ import {
   INITIAL_CHAT_MESSAGES,
 } from "@/lib/chat-demo";
 
+const CONVERSATION_ID_STORAGE_KEY = "astra-concierge-conversation-id";
+
 export function ChatWorkspace() {
   const [draft, setDraft] = useState("");
   const [lastAutomation, setLastAutomation] = useState(
     "Conversation summary ready",
   );
 
+  const conversationIdRef = useRef<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const { clearError, error, messages, regenerate, sendMessage, status, stop } =
     useChat({
@@ -38,6 +41,22 @@ export function ChatWorkspace() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [messages, status]);
 
+  function getConversationId() {
+    if (conversationIdRef.current) {
+      return conversationIdRef.current;
+    }
+
+    const storedConversationId = window.sessionStorage.getItem(
+      CONVERSATION_ID_STORAGE_KEY,
+    );
+    const conversationId = storedConversationId ?? crypto.randomUUID();
+
+    window.sessionStorage.setItem(CONVERSATION_ID_STORAGE_KEY, conversationId);
+    conversationIdRef.current = conversationId;
+
+    return conversationId;
+  }
+
   function submitMessage(nextPrompt = draft) {
     const prompt = nextPrompt.trim();
 
@@ -48,7 +67,10 @@ export function ChatWorkspace() {
     setDraft("");
     clearError();
     setLastAutomation(getAutomationLabelForPrompt(prompt));
-    void sendMessage({ text: prompt });
+    void sendMessage(
+      { text: prompt },
+      { body: { conversationId: getConversationId() } },
+    );
   }
 
   return (

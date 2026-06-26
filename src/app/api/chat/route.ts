@@ -6,6 +6,10 @@ import {
 } from "@/lib/ai/gemini";
 import { buildAstraSystemPrompt } from "@/lib/ai/prompts";
 import {
+  ensureWebConversation,
+  persistConversationMessage,
+} from "@/lib/conversations/persistence";
+import {
   retrieveRagContext,
   summarizeRagSources,
 } from "@/lib/knowledge/rag";
@@ -45,6 +49,18 @@ function parseMessages(body: unknown) {
   return body.messages;
 }
 
+function parseChatId(body: unknown) {
+  if (!isRecord(body)) {
+    return crypto.randomUUID();
+  }
+
+  if (typeof body.conversationId === "string") {
+    return body.conversationId;
+  }
+
+  return typeof body.id === "string" ? body.id : crypto.randomUUID();
+}
+
 function getTextFromMessage(message: UIMessage) {
   return message.parts
     .filter((part) => part.type === "text")
@@ -53,12 +69,8 @@ function getTextFromMessage(message: UIMessage) {
     .trim();
 }
 
-function getLatestUserText(messages: UIMessage[]) {
-  const latestUserMessage = messages
-    .toReversed()
-    .find((message) => message.role === "user");
-
-  return latestUserMessage ? getTextFromMessage(latestUserMessage) : "";
+function getLatestUserMessage(messages: UIMessage[]) {
+  return messages.toReversed().find((message) => message.role === "user");
 }
 
 export async function POST(req: Request) {
@@ -80,7 +92,25 @@ export async function POST(req: Request) {
   }
 
   try {
-    const latestUserText = getLatestUserText(messages);
+    const chatId = parseChatId(body);
+    const latestUserMessage = getLatestUserMessage(messages);
+    const latestUserText = latestUserMessage
+      ? getTextFromMessage(latestUserMessage)
+      : "";
+    const conversation = await ensureWebConversation(chatId, latestUserText);
+
+    if (latestUserMessage) {
+      await persistConversationMessage({
+        conversationId: conversation.id,
+        role: "user",
+        content: latestUserText,
+        uiMessageId: latestUserMessage.id,
+        metadata: {
+          chatId,
+        },
+      });
+    }
+
     const ragContext = latestUserText
       ? await retrieveRagContext(latestUserText)
       : {
@@ -100,6 +130,28 @@ export async function POST(req: Request) {
         part.type === "finish"
           ? { sources: summarizeRagSources(ragContext.sources) }
           : undefined,
+      onFinish: async ({ responseMessage, isAborted, finishReason }) => {
+        if (isAborted) {
+          return;
+        }
+
+        try {
+          await persistConversationMessage({
+            conversationId: conversation.id,
+            role: "assistant",
+            content: getTextFromMessage(responseMessage),
+            uiMessageId: responseMessage.id,
+            modelId: process.env.GEMINI_MODEL_ID ?? "gemini-2.5-flash",
+            sources: summarizeRagSources(ragContext.sources),
+            metadata: {
+              chatId,
+              finishReason,
+            },
+          });
+        } catch (persistError) {
+          console.error("Astra could not persist assistant message", persistError);
+        }
+      },
     });
   } catch (error) {
     if (error instanceof MissingGeminiApiKeyError) {

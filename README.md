@@ -53,6 +53,8 @@ This embeds the query, searches `document_chunks` with `pgvector`, and prints th
 
 The live chat route also uses this retrieval layer. For each visitor question, `/api/chat` embeds the latest user message, retrieves relevant chunks, adds numbered sources to Astra's system prompt, and streams a Gemini answer with inline citations like `[S1]`.
 
+Chat messages are persisted to Neon. The browser creates a session-scoped conversation id, sends it with each chat request, and `/api/chat` stores the latest visitor message plus the completed assistant response in `conversations` and `messages`.
+
 ## Database
 
 The project uses Neon Postgres with Drizzle ORM. Add your Neon connection string to `.env.local`:
@@ -77,4 +79,4 @@ The first migration creates conversations, messages, documents, document chunks,
 - Premium first-screen chat experience
 - Basic Gemini streaming chat endpoint
 
-The UI, Gemini endpoint, synthetic knowledge base seed, database foundation, Neon knowledge ingestion, embeddings, vector search, and RAG chat citations are now in place. Conversation persistence, tool calling, and dashboards will be added in later chunks.
+The UI, Gemini endpoint, synthetic knowledge base seed, database foundation, Neon knowledge ingestion, embeddings, vector search, RAG chat citations, and conversation persistence are now in place. Tool calling, knowledge upload, and dashboards will be added in later chunks.
