@@ -4,7 +4,11 @@ import {
   getGeminiModel,
   MissingGeminiApiKeyError,
 } from "@/lib/ai/gemini";
-import { ASTRA_SYSTEM_PROMPT } from "@/lib/ai/prompts";
+import { buildAstraSystemPrompt } from "@/lib/ai/prompts";
+import {
+  retrieveRagContext,
+  summarizeRagSources,
+} from "@/lib/knowledge/rag";
 
 export const maxDuration = 30;
 
@@ -41,6 +45,22 @@ function parseMessages(body: unknown) {
   return body.messages;
 }
 
+function getTextFromMessage(message: UIMessage) {
+  return message.parts
+    .filter((part) => part.type === "text")
+    .map((part) => part.text)
+    .join("\n")
+    .trim();
+}
+
+function getLatestUserText(messages: UIMessage[]) {
+  const latestUserMessage = messages
+    .toReversed()
+    .find((message) => message.role === "user");
+
+  return latestUserMessage ? getTextFromMessage(latestUserMessage) : "";
+}
+
 export async function POST(req: Request) {
   let body: unknown;
 
@@ -60,14 +80,27 @@ export async function POST(req: Request) {
   }
 
   try {
+    const latestUserText = getLatestUserText(messages);
+    const ragContext = latestUserText
+      ? await retrieveRagContext(latestUserText)
+      : {
+          promptContext:
+            "No user question was available for knowledge-base retrieval.",
+          sources: [],
+        };
     const result = streamText({
       model: getGeminiModel(),
-      system: ASTRA_SYSTEM_PROMPT,
+      system: buildAstraSystemPrompt(ragContext.promptContext),
       messages: await convertToModelMessages(messages),
       temperature: 0.4,
     });
 
-    return result.toUIMessageStreamResponse();
+    return result.toUIMessageStreamResponse({
+      messageMetadata: ({ part }) =>
+        part.type === "finish"
+          ? { sources: summarizeRagSources(ragContext.sources) }
+          : undefined,
+    });
   } catch (error) {
     if (error instanceof MissingGeminiApiKeyError) {
       return Response.json(
