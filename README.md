@@ -55,6 +55,8 @@ The live chat route also uses this retrieval layer. For each visitor question, `
 
 Chat messages are persisted to Neon. The browser creates a session-scoped conversation id, sends it with each chat request, and `/api/chat` stores the latest visitor message plus the completed assistant response in `conversations` and `messages`.
 
+Lead capture is also wired into the chat route. When a visitor shows buying intent, asks for pricing, requests a call, or shares contact details, Gemini can call Astra's `captureLead` tool. The tool saves or updates a structured row in `leads` and marks the conversation as `qualified` when contact details and intent are strong enough.
+
 ## Database
 
 The project uses Neon Postgres with Drizzle ORM. Add your Neon connection string to `.env.local`:
@@ -79,4 +81,4 @@ The first migration creates conversations, messages, documents, document chunks,
 - Premium first-screen chat experience
 - Basic Gemini streaming chat endpoint
 
-The UI, Gemini endpoint, synthetic knowledge base seed, database foundation, Neon knowledge ingestion, embeddings, vector search, RAG chat citations, and conversation persistence are now in place. Tool calling, knowledge upload, and dashboards will be added in later chunks.
+The UI, Gemini endpoint, synthetic knowledge base seed, database foundation, Neon knowledge ingestion, embeddings, vector search, RAG chat citations, conversation persistence, and lead capture are now in place. Knowledge upload, dashboards, and deployment polish will be added in later chunks.

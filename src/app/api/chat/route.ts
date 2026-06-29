@@ -1,10 +1,16 @@
-import { convertToModelMessages, streamText, type UIMessage } from "ai";
+import {
+  convertToModelMessages,
+  stepCountIs,
+  streamText,
+  type UIMessage,
+} from "ai";
 
 import {
   getGeminiModel,
   MissingGeminiApiKeyError,
 } from "@/lib/ai/gemini";
 import { buildAstraSystemPrompt } from "@/lib/ai/prompts";
+import { createCaptureLeadTool } from "@/lib/ai/tools/capture-lead";
 import {
   ensureWebConversation,
   persistConversationMessage,
@@ -118,10 +124,18 @@ export async function POST(req: Request) {
             "No user question was available for knowledge-base retrieval.",
           sources: [],
         };
+    const tools = {
+      captureLead: createCaptureLeadTool(conversation.id),
+    };
     const result = streamText({
       model: getGeminiModel(),
       system: buildAstraSystemPrompt(ragContext.promptContext),
-      messages: await convertToModelMessages(messages),
+      messages: await convertToModelMessages(messages, {
+        tools,
+        ignoreIncompleteToolCalls: true,
+      }),
+      tools,
+      stopWhen: stepCountIs(3),
       temperature: 0.4,
     });
 

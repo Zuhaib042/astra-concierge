@@ -2,7 +2,7 @@
 
 import type { UIMessage } from "ai";
 import { motion } from "framer-motion";
-import { Bot, Check, Loader2, UserRound } from "lucide-react";
+import { Bot, BriefcaseBusiness, Check, Loader2, UserRound } from "lucide-react";
 
 import { MessageResponse } from "@/components/ai-elements/message";
 import { Badge } from "@/components/ui/badge";
@@ -19,6 +19,12 @@ type SourceBadge = {
   key: string;
   label: string;
   title: string;
+};
+type LeadBadge = {
+  key: string;
+  label: string;
+  title: string;
+  variant: "success" | "warning";
 };
 
 function isStoredDemoMessage(
@@ -75,11 +81,65 @@ function getSourceBadges(message: ChatMessageType | UIMessage): SourceBadge[] {
     }));
 }
 
+function isLeadToolOutput(value: unknown): value is {
+  leadId: string;
+  status: "new" | "qualified";
+  priority: "low" | "medium" | "high";
+  missingFields: string[];
+  message: string;
+} {
+  return (
+    isRecord(value) &&
+    typeof value.leadId === "string" &&
+    (value.status === "new" || value.status === "qualified") &&
+    (value.priority === "low" ||
+      value.priority === "medium" ||
+      value.priority === "high") &&
+    Array.isArray(value.missingFields) &&
+    value.missingFields.every((field) => typeof field === "string") &&
+    typeof value.message === "string"
+  );
+}
+
+function getLeadBadges(message: ChatMessageType | UIMessage): LeadBadge[] {
+  if (isStoredDemoMessage(message)) {
+    return [];
+  }
+
+  return message.parts.flatMap((part) => {
+    if (
+      !isRecord(part) ||
+      part.type !== "tool-captureLead" ||
+      part.state !== "output-available" ||
+      !isLeadToolOutput(part.output)
+    ) {
+      return [];
+    }
+
+    const output = part.output;
+    const missing =
+      output.missingFields.length > 0
+        ? ` Missing: ${output.missingFields.join(", ")}.`
+        : "";
+
+    return {
+      key: output.leadId,
+      label:
+        output.status === "qualified"
+          ? "Qualified lead captured"
+          : "Lead captured",
+      title: `${output.message}${missing}`,
+      variant: output.status === "qualified" ? "success" : "warning",
+    };
+  });
+}
+
 export function ChatMessage({ message }: ChatMessageProps) {
   const isAssistant = message.role === "assistant";
   const textParts = getTextParts(message);
   const hasText = textParts.some((part) => part.text.trim().length > 0);
   const sources = getSourceBadges(message);
+  const leadBadges = getLeadBadges(message);
   const timestamp = isStoredDemoMessage(message) ? message.timestamp : "Live";
   const displayName = isAssistant ? "Astra" : "Visitor";
 
@@ -139,6 +199,22 @@ export function ChatMessage({ message }: ChatMessageProps) {
             <span>Connecting to Gemini</span>
           </div>
         )}
+
+        {leadBadges.length > 0 ? (
+          <div className="mt-3 flex flex-wrap gap-2">
+            {leadBadges.map((lead) => (
+              <Badge
+                key={lead.key}
+                title={lead.title}
+                variant={lead.variant}
+                className="gap-1.5"
+              >
+                <BriefcaseBusiness className="h-3 w-3" aria-hidden="true" />
+                {lead.label}
+              </Badge>
+            ))}
+          </div>
+        ) : null}
 
         {sources.length > 0 ? (
           <div className="mt-3 flex flex-wrap gap-2">
