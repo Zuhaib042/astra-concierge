@@ -7,6 +7,7 @@ import { AlertCircle, Bot, CircleStop, ShieldCheck } from "lucide-react";
 import { DefaultChatTransport } from "ai";
 
 import { ChatMessage } from "@/components/chat/chat-message";
+import { ChatTypingIndicator } from "@/components/chat/chat-typing-indicator";
 import { MessageComposer } from "@/components/chat/message-composer";
 import { SuggestedPrompts } from "@/components/chat/suggested-prompts";
 import { Badge } from "@/components/ui/badge";
@@ -16,8 +17,18 @@ import {
   getAutomationLabelForPrompt,
   INITIAL_CHAT_MESSAGES,
 } from "@/lib/chat-demo";
+import type { UIMessage } from "ai";
 
 const CONVERSATION_ID_STORAGE_KEY = "astra-concierge-conversation-id";
+
+function hasVisibleAssistantText(message: UIMessage | undefined) {
+  return (
+    message?.role === "assistant" &&
+    message.parts.some(
+      (part) => part.type === "text" && part.text.trim().length > 0,
+    )
+  );
+}
 
 export function ChatWorkspace() {
   const [draft, setDraft] = useState("");
@@ -36,6 +47,8 @@ export function ChatWorkspace() {
 
   const isStreaming = status === "submitted" || status === "streaming";
   const statusLabel = error ? "Needs setup" : isStreaming ? "Answering" : "Ready";
+  const showTypingIndicator =
+    isStreaming && !hasVisibleAssistantText(messages.at(-1));
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
@@ -137,6 +150,7 @@ export function ChatWorkspace() {
           {messages.map((message) => (
             <ChatMessage key={message.id} message={message} />
           ))}
+          {showTypingIndicator ? <ChatTypingIndicator key="typing" /> : null}
         </AnimatePresence>
         {error ? (
           <div className="rounded-lg border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive-foreground">

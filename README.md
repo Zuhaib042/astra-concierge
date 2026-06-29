@@ -57,6 +57,16 @@ Chat messages are persisted to Neon. The browser creates a session-scoped conver
 
 Lead capture is also wired into the chat route. When a visitor shows buying intent, asks for pricing, requests a call, or shares contact details, Gemini can call Astra's `captureLead` tool. The tool saves or updates a structured row in `leads` and marks the conversation as `qualified` when contact details and intent are strong enough.
 
+## Admin Dashboard
+
+Open the read-only admin dashboard at:
+
+```txt
+http://localhost:3000/admin
+```
+
+The dashboard reads from Neon and summarizes conversations, leads, messages, embedded knowledge coverage, document categories, top lead intents, and recent saved chat turns. Before sharing a production deployment publicly, protect this route with authentication or Vercel project protection because it exposes operational data.
+
 ## Database
 
 The project uses Neon Postgres with Drizzle ORM. Add your Neon connection string to `.env.local`:
