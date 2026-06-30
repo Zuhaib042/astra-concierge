@@ -38,8 +38,6 @@ function formatSourceForPrompt(source: RagSource) {
     `Title: ${source.title}`,
     `Category: ${source.category}`,
     source.heading ? `Section: ${source.heading}` : null,
-    source.filePath ? `Source path: ${source.filePath}` : null,
-    `Similarity: ${source.similarity.toFixed(3)}`,
     "",
     truncateForPrompt(source.content),
   ]

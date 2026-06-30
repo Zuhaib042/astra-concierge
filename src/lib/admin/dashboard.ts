@@ -9,7 +9,8 @@ import {
   messages,
 } from "@/db/schema";
 
-const RECENT_LIMIT = 8;
+const OVERVIEW_LIMIT = 8;
+const RECENT_MESSAGE_LIMIT = 100;
 
 export type AdminMetricSummary = {
   conversations: {
@@ -86,6 +87,9 @@ export type AdminDashboardData = {
   recentMessages: AdminMessageRow[];
   documentsByCategory: AdminCategoryRow[];
   topLeadIntents: AdminIntentRow[];
+  limits: {
+    recentMessages: number;
+  };
 };
 
 function toNumber(value: unknown) {
@@ -195,7 +199,7 @@ async function getRecentLeads(): Promise<AdminLeadRow[]> {
     })
     .from(leads)
     .orderBy(desc(leads.updatedAt))
-    .limit(RECENT_LIMIT);
+    .limit(OVERVIEW_LIMIT);
 }
 
 async function getRecentConversations(): Promise<AdminConversationRow[]> {
@@ -217,7 +221,7 @@ async function getRecentConversations(): Promise<AdminConversationRow[]> {
     .leftJoin(leads, eq(leads.conversationId, conversations.id))
     .groupBy(conversations.id)
     .orderBy(desc(conversations.lastMessageAt), desc(conversations.createdAt))
-    .limit(RECENT_LIMIT);
+    .limit(OVERVIEW_LIMIT);
 
   return rows.map((row) => ({
     ...row,
@@ -240,7 +244,7 @@ async function getRecentMessages(): Promise<AdminMessageRow[]> {
     .from(messages)
     .innerJoin(conversations, eq(messages.conversationId, conversations.id))
     .orderBy(desc(messages.createdAt))
-    .limit(RECENT_LIMIT);
+    .limit(RECENT_MESSAGE_LIMIT);
 }
 
 async function getDocumentsByCategory(): Promise<AdminCategoryRow[]> {
@@ -253,7 +257,7 @@ async function getDocumentsByCategory(): Promise<AdminCategoryRow[]> {
     .from(documents)
     .groupBy(documents.category)
     .orderBy(sql`count(*) desc`)
-    .limit(RECENT_LIMIT);
+    .limit(OVERVIEW_LIMIT);
 
   return rows.map((row) => ({
     category: row.category,
@@ -272,7 +276,7 @@ async function getTopLeadIntents(): Promise<AdminIntentRow[]> {
     .where(sql`${leads.intent} is not null`)
     .groupBy(leads.intent)
     .orderBy(sql`count(*) desc`)
-    .limit(RECENT_LIMIT);
+    .limit(OVERVIEW_LIMIT);
 
   return rows
     .filter(
@@ -320,5 +324,8 @@ export async function getAdminDashboardData(): Promise<AdminDashboardData> {
     recentMessages,
     documentsByCategory,
     topLeadIntents,
+    limits: {
+      recentMessages: RECENT_MESSAGE_LIMIT,
+    },
   };
 }

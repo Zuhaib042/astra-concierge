@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ComponentType } from "react";
 import {
   Activity,
-  ArrowUpRight,
+  ArrowLeft,
   Bot,
   BriefcaseBusiness,
   CircleAlert,
@@ -21,6 +21,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { AdminTimeZoneSelect } from "@/components/admin/admin-time-zone-select";
 import type {
   AdminCategoryRow,
   AdminConversationRow,
@@ -29,7 +30,10 @@ import type {
   AdminLeadRow,
   AdminMessageRow,
 } from "@/lib/admin/dashboard";
+import { removeInternalSourceMarkers } from "@/lib/chat/display-text";
 import { PROJECT } from "@/lib/project";
+import { formatBusinessDateTime } from "@/lib/time/format";
+import type { BusinessTimeZone } from "@/lib/time/options";
 import { cn } from "@/lib/utils";
 
 type BadgeVariant = BadgeProps["variant"];
@@ -43,19 +47,6 @@ type MetricCardProps = {
 
 function formatNumber(value: number) {
   return new Intl.NumberFormat("en").format(value);
-}
-
-function formatDateTime(value: Date | null) {
-  if (!value) {
-    return "No activity yet";
-  }
-
-  return new Intl.DateTimeFormat("en", {
-    month: "short",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(value);
 }
 
 function truncateText(value: string, maxLength = 110) {
@@ -149,7 +140,13 @@ function EmptyState({ label }: { label: string }) {
   );
 }
 
-function LeadPipelineTable({ leads }: { leads: AdminLeadRow[] }) {
+function LeadPipelineTable({
+  leads,
+  timeZone,
+}: {
+  leads: AdminLeadRow[];
+  timeZone: BusinessTimeZone;
+}) {
   if (leads.length === 0) {
     return <EmptyState label="No leads have been captured yet." />;
   }
@@ -160,7 +157,7 @@ function LeadPipelineTable({ leads }: { leads: AdminLeadRow[] }) {
         <thead className="border-y border-border bg-secondary/60 text-xs uppercase text-muted-foreground">
           <tr>
             <th className="px-5 py-3 font-medium">Lead</th>
-            <th className="px-5 py-3 font-medium">Intent</th>
+            <th className="px-5 py-3 font-medium">Visitor need</th>
             <th className="px-5 py-3 font-medium">Status</th>
             <th className="px-5 py-3 font-medium">Budget</th>
             <th className="px-5 py-3 font-medium">Updated</th>
@@ -177,7 +174,7 @@ function LeadPipelineTable({ leads }: { leads: AdminLeadRow[] }) {
               </td>
               <td className="px-5 py-4 text-muted-foreground">
                 <p className="max-w-56 text-foreground">
-                  {lead.intent ?? "Intent not clear yet"}
+                  {lead.intent ?? "Visitor need not clear yet"}
                 </p>
                 <p className="mt-1 text-xs">{lead.timeline ?? "Timeline unknown"}</p>
               </td>
@@ -195,7 +192,7 @@ function LeadPipelineTable({ leads }: { leads: AdminLeadRow[] }) {
                 {lead.budgetRange ?? "Not shared"}
               </td>
               <td className="px-5 py-4 text-muted-foreground">
-                {formatDateTime(lead.updatedAt)}
+                {formatBusinessDateTime(lead.updatedAt, timeZone)}
               </td>
             </tr>
           ))}
@@ -207,8 +204,10 @@ function LeadPipelineTable({ leads }: { leads: AdminLeadRow[] }) {
 
 function ConversationList({
   conversations,
+  timeZone,
 }: {
   conversations: AdminConversationRow[];
+  timeZone: BusinessTimeZone;
 }) {
   if (conversations.length === 0) {
     return <EmptyState label="No conversations have been stored yet." />;
@@ -235,7 +234,10 @@ function ConversationList({
             </p>
           </div>
           <p className="text-sm text-muted-foreground md:text-right">
-            {formatDateTime(conversation.lastMessageAt ?? conversation.createdAt)}
+            {formatBusinessDateTime(
+              conversation.lastMessageAt ?? conversation.createdAt,
+              timeZone,
+            )}
           </p>
         </div>
       ))}
@@ -254,7 +256,7 @@ function KnowledgeHealth({
     <div className="space-y-5 px-5 pb-5">
       <div>
         <div className="flex items-center justify-between gap-4 text-sm">
-          <span className="text-muted-foreground">Embedded chunk coverage</span>
+          <span className="text-muted-foreground">Answer-ready coverage</span>
           <span className="font-medium text-foreground">{coverage}%</span>
         </div>
         <div className="mt-3 h-2 overflow-hidden rounded-full bg-secondary">
@@ -266,7 +268,7 @@ function KnowledgeHealth({
       </div>
 
       {categories.length === 0 ? (
-        <EmptyState label="No source documents have been ingested yet." />
+        <EmptyState label="No business documents are available yet." />
       ) : (
         <div className="space-y-3">
           {categories.map((category) => (
@@ -288,7 +290,7 @@ function KnowledgeHealth({
 
 function LeadIntentList({ intents }: { intents: AdminIntentRow[] }) {
   if (intents.length === 0) {
-    return <EmptyState label="No lead intent patterns are available yet." />;
+    return <EmptyState label="No visitor need patterns are available yet." />;
   }
 
   return (
@@ -306,13 +308,19 @@ function LeadIntentList({ intents }: { intents: AdminIntentRow[] }) {
   );
 }
 
-function RecentMessageList({ messages }: { messages: AdminMessageRow[] }) {
+function RecentMessageList({
+  messages,
+  timeZone,
+}: {
+  messages: AdminMessageRow[];
+  timeZone: BusinessTimeZone;
+}) {
   if (messages.length === 0) {
     return <EmptyState label="No messages have been saved yet." />;
   }
 
   return (
-    <div className="divide-y divide-border">
+    <div className="max-h-[720px] divide-y divide-border overflow-y-auto">
       {messages.map((message) => (
         <div key={message.id} className="px-5 py-4">
           <div className="flex flex-wrap items-center justify-between gap-2">
@@ -320,11 +328,11 @@ function RecentMessageList({ messages }: { messages: AdminMessageRow[] }) {
               {formatLabel(message.role)}
             </Badge>
             <span className="text-xs text-muted-foreground">
-              {formatDateTime(message.createdAt)}
+              {formatBusinessDateTime(message.createdAt, timeZone)}
             </span>
           </div>
           <p className="mt-3 text-sm leading-6 text-foreground">
-            {truncateText(message.content)}
+            {truncateText(removeInternalSourceMarkers(message.content))}
           </p>
           <p className="mt-2 text-xs text-muted-foreground">
             {message.conversationTitle}
@@ -335,7 +343,13 @@ function RecentMessageList({ messages }: { messages: AdminMessageRow[] }) {
   );
 }
 
-export function AdminDashboard({ data }: { data: AdminDashboardData }) {
+export function AdminDashboard({
+  data,
+  selectedTimeZone,
+}: {
+  data: AdminDashboardData;
+  selectedTimeZone: BusinessTimeZone;
+}) {
   const { summary } = data;
 
   return (
@@ -360,13 +374,14 @@ export function AdminDashboard({ data }: { data: AdminDashboardData }) {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex w-full flex-col gap-3 sm:w-auto sm:items-end">
+            <AdminTimeZoneSelect selectedTimeZone={selectedTimeZone} />
             <Link
               href="/"
               className={cn(buttonVariants({ variant: "secondary", size: "sm" }))}
             >
-              Open concierge
-              <ArrowUpRight className="h-4 w-4" aria-hidden />
+              <ArrowLeft className="h-4 w-4" aria-hidden />
+              Back to main page
             </Link>
           </div>
         </header>
@@ -402,7 +417,7 @@ export function AdminDashboard({ data }: { data: AdminDashboardData }) {
             value={`${summary.knowledge.embeddingCoverage}%`}
             detail={`${formatNumber(summary.knowledge.embeddedChunks)} of ${formatNumber(
               summary.knowledge.chunks,
-            )} chunks embedded`}
+            )} knowledge passages ready`}
           />
         </section>
 
@@ -412,12 +427,15 @@ export function AdminDashboard({ data }: { data: AdminDashboardData }) {
               title="Lead pipeline"
               description="The most recently updated prospects captured by Astra."
             />
-            <LeadPipelineTable leads={data.recentLeads} />
+            <LeadPipelineTable
+              leads={data.recentLeads}
+              timeZone={selectedTimeZone}
+            />
           </Card>
 
           <Card className="overflow-hidden">
             <SectionHeading
-              title="Top lead intents"
+              title="Top visitor needs"
               description="Common buying signals currently appearing in captured leads."
             />
             <LeadIntentList intents={data.topLeadIntents} />
@@ -430,7 +448,10 @@ export function AdminDashboard({ data }: { data: AdminDashboardData }) {
               title="Recent conversations"
               description="Stored visitor sessions with message and lead counts."
             />
-            <ConversationList conversations={data.recentConversations} />
+            <ConversationList
+              conversations={data.recentConversations}
+              timeZone={selectedTimeZone}
+            />
           </Card>
 
           <Card className="overflow-hidden">
@@ -438,7 +459,7 @@ export function AdminDashboard({ data }: { data: AdminDashboardData }) {
               title="Knowledge health"
               description={`${formatNumber(
                 summary.knowledge.documents,
-              )} documents indexed across the demo corpus.`}
+              )} business documents available to the concierge.`}
             />
             <KnowledgeHealth
               coverage={summary.knowledge.embeddingCoverage}
@@ -449,10 +470,15 @@ export function AdminDashboard({ data }: { data: AdminDashboardData }) {
 
         <Card className="overflow-hidden">
           <SectionHeading
-            title="Recent message stream"
-            description="A quick audit trail for the newest saved chat turns."
+            title="Recent chat activity"
+            description={`A quick view of the newest saved visitor messages, capped at ${formatNumber(
+              data.limits.recentMessages,
+            )}.`}
           />
-          <RecentMessageList messages={data.recentMessages} />
+          <RecentMessageList
+            messages={data.recentMessages}
+            timeZone={selectedTimeZone}
+          />
         </Card>
       </div>
     </main>
@@ -470,13 +496,14 @@ export function AdminDashboardUnavailable() {
             </div>
             <CardTitle>Admin dashboard unavailable</CardTitle>
             <CardDescription>
-              Astra could not load the dashboard data. Check that `DATABASE_URL`
-              is configured and that the Neon database is reachable.
+              Astra could not load the dashboard data. Check the server
+              environment and database connection, then refresh this page.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap gap-2">
             <Link href="/" className={cn(buttonVariants({ variant: "secondary" }))}>
-              Back to concierge
+              <ArrowLeft className="h-4 w-4" aria-hidden />
+              Back to main page
             </Link>
             <Badge variant="outline" className="gap-1.5">
               <ShieldCheck className="h-3.5 w-3.5" aria-hidden />

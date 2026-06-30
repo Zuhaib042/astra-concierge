@@ -13,10 +13,7 @@ import { SuggestedPrompts } from "@/components/chat/suggested-prompts";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import {
-  getAutomationLabelForPrompt,
-  INITIAL_CHAT_MESSAGES,
-} from "@/lib/chat-demo";
+import { INITIAL_CHAT_MESSAGES } from "@/lib/chat-demo";
 import type { UIMessage } from "ai";
 
 const CONVERSATION_ID_STORAGE_KEY = "astra-concierge-conversation-id";
@@ -32,9 +29,6 @@ function hasVisibleAssistantText(message: UIMessage | undefined) {
 
 export function ChatWorkspace() {
   const [draft, setDraft] = useState("");
-  const [lastAutomation, setLastAutomation] = useState(
-    "Conversation summary ready",
-  );
 
   const conversationIdRef = useRef<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -46,7 +40,11 @@ export function ChatWorkspace() {
     });
 
   const isStreaming = status === "submitted" || status === "streaming";
-  const statusLabel = error ? "Needs setup" : isStreaming ? "Answering" : "Ready";
+  const statusLabel = error
+    ? "Temporarily unavailable"
+    : isStreaming
+      ? "Answering"
+      : "Ready";
   const showTypingIndicator =
     isStreaming && !hasVisibleAssistantText(messages.at(-1));
 
@@ -79,7 +77,6 @@ export function ChatWorkspace() {
 
     setDraft("");
     clearError();
-    setLastAutomation(getAutomationLabelForPrompt(prompt));
     void sendMessage(
       { text: prompt },
       { body: { conversationId: getConversationId() } },
@@ -102,7 +99,7 @@ export function ChatWorkspace() {
                 Astra Concierge
               </h2>
               <p className="text-xs text-muted-foreground">
-                Gemini streaming demo for an AI automation agency
+                AI concierge for service businesses
               </p>
             </div>
           </div>
@@ -134,10 +131,10 @@ export function ChatWorkspace() {
       <div className="border-b border-border bg-background/40 px-5 py-3">
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
           <span className="rounded-md border border-border bg-muted px-2 py-1">
-            Intent: service inquiry
+            Answers service questions
           </span>
           <span className="rounded-md border border-border bg-muted px-2 py-1">
-            Automation: {lastAutomation}
+            Guides visitors to the right next step
           </span>
         </div>
       </div>
@@ -156,8 +153,8 @@ export function ChatWorkspace() {
           <div className="rounded-lg border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive-foreground">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p>
-                Live Gemini chat is not configured yet. Add a Gemini API key to
-                the server environment and restart the app.
+                Astra is having trouble responding right now. Please try again
+                in a moment.
               </p>
               <Button
                 type="button"

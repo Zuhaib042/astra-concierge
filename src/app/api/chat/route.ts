@@ -92,7 +92,7 @@ export async function POST(req: Request) {
 
   if (!messages) {
     return Response.json(
-      { error: "Expected a messages array from the chat client." },
+      { error: "Expected a messages array from the chat interface." },
       { status: 400 },
     );
   }
@@ -171,8 +171,7 @@ export async function POST(req: Request) {
     if (error instanceof MissingGeminiApiKeyError) {
       return Response.json(
         {
-          error:
-            "Chat is not configured yet. Add a Gemini API key on the server.",
+          error: "Astra is temporarily unavailable. Please try again soon.",
         },
         { status: 503 },
       );

@@ -67,6 +67,12 @@ http://localhost:3000/admin
 
 The dashboard reads from Neon and summarizes conversations, leads, messages, embedded knowledge coverage, document categories, top lead intents, and recent saved chat turns. Before sharing a production deployment publicly, protect this route with authentication or Vercel project protection because it exposes operational data.
 
+Dashboard timestamps are formatted with `date-fns-tz`. Set `APP_TIME_ZONE` in `.env.local` or Vercel for the default business timezone. Admin users can also switch the dashboard display with the curated timezone select in the dashboard header; the selection is stored in the `tz` URL query parameter.
+
+## Public Demo Polish
+
+The public homepage should read like a premium client-facing product, not a developer demo. Avoid exposing provider names, route names, internal source ids, implementation labels, or non-clickable link-like UI. The live concierge still uses the knowledge and lead-capture systems behind the scenes, but visitors should see clear business outcomes: service answers, lead qualification, handoff, owner visibility, and tailored automation.
+
 ## Database
 
 The project uses Neon Postgres with Drizzle ORM. Add your Neon connection string to `.env.local`:
