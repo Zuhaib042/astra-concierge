@@ -1,0 +1,3202 @@
+[
+  {
+    "ticketId": "TK-00001",
+    "companyName": "Koepp and Sons",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 138,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00002",
+    "companyName": "Lynch - Rau",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 651,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00003",
+    "companyName": "Conn, Fahey and Champlin",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 371,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00004",
+    "companyName": "Wilderman - Fisher",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 338,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00005",
+    "companyName": "Baumbach - Hessel",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 542,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00006",
+    "companyName": "Reynolds Group",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 353,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00007",
+    "companyName": "Pfeffer, Ernser and Goyette",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 172,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00008",
+    "companyName": "Russel Group",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 483,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00009",
+    "companyName": "Zieme - Upton",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 183,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00010",
+    "companyName": "Oberbrunner-Nikolaus, Collier and Waters",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 290,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00011",
+    "companyName": "Steuber LLC",
+    "scenario": "payment question outside approved policy",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 429,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00012",
+    "companyName": "Padberg - Ruecker",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 652,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00013",
+    "companyName": "Glover Group",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 497,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00014",
+    "companyName": "Reinger, Maggio and Bergnaum",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 228,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00015",
+    "companyName": "Ledner - D'Amore",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 627,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00016",
+    "companyName": "Labadie - Wisoky",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 126,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00017",
+    "companyName": "Berge Inc",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 238,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00018",
+    "companyName": "Schulist and Sons",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 300,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00019",
+    "companyName": "Howe, Kohler and Russel",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 435,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00020",
+    "companyName": "Volkman Inc",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 268,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00021",
+    "companyName": "Predovic-Robel and Sons",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 208,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00022",
+    "companyName": "McLaughlin, Armstrong and Lynch",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 167,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00023",
+    "companyName": "Schneider - Bayer",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 468,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00024",
+    "companyName": "Wehner Inc",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 613,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00025",
+    "companyName": "Klein, Schultz and Welch",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 229,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00026",
+    "companyName": "Cremin, Fritsch and Wuckert",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 542,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00027",
+    "companyName": "Jacobs, Hauck-Rosenbaum and Schiller",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 492,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00028",
+    "companyName": "Miller - Heathcote",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 271,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00029",
+    "companyName": "Schulist - Rogahn-Mante",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 648,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00030",
+    "companyName": "Lehner - Oberbrunner",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 41,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00031",
+    "companyName": "Harvey-Senger, Feeney and Bauch",
+    "scenario": "CRM sync failure",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 150,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00032",
+    "companyName": "Considine - Parisian",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 598,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00033",
+    "companyName": "Ryan - Wolff",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 35,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00034",
+    "companyName": "Berge and Sons",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 182,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00035",
+    "companyName": "MacGyver - Kirlin",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 323,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00036",
+    "companyName": "Larson - Sauer",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 64,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00037",
+    "companyName": "Schmeler, Wiza-Dare and McDermott",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 437,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00038",
+    "companyName": "Gutmann - Rutherford",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 405,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00039",
+    "companyName": "Hoppe-Reynolds - Emmerich",
+    "scenario": "document source conflict",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 166,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00040",
+    "companyName": "Cummerata LLC",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 481,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00041",
+    "companyName": "Graham - Kihn",
+    "scenario": "unanswered visitor question",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 294,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00042",
+    "companyName": "McLaughlin Inc",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 123,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00043",
+    "companyName": "Boyer - Strosin",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 388,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00044",
+    "companyName": "Davis, Swift-Streich and Moen",
+    "scenario": "competitor comparison request",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 59,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00045",
+    "companyName": "Paucek - Stracke",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 98,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00046",
+    "companyName": "Hegmann - Jast",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 172,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00047",
+    "companyName": "Dach, Ritchie and Carroll",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 165,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00048",
+    "companyName": "Torphy, Rowe and Maggio",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 716,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00049",
+    "companyName": "Predovic, Stamm and Pacocha",
+    "scenario": "unanswered visitor question",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 648,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00050",
+    "companyName": "Gutkowski and Sons",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 447,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00051",
+    "companyName": "Fadel Inc",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 261,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00052",
+    "companyName": "Reilly and Sons",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 168,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00053",
+    "companyName": "Hills - Murray",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 396,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00054",
+    "companyName": "O'Keefe, Erdman and McCullough",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 292,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00055",
+    "companyName": "Kunze LLC",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 511,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00056",
+    "companyName": "Mueller, Buckridge and Lang",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 3,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00057",
+    "companyName": "Becker - Kassulke",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 318,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00058",
+    "companyName": "Hodkiewicz Group",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 316,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00059",
+    "companyName": "Powlowski, Keebler and Schumm",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 292,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00060",
+    "companyName": "Mueller Inc",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 678,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00061",
+    "companyName": "Windler Inc",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 432,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00062",
+    "companyName": "Schaefer and Sons",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 277,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00063",
+    "companyName": "Rippin - Mayer",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 299,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00064",
+    "companyName": "Kerluke - Mayer",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 313,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00065",
+    "companyName": "Emmerich, Heaney and Hegmann",
+    "scenario": "document source conflict",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 23,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00066",
+    "companyName": "Bergnaum Group",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 480,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00067",
+    "companyName": "Beahan - Streich",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 145,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00068",
+    "companyName": "Stamm, Feil and Mueller",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 11,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00069",
+    "companyName": "Corkery, Schneider and Schroeder",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 474,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00070",
+    "companyName": "Bernier, Terry and Ankunding",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 557,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00071",
+    "companyName": "Heaney, Grimes and Anderson",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 271,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00072",
+    "companyName": "Medhurst, Williamson and Thompson",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 441,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00073",
+    "companyName": "Reynolds - Jacobi",
+    "scenario": "low-confidence answer",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 627,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00074",
+    "companyName": "Ortiz, Murazik and Blanda",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 181,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00075",
+    "companyName": "Erdman - Kilback",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 578,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00076",
+    "companyName": "Farrell - Cronin",
+    "scenario": "competitor comparison request",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 190,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00077",
+    "companyName": "Nolan and Sons",
+    "scenario": "unanswered visitor question",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 514,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00078",
+    "companyName": "Dach, Wyman and Kirlin-Ebert",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 21,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00079",
+    "companyName": "Pfannerstill - Lakin",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 114,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00080",
+    "companyName": "Thompson, Koelpin and Doyle",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 442,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00081",
+    "companyName": "Haag - Halvorson",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 611,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00082",
+    "companyName": "Bogan-Bartoletti, Sanford and Shanahan",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 123,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00083",
+    "companyName": "Boyer, Kovacek-Nolan and Hilll",
+    "scenario": "payment question outside approved policy",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 25,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00084",
+    "companyName": "Johns, Friesen and Sporer",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 22,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00085",
+    "companyName": "Beahan, Farrell and Gutkowski",
+    "scenario": "document source conflict",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 591,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00086",
+    "companyName": "Veum - Marvin",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 200,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00087",
+    "companyName": "Steuber - Hessel",
+    "scenario": "document source conflict",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 218,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00088",
+    "companyName": "Powlowski - Marvin",
+    "scenario": "competitor comparison request",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 66,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00089",
+    "companyName": "Rau-Hauck Group",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 318,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00090",
+    "companyName": "Thompson Inc",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 249,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00091",
+    "companyName": "Hermiston - Rutherford",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 41,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00092",
+    "companyName": "Effertz-Quitzon, McKenzie and Wunsch",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 342,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00093",
+    "companyName": "Koch - Dietrich",
+    "scenario": "document source conflict",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 636,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00094",
+    "companyName": "Doyle - Deckow",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 541,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00095",
+    "companyName": "Schowalter Inc",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 493,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00096",
+    "companyName": "Hammes Group",
+    "scenario": "appointment slot unavailable",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 646,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00097",
+    "companyName": "Sipes, Reinger and Grady",
+    "scenario": "payment question outside approved policy",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 483,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00098",
+    "companyName": "Stroman Group",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 255,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00099",
+    "companyName": "Herzog, Mayer and Conroy",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 685,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00100",
+    "companyName": "Hammes, Hammes and Grimes",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 462,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00101",
+    "companyName": "Ebert - Bechtelar",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 709,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00102",
+    "companyName": "Senger, Ryan and Marquardt",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 194,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00103",
+    "companyName": "Kuhn and Sons",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 696,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00104",
+    "companyName": "Hodkiewicz Inc",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 58,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00105",
+    "companyName": "Herzog - McLaughlin",
+    "scenario": "CRM sync failure",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 561,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00106",
+    "companyName": "Keebler, Kirlin and Daugherty",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 355,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00107",
+    "companyName": "Kshlerin LLC",
+    "scenario": "payment question outside approved policy",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 78,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00108",
+    "companyName": "Hermann Group",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 321,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00109",
+    "companyName": "Stehr, Altenwerth and Gerhold",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 603,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00110",
+    "companyName": "Wiza, Block and Sporer",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 139,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00111",
+    "companyName": "Mertz - Ritchie",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 169,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00112",
+    "companyName": "O'Reilly - Kertzmann",
+    "scenario": "payment question outside approved policy",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 478,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00113",
+    "companyName": "Schowalter, Jenkins and Ryan",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 501,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00114",
+    "companyName": "O'Hara - Breitenberg",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 378,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00115",
+    "companyName": "Barrows-Dooley - Schmeler-Legros",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 473,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00116",
+    "companyName": "Witting - Huel",
+    "scenario": "payment question outside approved policy",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 334,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00117",
+    "companyName": "Hegmann and Sons",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 80,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00118",
+    "companyName": "Lubowitz and Sons",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 435,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00119",
+    "companyName": "Schmitt, Windler and Reilly",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 405,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00120",
+    "companyName": "Gusikowski - Denesik",
+    "scenario": "payment question outside approved policy",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 613,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00121",
+    "companyName": "Von - Wisozk",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 273,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00122",
+    "companyName": "Zemlak LLC",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 272,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00123",
+    "companyName": "Fisher, Borer and Lakin",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 231,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00124",
+    "companyName": "Yost-Ruecker Inc",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 340,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00125",
+    "companyName": "Williamson, Bailey-Bruen and Flatley",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 530,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00126",
+    "companyName": "Torphy Group",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 384,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00127",
+    "companyName": "Hyatt Inc",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 574,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00128",
+    "companyName": "Koelpin - Waelchi",
+    "scenario": "payment question outside approved policy",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 151,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00129",
+    "companyName": "Parisian, Purdy and Schuster",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 178,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00130",
+    "companyName": "Langosh and Sons",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 209,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00131",
+    "companyName": "Zieme, Pfeffer and Gleichner",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 326,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00132",
+    "companyName": "Braun, Turcotte and Feeney",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 158,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00133",
+    "companyName": "Towne, Smith and Harber",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 107,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00134",
+    "companyName": "Sporer Inc",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 544,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00135",
+    "companyName": "Sporer, Hodkiewicz and Schumm",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 99,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00136",
+    "companyName": "Wolf and Sons",
+    "scenario": "appointment slot unavailable",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 500,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00137",
+    "companyName": "Schinner and Sons",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 178,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00138",
+    "companyName": "Cronin Inc",
+    "scenario": "document source conflict",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 205,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00139",
+    "companyName": "Bailey - Koepp",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 720,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00140",
+    "companyName": "Cormier Group",
+    "scenario": "document source conflict",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 414,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00141",
+    "companyName": "Schuster Group",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 461,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00142",
+    "companyName": "Graham Group",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 626,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00143",
+    "companyName": "Price, Streich and Mertz",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 51,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00144",
+    "companyName": "Hand - Miller",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 93,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00145",
+    "companyName": "Thompson - Jones",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 309,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00146",
+    "companyName": "Moen - Parisian",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 444,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00147",
+    "companyName": "Beier - Mayert",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 683,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00148",
+    "companyName": "DuBuque LLC",
+    "scenario": "document source conflict",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 478,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00149",
+    "companyName": "Tremblay - Considine",
+    "scenario": "document source conflict",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 538,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00150",
+    "companyName": "Moen, Jerde and Luettgen",
+    "scenario": "CRM sync failure",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 241,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00151",
+    "companyName": "Brown - Hirthe",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 439,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00152",
+    "companyName": "Schoen, Stehr and Runolfsson",
+    "scenario": "low-confidence answer",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 473,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00153",
+    "companyName": "Huel Inc",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 376,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00154",
+    "companyName": "Johnson, Schultz and Larkin",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 513,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00155",
+    "companyName": "Bogisich - Schneider",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 586,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00156",
+    "companyName": "Schultz, Klein and Durgan",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 339,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00157",
+    "companyName": "King, Wuckert and Sporer",
+    "scenario": "document source conflict",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 534,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00158",
+    "companyName": "Olson Inc",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 428,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00159",
+    "companyName": "Wilderman Group",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 85,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00160",
+    "companyName": "Jerde, Funk and Nikolaus",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 213,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00161",
+    "companyName": "Labadie Group",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 576,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00162",
+    "companyName": "Rutherford, Wolff and Kulas",
+    "scenario": "payment question outside approved policy",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 448,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00163",
+    "companyName": "Wolf - Kub",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 43,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00164",
+    "companyName": "Weber, Blick and Jast",
+    "scenario": "document source conflict",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 125,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00165",
+    "companyName": "Smith - Lang",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 466,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00166",
+    "companyName": "Thiel - Cummerata",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 445,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00167",
+    "companyName": "Torphy - Flatley",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 665,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00168",
+    "companyName": "Kautzer Group",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 353,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00169",
+    "companyName": "Klocko - Tromp",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 465,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00170",
+    "companyName": "Koelpin - Mitchell",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 423,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00171",
+    "companyName": "Emard - Kulas",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 585,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00172",
+    "companyName": "Gottlieb, Emard and Spencer",
+    "scenario": "unanswered visitor question",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 183,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00173",
+    "companyName": "O'Hara and Sons",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 684,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00174",
+    "companyName": "McDermott and Sons",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 89,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00175",
+    "companyName": "Spinka, Runolfsdottir and Boyle",
+    "scenario": "unanswered visitor question",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 628,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00176",
+    "companyName": "Beatty - Herman-Torp",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 325,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00177",
+    "companyName": "Lesch - Thiel",
+    "scenario": "CRM sync failure",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 620,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00178",
+    "companyName": "Kuhn and Sons",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 467,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00179",
+    "companyName": "Nikolaus Inc",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 116,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00180",
+    "companyName": "Hermann, Schroeder-Barrows and Cronin",
+    "scenario": "document source conflict",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 667,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00181",
+    "companyName": "Bashirian, Cummerata and Hirthe",
+    "scenario": "CRM sync failure",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 697,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00182",
+    "companyName": "Schaefer, Hills-Lowe and Runolfsdottir",
+    "scenario": "document source conflict",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 329,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00183",
+    "companyName": "Friesen - Goyette",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 406,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00184",
+    "companyName": "Harris Inc",
+    "scenario": "unanswered visitor question",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 431,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00185",
+    "companyName": "Schmeler, Bins and Will",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 370,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00186",
+    "companyName": "Feil and Sons",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 546,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00187",
+    "companyName": "Grimes, Ebert and Goldner",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 62,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00188",
+    "companyName": "Gerhold, Kessler and Deckow-Metz",
+    "scenario": "unanswered visitor question",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 247,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00189",
+    "companyName": "Rosenbaum, Homenick and Bartell",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 310,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00190",
+    "companyName": "Harris - Paucek",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 580,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00191",
+    "companyName": "Balistreri Inc",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 534,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00192",
+    "companyName": "Glover LLC",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 105,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00193",
+    "companyName": "Bauch - Macejkovic",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 425,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00194",
+    "companyName": "Zieme - Ziemann",
+    "scenario": "document source conflict",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 459,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00195",
+    "companyName": "Osinski and Sons",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 80,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00196",
+    "companyName": "Brekke Group",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 256,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00197",
+    "companyName": "Little, McGlynn and Brekke",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 323,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00198",
+    "companyName": "Kiehn LLC",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 146,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00199",
+    "companyName": "Luettgen - Tillman",
+    "scenario": "document source conflict",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 550,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00200",
+    "companyName": "Rolfson LLC",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 445,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00201",
+    "companyName": "Gutmann LLC",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 160,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00202",
+    "companyName": "Morissette Group",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 280,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00203",
+    "companyName": "Sanford - Kub",
+    "scenario": "payment question outside approved policy",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 152,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00204",
+    "companyName": "Larson, Padberg and Mertz",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 79,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00205",
+    "companyName": "Feeney and Sons",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 382,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00206",
+    "companyName": "Stokes, Mayert and Hermann",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 563,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00207",
+    "companyName": "Padberg LLC",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 464,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00208",
+    "companyName": "Strosin, Becker and Prohaska",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 453,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00209",
+    "companyName": "Parisian - Vandervort",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 507,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00210",
+    "companyName": "Schmitt, Strosin and Beahan-Jenkins",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 493,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00211",
+    "companyName": "Davis, Breitenberg and Reynolds",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 223,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00212",
+    "companyName": "Pfeffer, Kunze and Langosh",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 35,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00213",
+    "companyName": "Carter - Lesch",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 372,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00214",
+    "companyName": "Runolfsdottir Group",
+    "scenario": "document source conflict",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 594,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00215",
+    "companyName": "Wuckert Group",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 687,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00216",
+    "companyName": "King, White and Wintheiser",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 52,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00217",
+    "companyName": "West Inc",
+    "scenario": "document source conflict",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 627,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00218",
+    "companyName": "Macejkovic, Mante and Sipes",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 537,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00219",
+    "companyName": "Reinger - Paucek",
+    "scenario": "appointment slot unavailable",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 385,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00220",
+    "companyName": "Wilderman, Gislason and Ryan",
+    "scenario": "document source conflict",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 225,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00221",
+    "companyName": "Mraz LLC",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 293,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00222",
+    "companyName": "Predovic - Gleichner",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 719,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00223",
+    "companyName": "Boehm Inc",
+    "scenario": "competitor comparison request",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 308,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00224",
+    "companyName": "Sporer - McClure",
+    "scenario": "appointment slot unavailable",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 456,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00225",
+    "companyName": "Aufderhar - Rau",
+    "scenario": "payment question outside approved policy",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 319,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00226",
+    "companyName": "Padberg - Sanford",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 30,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00227",
+    "companyName": "Stark, Pollich and Jerde",
+    "scenario": "unanswered visitor question",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 176,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00228",
+    "companyName": "Tromp - Cartwright",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 146,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00229",
+    "companyName": "Lindgren, Schoen and Cremin",
+    "scenario": "document source conflict",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 158,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00230",
+    "companyName": "Wolf, Conn and Becker",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 225,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00231",
+    "companyName": "Conroy - Nicolas",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 395,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00232",
+    "companyName": "Jenkins Inc",
+    "scenario": "low-confidence answer",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 528,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00233",
+    "companyName": "Jerde, Hyatt and Graham",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 557,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00234",
+    "companyName": "Jenkins - Marquardt",
+    "scenario": "appointment slot unavailable",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 52,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00235",
+    "companyName": "Spinka Inc",
+    "scenario": "document source conflict",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 509,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00236",
+    "companyName": "Thiel, Marks and Tremblay",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "email",
+    "minutesToFirstResponse": 260,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00237",
+    "companyName": "Hansen and Sons",
+    "scenario": "payment question outside approved policy",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 40,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00238",
+    "companyName": "Botsford - Konopelski",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 589,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00239",
+    "companyName": "Kulas - Heidenreich",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 206,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00240",
+    "companyName": "Simonis Group",
+    "scenario": "competitor comparison request",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 401,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00241",
+    "companyName": "Glover - Schaefer",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 662,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00242",
+    "companyName": "Welch - Miller",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 499,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00243",
+    "companyName": "DuBuque, Hoeger and Kilback",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 677,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00244",
+    "companyName": "Cremin - Spencer-Kozey",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 465,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00245",
+    "companyName": "Reilly-Reichel LLC",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 367,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00246",
+    "companyName": "Durgan - Beer",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 689,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00247",
+    "companyName": "Leuschke, Gleichner and Franey",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 639,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00248",
+    "companyName": "Cassin-Emard - Hackett",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 152,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00249",
+    "companyName": "Wiegand LLC",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 181,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00250",
+    "companyName": "Mayer - Heller",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 23,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00251",
+    "companyName": "Rutherford - Lesch",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 229,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00252",
+    "companyName": "Weissnat, Bailey and Mohr",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 404,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00253",
+    "companyName": "Volkman, Daniel and Hand",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 175,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00254",
+    "companyName": "Bernhard - Strosin",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 336,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00255",
+    "companyName": "Johns, Balistreri and Labadie",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 307,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00256",
+    "companyName": "Marks, Schneider and Stracke",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 641,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00257",
+    "companyName": "Turner - Kshlerin",
+    "scenario": "document source conflict",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 17,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00258",
+    "companyName": "Gerlach and Sons",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 639,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00259",
+    "companyName": "Klein LLC",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 36,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00260",
+    "companyName": "Crist LLC",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "email",
+    "minutesToFirstResponse": 70,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00261",
+    "companyName": "Gulgowski Group",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 414,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00262",
+    "companyName": "Farrell - Boyer",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 99,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00263",
+    "companyName": "Larkin, Bode and Yundt",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 112,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00264",
+    "companyName": "Kutch - Paucek",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 251,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00265",
+    "companyName": "Fritsch, Ullrich and Smitham",
+    "scenario": "competitor comparison request",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 571,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00266",
+    "companyName": "Hyatt - Robel",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 223,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00267",
+    "companyName": "Johnson - Strosin",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 670,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00268",
+    "companyName": "Yundt, Bins and Ferry-Ward",
+    "scenario": "unanswered visitor question",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 27,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00269",
+    "companyName": "Vandervort - Mosciski",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 458,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00270",
+    "companyName": "MacGyver - Smitham",
+    "scenario": "visitor requests human callback",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 85,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00271",
+    "companyName": "Wintheiser, Champlin and O'Kon",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "web form",
+    "minutesToFirstResponse": 96,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00272",
+    "companyName": "Gislason Inc",
+    "scenario": "low-confidence answer",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 475,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00273",
+    "companyName": "Price and Sons",
+    "scenario": "appointment slot unavailable",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 410,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00274",
+    "companyName": "Ledner - Murphy",
+    "scenario": "competitor comparison request",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 227,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00275",
+    "companyName": "Oberbrunner, Schroeder and Fay",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 46,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00276",
+    "companyName": "Langworth - Witting",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 308,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00277",
+    "companyName": "Kiehn - Adams-White",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 32,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00278",
+    "companyName": "Welch, Kulas and Sanford",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 277,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00279",
+    "companyName": "Kris - Ward",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 605,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00280",
+    "companyName": "Ward, Walter and Beier",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 431,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00281",
+    "companyName": "Beier, Macejkovic and Kerluke",
+    "scenario": "document source conflict",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 266,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00282",
+    "companyName": "Bayer, Reilly and Reilly",
+    "scenario": "CRM sync failure",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 448,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00283",
+    "companyName": "Osinski, Bayer and Armstrong",
+    "scenario": "unanswered visitor question",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 205,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00284",
+    "companyName": "Nikolaus LLC",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 433,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00285",
+    "companyName": "Considine - Durgan",
+    "scenario": "CRM sync failure",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 100,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00286",
+    "companyName": "Lowe LLC",
+    "scenario": "document source conflict",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 595,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00287",
+    "companyName": "Kunde LLC",
+    "scenario": "competitor comparison request",
+    "priority": "high",
+    "channel": "email",
+    "minutesToFirstResponse": 7,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00288",
+    "companyName": "Metz LLC",
+    "scenario": "payment question outside approved policy",
+    "priority": "normal",
+    "channel": "chat",
+    "minutesToFirstResponse": 704,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00289",
+    "companyName": "Lynch, Stokes and Hamill",
+    "scenario": "CRM sync failure",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 289,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00290",
+    "companyName": "Russel, Casper and Howe",
+    "scenario": "appointment slot unavailable",
+    "priority": "urgent",
+    "channel": "email",
+    "minutesToFirstResponse": 76,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00291",
+    "companyName": "Jenkins - Rogahn",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 153,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00292",
+    "companyName": "Kemmer LLC",
+    "scenario": "unanswered visitor question",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 683,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00293",
+    "companyName": "Hammes, Wintheiser and Bins",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 210,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00294",
+    "companyName": "Swift, Kovacek and Bashirian",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 92,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00295",
+    "companyName": "Jacobson - Pollich",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "phone",
+    "minutesToFirstResponse": 605,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00296",
+    "companyName": "Casper, Towne and Streich",
+    "scenario": "payment question outside approved policy",
+    "priority": "high",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 607,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00297",
+    "companyName": "Daugherty, Dicki and Smitham",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 486,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00298",
+    "companyName": "Kohler, Feeney and Mayert",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 530,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00299",
+    "companyName": "Harber Inc",
+    "scenario": "low-confidence answer",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 218,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00300",
+    "companyName": "Koch - Hilpert",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 46,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00301",
+    "companyName": "Rice Inc",
+    "scenario": "low-confidence answer",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 403,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00302",
+    "companyName": "Sporer - Russel",
+    "scenario": "payment question outside approved policy",
+    "priority": "low",
+    "channel": "phone",
+    "minutesToFirstResponse": 319,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00303",
+    "companyName": "Considine LLC",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 240,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00304",
+    "companyName": "Mraz - Jacobs",
+    "scenario": "appointment slot unavailable",
+    "priority": "high",
+    "channel": "chat",
+    "minutesToFirstResponse": 470,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00305",
+    "companyName": "Kunze Inc",
+    "scenario": "visitor requests human callback",
+    "priority": "urgent",
+    "channel": "phone",
+    "minutesToFirstResponse": 249,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00306",
+    "companyName": "Lindgren-Daniel, Olson and Gerhold",
+    "scenario": "low-confidence answer",
+    "priority": "normal",
+    "channel": "web form",
+    "minutesToFirstResponse": 311,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00307",
+    "companyName": "Brown Group",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 433,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00308",
+    "companyName": "Herman - Sauer",
+    "scenario": "after-hours urgent inquiry",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 189,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00309",
+    "companyName": "Denesik - Block",
+    "scenario": "low-confidence answer",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 208,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00310",
+    "companyName": "Quigley-Jakubowski - Bode",
+    "scenario": "visitor requests human callback",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 682,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00311",
+    "companyName": "Batz Group",
+    "scenario": "lead submitted incomplete contact details",
+    "priority": "urgent",
+    "channel": "web form",
+    "minutesToFirstResponse": 89,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00312",
+    "companyName": "Nienow-Bins - Hegmann",
+    "scenario": "appointment slot unavailable",
+    "priority": "normal",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 327,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00313",
+    "companyName": "Schneider, Kessler and Kuphal",
+    "scenario": "competitor comparison request",
+    "priority": "urgent",
+    "channel": "chat",
+    "minutesToFirstResponse": 583,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00314",
+    "companyName": "Bernier, Bernhard and Becker",
+    "scenario": "unanswered visitor question",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 73,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00315",
+    "companyName": "Terry - Kautzer",
+    "scenario": "visitor requests human callback",
+    "priority": "high",
+    "channel": "web form",
+    "minutesToFirstResponse": 508,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00316",
+    "companyName": "Kilback - Upton",
+    "scenario": "CRM sync failure",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 243,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00317",
+    "companyName": "Turcotte, Feil and Mante",
+    "scenario": "appointment slot unavailable",
+    "priority": "low",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 78,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  },
+  {
+    "ticketId": "TK-00318",
+    "companyName": "Bergnaum, Hirthe and McKenzie",
+    "scenario": "unanswered visitor question",
+    "priority": "urgent",
+    "channel": "CRM task",
+    "minutesToFirstResponse": 241,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00319",
+    "companyName": "Schaefer - Reichel",
+    "scenario": "payment question outside approved policy",
+    "priority": "normal",
+    "channel": "phone",
+    "minutesToFirstResponse": 273,
+    "ownerReviewNeeded": true,
+    "knowledgeGap": false
+  },
+  {
+    "ticketId": "TK-00320",
+    "companyName": "Jerde and Sons",
+    "scenario": "unanswered visitor question",
+    "priority": "low",
+    "channel": "chat",
+    "minutesToFirstResponse": 158,
+    "ownerReviewNeeded": false,
+    "knowledgeGap": true
+  }
+]

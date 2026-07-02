@@ -1,6 +1,5 @@
-import { Activity, ArrowRight, Bot } from "lucide-react";
+import { Bot } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { NAV_ITEMS } from "@/lib/demo-data";
 import { PROJECT } from "@/lib/project";
@@ -36,19 +35,16 @@ export function SiteHeader() {
       </nav>
 
       <div className="flex items-center gap-3">
-        <Badge variant="success" className="hidden gap-1.5 sm:inline-flex">
-          <Activity className="h-3.5 w-3.5" aria-hidden="true" />
-          Live demo shell
-        </Badge>
         <a
-          href="#concierge-demo"
-          className={cn(buttonVariants({ size: "sm" }), "hidden sm:inline-flex")}
+          href="/admin"
+          className={cn(
+            buttonVariants({ variant: "secondary", size: "sm" }),
+            "inline-flex",
+          )}
         >
-          Preview
-          <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          Dashboard
         </a>
       </div>
     </header>
   );
 }
-

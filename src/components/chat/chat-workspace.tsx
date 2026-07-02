@@ -1,56 +1,72 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useChat } from "@ai-sdk/react";
 import { AnimatePresence } from "framer-motion";
-import { Bot, ShieldCheck } from "lucide-react";
+import { AlertCircle, Bot, CircleStop, ShieldCheck } from "lucide-react";
+import { DefaultChatTransport } from "ai";
 
 import { ChatMessage } from "@/components/chat/chat-message";
+import { ChatTypingIndicator } from "@/components/chat/chat-typing-indicator";
 import { MessageComposer } from "@/components/chat/message-composer";
 import { SuggestedPrompts } from "@/components/chat/suggested-prompts";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import {
-  buildDemoReply,
-  INITIAL_CHAT_MESSAGES,
-  splitReplyIntoChunks,
-  type ChatMessage as ChatMessageType,
-} from "@/lib/chat-demo";
+import { INITIAL_CHAT_MESSAGES } from "@/lib/chat-demo";
+import type { UIMessage } from "ai";
 
-function createMessageId(role: ChatMessageType["role"]) {
-  return `${role}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-}
+const CONVERSATION_ID_STORAGE_KEY = "astra-concierge-conversation-id";
 
-function getCurrentTimeLabel() {
-  return new Intl.DateTimeFormat("en", {
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(new Date());
+function hasVisibleAssistantText(message: UIMessage | undefined) {
+  return (
+    message?.role === "assistant" &&
+    message.parts.some(
+      (part) => part.type === "text" && part.text.trim().length > 0,
+    )
+  );
 }
 
 export function ChatWorkspace() {
-  const [messages, setMessages] = useState<ChatMessageType[]>(
-    INITIAL_CHAT_MESSAGES,
-  );
   const [draft, setDraft] = useState("");
-  const [isStreaming, setIsStreaming] = useState(false);
-  const [lastAutomation, setLastAutomation] = useState(
-    "Conversation summary ready",
-  );
 
+  const conversationIdRef = useRef<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
-  const streamTimerRef = useRef<number | null>(null);
+  const { clearError, error, messages, regenerate, sendMessage, status, stop } =
+    useChat({
+      transport: new DefaultChatTransport({
+        api: "/api/chat",
+      }),
+    });
+
+  const isStreaming = status === "submitted" || status === "streaming";
+  const statusLabel = error
+    ? "Temporarily unavailable"
+    : isStreaming
+      ? "Answering"
+      : "Ready";
+  const showTypingIndicator =
+    isStreaming && !hasVisibleAssistantText(messages.at(-1));
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-  }, [messages]);
+  }, [messages, status]);
 
-  useEffect(() => {
-    return () => {
-      if (streamTimerRef.current) {
-        window.clearInterval(streamTimerRef.current);
-      }
-    };
-  }, []);
+  function getConversationId() {
+    if (conversationIdRef.current) {
+      return conversationIdRef.current;
+    }
+
+    const storedConversationId = window.sessionStorage.getItem(
+      CONVERSATION_ID_STORAGE_KEY,
+    );
+    const conversationId = storedConversationId ?? crypto.randomUUID();
+
+    window.sessionStorage.setItem(CONVERSATION_ID_STORAGE_KEY, conversationId);
+    conversationIdRef.current = conversationId;
+
+    return conversationId;
+  }
 
   function submitMessage(nextPrompt = draft) {
     const prompt = nextPrompt.trim();
@@ -59,67 +75,12 @@ export function ChatWorkspace() {
       return;
     }
 
-    const reply = buildDemoReply(prompt);
-    const assistantMessageId = createMessageId("assistant");
-    const chunks = splitReplyIntoChunks(reply.content);
-    const timestamp = getCurrentTimeLabel();
-
-    const visitorMessage: ChatMessageType = {
-      id: createMessageId("visitor"),
-      role: "visitor",
-      name: "Visitor",
-      content: prompt,
-      sources: [],
-      timestamp,
-      status: "complete",
-    };
-
-    const assistantMessage: ChatMessageType = {
-      id: assistantMessageId,
-      role: "assistant",
-      name: "Astra",
-      content: "",
-      sources: reply.sources,
-      timestamp,
-      status: "streaming",
-    };
-
     setDraft("");
-    setIsStreaming(true);
-    setLastAutomation(reply.automationLabel);
-    setMessages((currentMessages) => [
-      ...currentMessages,
-      visitorMessage,
-      assistantMessage,
-    ]);
-
-    let chunkIndex = 0;
-
-    streamTimerRef.current = window.setInterval(() => {
-      chunkIndex += 1;
-
-      setMessages((currentMessages) =>
-        currentMessages.map((message) => {
-          if (message.id !== assistantMessageId) {
-            return message;
-          }
-
-          const isComplete = chunkIndex >= chunks.length;
-
-          return {
-            ...message,
-            content: chunks.slice(0, chunkIndex).join(""),
-            status: isComplete ? "complete" : "streaming",
-          };
-        }),
-      );
-
-      if (chunkIndex >= chunks.length && streamTimerRef.current) {
-        window.clearInterval(streamTimerRef.current);
-        streamTimerRef.current = null;
-        setIsStreaming(false);
-      }
-    }, 28);
+    clearError();
+    void sendMessage(
+      { text: prompt },
+      { body: { conversationId: getConversationId() } },
+    );
   }
 
   return (
@@ -138,34 +99,76 @@ export function ChatWorkspace() {
                 Astra Concierge
               </h2>
               <p className="text-xs text-muted-foreground">
-                Interactive local demo for an AI automation agency
+                AI concierge for service businesses
               </p>
             </div>
           </div>
-          <Badge variant="success" className="gap-1.5">
-            <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" />
-            {isStreaming ? "Answering" : "Ready"}
-          </Badge>
+          <div className="flex items-center gap-2">
+            {isStreaming ? (
+              <Button
+                type="button"
+                size="icon-sm"
+                variant="ghost"
+                onClick={stop}
+                aria-label="Stop response"
+                className="shrink-0"
+              >
+                <CircleStop className="h-4 w-4" aria-hidden="true" />
+              </Button>
+            ) : null}
+            <Badge variant={error ? "secondary" : "success"} className="gap-1.5">
+              {error ? (
+                <AlertCircle className="h-3.5 w-3.5" aria-hidden="true" />
+              ) : (
+                <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" />
+              )}
+              {statusLabel}
+            </Badge>
+          </div>
         </div>
       </div>
 
       <div className="border-b border-border bg-background/40 px-5 py-3">
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
           <span className="rounded-md border border-border bg-muted px-2 py-1">
-            Intent: service inquiry
+            Answers service questions
           </span>
           <span className="rounded-md border border-border bg-muted px-2 py-1">
-            Automation: {lastAutomation}
+            Guides visitors to the right next step
           </span>
         </div>
       </div>
 
       <div className="max-h-[520px] min-h-[420px] space-y-4 overflow-y-auto px-5 py-5">
         <AnimatePresence initial={false}>
+          {INITIAL_CHAT_MESSAGES.map((message) => (
+            <ChatMessage key={message.id} message={message} />
+          ))}
           {messages.map((message) => (
             <ChatMessage key={message.id} message={message} />
           ))}
+          {showTypingIndicator ? <ChatTypingIndicator key="typing" /> : null}
         </AnimatePresence>
+        {error ? (
+          <div className="rounded-lg border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive-foreground">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <p>
+                Astra is having trouble responding right now. Please try again
+                in a moment.
+              </p>
+              <Button
+                type="button"
+                size="sm"
+                variant="secondary"
+                onClick={() => regenerate()}
+                disabled={messages.length === 0 || isStreaming}
+                className="shrink-0"
+              >
+                Retry
+              </Button>
+            </div>
+          </div>
+        ) : null}
         <div ref={bottomRef} />
       </div>
 
@@ -179,4 +182,3 @@ export function ChatWorkspace() {
     </Card>
   );
 }
-

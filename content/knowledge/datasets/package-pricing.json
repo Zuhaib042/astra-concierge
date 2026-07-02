@@ -1,0 +1,42 @@
+[
+  {
+    "packageName": "Starter Concierge",
+    "publicRange": "$2,500-$4,500",
+    "timeline": "2-3 weeks",
+    "bestFor": "small teams validating one public-facing assistant",
+    "includedDocuments": 119,
+    "includedIntegrations": 7,
+    "monthlyReviewHours": 9,
+    "addOnHourlyRate": 177
+  },
+  {
+    "packageName": "Growth Automation",
+    "publicRange": "$6,000-$12,000",
+    "timeline": "4-6 weeks",
+    "bestFor": "teams needing knowledge retrieval plus CRM handoff",
+    "includedDocuments": 66,
+    "includedIntegrations": 5,
+    "monthlyReviewHours": 16,
+    "addOnHourlyRate": 173
+  },
+  {
+    "packageName": "Scale Copilot Suite",
+    "publicRange": "$15,000-$35,000",
+    "timeline": "8-12 weeks",
+    "bestFor": "multi-team deployments with dashboards and workflows",
+    "includedDocuments": 50,
+    "includedIntegrations": 3,
+    "monthlyReviewHours": 14,
+    "addOnHourlyRate": 151
+  },
+  {
+    "packageName": "Custom Integration Build",
+    "publicRange": "$20,000+",
+    "timeline": "scoped after discovery",
+    "bestFor": "regulated or complex operations with custom APIs",
+    "includedDocuments": 199,
+    "includedIntegrations": 3,
+    "monthlyReviewHours": 10,
+    "addOnHourlyRate": 129
+  }
+]

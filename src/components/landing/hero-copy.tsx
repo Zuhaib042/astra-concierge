@@ -1,4 +1,4 @@
-import { ArrowRight, Database, Sparkles } from "lucide-react";
+import { ArrowRight, LayoutDashboard, Sparkles } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
@@ -11,12 +11,12 @@ export function HeroCopy() {
     <section className="flex flex-col justify-center py-8 md:py-12">
       <Badge variant="outline" className="w-fit gap-2">
         <Sparkles className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
-        Premium AI concierge demo
+        Premium AI concierge
       </Badge>
 
       <div className="mt-7 max-w-3xl">
-        <p className="font-mono text-sm uppercase tracking-[0.18em] text-primary">
-          Service business automation
+        <p className="font-mono text-sm uppercase text-primary">
+          AI automation for service businesses
         </p>
         <h1 className="mt-4 text-4xl font-semibold leading-tight text-foreground md:text-6xl">
           {PROJECT.tagline}
@@ -31,18 +31,18 @@ export function HeroCopy() {
           href="#concierge-demo"
           className={cn(buttonVariants({ size: "lg" }), "min-h-11 w-full sm:w-fit")}
         >
-          Open demo workspace
+          Try Astra live
           <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </a>
         <a
-          href="#knowledge"
+          href="/admin"
           className={cn(
             buttonVariants({ variant: "secondary", size: "lg" }),
             "min-h-11 w-full sm:w-fit",
           )}
         >
-          <Database className="h-4 w-4" aria-hidden="true" />
-          View knowledge flow
+          <LayoutDashboard className="h-4 w-4" aria-hidden="true" />
+          View dashboard
         </a>
       </div>
 

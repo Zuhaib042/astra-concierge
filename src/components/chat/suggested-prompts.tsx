@@ -19,10 +19,10 @@ export function SuggestedPrompts({
       <div className="mb-3 flex items-center justify-between gap-3">
         <Badge variant="outline" className="gap-1.5">
           <Sparkles className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
-          Try a prompt
+          Start with a question
         </Badge>
         <span className="hidden text-xs text-muted-foreground sm:inline">
-          Local demo logic for now
+          Ask like a real prospect
         </span>
       </div>
 
@@ -42,4 +42,3 @@ export function SuggestedPrompts({
     </div>
   );
 }
-

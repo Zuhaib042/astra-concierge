@@ -1,0 +1,1622 @@
+[
+  {
+    "day": "2026-01-02",
+    "conversations": 213,
+    "qualifiedLeads": 4,
+    "handoffs": 7,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.95,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-02-26",
+    "conversations": 121,
+    "qualifiedLeads": 43,
+    "handoffs": 13,
+    "unansweredQuestions": 13,
+    "averageConfidence": 0.92,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-28",
+    "conversations": 164,
+    "qualifiedLeads": 43,
+    "handoffs": 15,
+    "unansweredQuestions": 20,
+    "averageConfidence": 0.94,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-04-27",
+    "conversations": 296,
+    "qualifiedLeads": 32,
+    "handoffs": 19,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.79,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-04-22",
+    "conversations": 168,
+    "qualifiedLeads": 3,
+    "handoffs": 29,
+    "unansweredQuestions": 11,
+    "averageConfidence": 0.89,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-03-05",
+    "conversations": 135,
+    "qualifiedLeads": 48,
+    "handoffs": 4,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.71,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-05-26",
+    "conversations": 24,
+    "qualifiedLeads": 13,
+    "handoffs": 30,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.75,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-23",
+    "conversations": 65,
+    "qualifiedLeads": 11,
+    "handoffs": 19,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.94,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-03-19",
+    "conversations": 310,
+    "qualifiedLeads": 8,
+    "handoffs": 1,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.68,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-01-28",
+    "conversations": 210,
+    "qualifiedLeads": 48,
+    "handoffs": 20,
+    "unansweredQuestions": 5,
+    "averageConfidence": 0.93,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-06-02",
+    "conversations": 239,
+    "qualifiedLeads": 26,
+    "handoffs": 29,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.75,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-03-23",
+    "conversations": 136,
+    "qualifiedLeads": 22,
+    "handoffs": 23,
+    "unansweredQuestions": 15,
+    "averageConfidence": 0.67,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-03-18",
+    "conversations": 20,
+    "qualifiedLeads": 1,
+    "handoffs": 6,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.81,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-04-06",
+    "conversations": 270,
+    "qualifiedLeads": 37,
+    "handoffs": 30,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.84,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-02",
+    "conversations": 202,
+    "qualifiedLeads": 9,
+    "handoffs": 20,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.69,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-02-19",
+    "conversations": 170,
+    "qualifiedLeads": 27,
+    "handoffs": 21,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.87,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-03-09",
+    "conversations": 166,
+    "qualifiedLeads": 43,
+    "handoffs": 3,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.8,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-01-16",
+    "conversations": 92,
+    "qualifiedLeads": 10,
+    "handoffs": 16,
+    "unansweredQuestions": 20,
+    "averageConfidence": 0.79,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-19",
+    "conversations": 33,
+    "qualifiedLeads": 4,
+    "handoffs": 8,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.95,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-11",
+    "conversations": 187,
+    "qualifiedLeads": 47,
+    "handoffs": 22,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.9,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-03-17",
+    "conversations": 153,
+    "qualifiedLeads": 35,
+    "handoffs": 4,
+    "unansweredQuestions": 9,
+    "averageConfidence": 0.78,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-16",
+    "conversations": 35,
+    "qualifiedLeads": 5,
+    "handoffs": 6,
+    "unansweredQuestions": 9,
+    "averageConfidence": 0.77,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-02",
+    "conversations": 206,
+    "qualifiedLeads": 48,
+    "handoffs": 25,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.82,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-02-19",
+    "conversations": 237,
+    "qualifiedLeads": 27,
+    "handoffs": 5,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.79,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-04-07",
+    "conversations": 257,
+    "qualifiedLeads": 19,
+    "handoffs": 4,
+    "unansweredQuestions": 19,
+    "averageConfidence": 0.92,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-17",
+    "conversations": 300,
+    "qualifiedLeads": 38,
+    "handoffs": 29,
+    "unansweredQuestions": 4,
+    "averageConfidence": 0.65,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-04-18",
+    "conversations": 52,
+    "qualifiedLeads": 16,
+    "handoffs": 15,
+    "unansweredQuestions": 16,
+    "averageConfidence": 0.93,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-05-27",
+    "conversations": 211,
+    "qualifiedLeads": 40,
+    "handoffs": 1,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.88,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-21",
+    "conversations": 212,
+    "qualifiedLeads": 47,
+    "handoffs": 17,
+    "unansweredQuestions": 6,
+    "averageConfidence": 0.79,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-05-10",
+    "conversations": 285,
+    "qualifiedLeads": 21,
+    "handoffs": 14,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.76,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-02-16",
+    "conversations": 93,
+    "qualifiedLeads": 27,
+    "handoffs": 5,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.78,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-02-06",
+    "conversations": 46,
+    "qualifiedLeads": 21,
+    "handoffs": 29,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.91,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-01",
+    "conversations": 79,
+    "qualifiedLeads": 9,
+    "handoffs": 6,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.64,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-01-28",
+    "conversations": 318,
+    "qualifiedLeads": 26,
+    "handoffs": 6,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.8,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-02-21",
+    "conversations": 265,
+    "qualifiedLeads": 23,
+    "handoffs": 14,
+    "unansweredQuestions": 13,
+    "averageConfidence": 0.95,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-04",
+    "conversations": 92,
+    "qualifiedLeads": 39,
+    "handoffs": 23,
+    "unansweredQuestions": 16,
+    "averageConfidence": 0.65,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-04-15",
+    "conversations": 149,
+    "qualifiedLeads": 13,
+    "handoffs": 13,
+    "unansweredQuestions": 5,
+    "averageConfidence": 0.9,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-24",
+    "conversations": 183,
+    "qualifiedLeads": 33,
+    "handoffs": 8,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.71,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-05-04",
+    "conversations": 167,
+    "qualifiedLeads": 28,
+    "handoffs": 29,
+    "unansweredQuestions": 8,
+    "averageConfidence": 0.81,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-23",
+    "conversations": 24,
+    "qualifiedLeads": 48,
+    "handoffs": 14,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.87,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-02-03",
+    "conversations": 54,
+    "qualifiedLeads": 10,
+    "handoffs": 12,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.7,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-27",
+    "conversations": 282,
+    "qualifiedLeads": 22,
+    "handoffs": 16,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.91,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-06-14",
+    "conversations": 318,
+    "qualifiedLeads": 3,
+    "handoffs": 32,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.78,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-06-11",
+    "conversations": 175,
+    "qualifiedLeads": 41,
+    "handoffs": 13,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.73,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-04-25",
+    "conversations": 40,
+    "qualifiedLeads": 38,
+    "handoffs": 24,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.8,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-06-11",
+    "conversations": 186,
+    "qualifiedLeads": 14,
+    "handoffs": 11,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.94,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-01-06",
+    "conversations": 272,
+    "qualifiedLeads": 20,
+    "handoffs": 15,
+    "unansweredQuestions": 15,
+    "averageConfidence": 0.79,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-01-21",
+    "conversations": 216,
+    "qualifiedLeads": 30,
+    "handoffs": 10,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.8,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-06",
+    "conversations": 20,
+    "qualifiedLeads": 21,
+    "handoffs": 5,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.68,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-05-05",
+    "conversations": 170,
+    "qualifiedLeads": 4,
+    "handoffs": 32,
+    "unansweredQuestions": 9,
+    "averageConfidence": 0.83,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-28",
+    "conversations": 208,
+    "qualifiedLeads": 29,
+    "handoffs": 21,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.86,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-05-01",
+    "conversations": 182,
+    "qualifiedLeads": 1,
+    "handoffs": 5,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.71,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-05",
+    "conversations": 223,
+    "qualifiedLeads": 26,
+    "handoffs": 22,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.86,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-09",
+    "conversations": 31,
+    "qualifiedLeads": 18,
+    "handoffs": 26,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.92,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-02",
+    "conversations": 320,
+    "qualifiedLeads": 37,
+    "handoffs": 10,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.64,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-02-24",
+    "conversations": 178,
+    "qualifiedLeads": 31,
+    "handoffs": 12,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.67,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-02-22",
+    "conversations": 20,
+    "qualifiedLeads": 2,
+    "handoffs": 2,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.66,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-01-23",
+    "conversations": 268,
+    "qualifiedLeads": 15,
+    "handoffs": 7,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.87,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-04-24",
+    "conversations": 212,
+    "qualifiedLeads": 15,
+    "handoffs": 29,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.66,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-04-05",
+    "conversations": 236,
+    "qualifiedLeads": 23,
+    "handoffs": 13,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.77,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-18",
+    "conversations": 159,
+    "qualifiedLeads": 6,
+    "handoffs": 5,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.76,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-02-15",
+    "conversations": 264,
+    "qualifiedLeads": 24,
+    "handoffs": 28,
+    "unansweredQuestions": 11,
+    "averageConfidence": 0.66,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-03",
+    "conversations": 98,
+    "qualifiedLeads": 42,
+    "handoffs": 14,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.93,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-01-31",
+    "conversations": 87,
+    "qualifiedLeads": 22,
+    "handoffs": 5,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.84,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-04-23",
+    "conversations": 231,
+    "qualifiedLeads": 21,
+    "handoffs": 7,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.88,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-04-30",
+    "conversations": 170,
+    "qualifiedLeads": 45,
+    "handoffs": 2,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.83,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-05",
+    "conversations": 132,
+    "qualifiedLeads": 21,
+    "handoffs": 14,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.89,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-03",
+    "conversations": 114,
+    "qualifiedLeads": 2,
+    "handoffs": 7,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.76,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-02-26",
+    "conversations": 63,
+    "qualifiedLeads": 46,
+    "handoffs": 25,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.88,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-05-17",
+    "conversations": 201,
+    "qualifiedLeads": 10,
+    "handoffs": 0,
+    "unansweredQuestions": 5,
+    "averageConfidence": 0.69,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-08",
+    "conversations": 163,
+    "qualifiedLeads": 7,
+    "handoffs": 31,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.84,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-23",
+    "conversations": 128,
+    "qualifiedLeads": 40,
+    "handoffs": 8,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.8,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-02-19",
+    "conversations": 46,
+    "qualifiedLeads": 38,
+    "handoffs": 10,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.72,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-13",
+    "conversations": 304,
+    "qualifiedLeads": 13,
+    "handoffs": 16,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.95,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-04-15",
+    "conversations": 110,
+    "qualifiedLeads": 39,
+    "handoffs": 2,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.74,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-10",
+    "conversations": 87,
+    "qualifiedLeads": 21,
+    "handoffs": 7,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.68,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-31",
+    "conversations": 213,
+    "qualifiedLeads": 34,
+    "handoffs": 17,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.67,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-16",
+    "conversations": 33,
+    "qualifiedLeads": 18,
+    "handoffs": 14,
+    "unansweredQuestions": 11,
+    "averageConfidence": 0.89,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-04-26",
+    "conversations": 320,
+    "qualifiedLeads": 37,
+    "handoffs": 0,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.75,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-07",
+    "conversations": 282,
+    "qualifiedLeads": 15,
+    "handoffs": 12,
+    "unansweredQuestions": 2,
+    "averageConfidence": 0.95,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-02-27",
+    "conversations": 156,
+    "qualifiedLeads": 14,
+    "handoffs": 14,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.95,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-06-23",
+    "conversations": 28,
+    "qualifiedLeads": 31,
+    "handoffs": 19,
+    "unansweredQuestions": 4,
+    "averageConfidence": 0.82,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-02-12",
+    "conversations": 63,
+    "qualifiedLeads": 29,
+    "handoffs": 22,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.92,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-01-17",
+    "conversations": 103,
+    "qualifiedLeads": 35,
+    "handoffs": 13,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.92,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-09",
+    "conversations": 134,
+    "qualifiedLeads": 14,
+    "handoffs": 11,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.95,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-02-15",
+    "conversations": 205,
+    "qualifiedLeads": 37,
+    "handoffs": 17,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.8,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-02-06",
+    "conversations": 35,
+    "qualifiedLeads": 14,
+    "handoffs": 7,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.8,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-01-03",
+    "conversations": 128,
+    "qualifiedLeads": 11,
+    "handoffs": 27,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.65,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-16",
+    "conversations": 229,
+    "qualifiedLeads": 4,
+    "handoffs": 22,
+    "unansweredQuestions": 4,
+    "averageConfidence": 0.87,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-06-02",
+    "conversations": 104,
+    "qualifiedLeads": 30,
+    "handoffs": 12,
+    "unansweredQuestions": 6,
+    "averageConfidence": 0.96,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-06",
+    "conversations": 114,
+    "qualifiedLeads": 11,
+    "handoffs": 7,
+    "unansweredQuestions": 5,
+    "averageConfidence": 0.82,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-01-30",
+    "conversations": 208,
+    "qualifiedLeads": 33,
+    "handoffs": 32,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.73,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-01-21",
+    "conversations": 235,
+    "qualifiedLeads": 6,
+    "handoffs": 2,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.8,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-02-25",
+    "conversations": 73,
+    "qualifiedLeads": 1,
+    "handoffs": 1,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.94,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-09",
+    "conversations": 219,
+    "qualifiedLeads": 40,
+    "handoffs": 1,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.79,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-03",
+    "conversations": 194,
+    "qualifiedLeads": 13,
+    "handoffs": 2,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.65,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-19",
+    "conversations": 243,
+    "qualifiedLeads": 22,
+    "handoffs": 14,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.96,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-04-30",
+    "conversations": 101,
+    "qualifiedLeads": 34,
+    "handoffs": 2,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.68,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-05-16",
+    "conversations": 133,
+    "qualifiedLeads": 12,
+    "handoffs": 2,
+    "unansweredQuestions": 15,
+    "averageConfidence": 0.79,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-13",
+    "conversations": 48,
+    "qualifiedLeads": 33,
+    "handoffs": 28,
+    "unansweredQuestions": 6,
+    "averageConfidence": 0.91,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-06-03",
+    "conversations": 116,
+    "qualifiedLeads": 5,
+    "handoffs": 23,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.87,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-01-19",
+    "conversations": 171,
+    "qualifiedLeads": 9,
+    "handoffs": 18,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.94,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-04-20",
+    "conversations": 292,
+    "qualifiedLeads": 38,
+    "handoffs": 1,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.96,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-02-12",
+    "conversations": 206,
+    "qualifiedLeads": 29,
+    "handoffs": 31,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.91,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-03-15",
+    "conversations": 274,
+    "qualifiedLeads": 4,
+    "handoffs": 25,
+    "unansweredQuestions": 2,
+    "averageConfidence": 0.83,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-06-10",
+    "conversations": 162,
+    "qualifiedLeads": 30,
+    "handoffs": 21,
+    "unansweredQuestions": 20,
+    "averageConfidence": 0.96,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-04-26",
+    "conversations": 184,
+    "qualifiedLeads": 41,
+    "handoffs": 3,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.88,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-04-29",
+    "conversations": 207,
+    "qualifiedLeads": 21,
+    "handoffs": 29,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.74,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-01-03",
+    "conversations": 202,
+    "qualifiedLeads": 16,
+    "handoffs": 15,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.78,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-14",
+    "conversations": 97,
+    "qualifiedLeads": 16,
+    "handoffs": 27,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.93,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-04",
+    "conversations": 204,
+    "qualifiedLeads": 9,
+    "handoffs": 30,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.68,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-13",
+    "conversations": 243,
+    "qualifiedLeads": 1,
+    "handoffs": 6,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.91,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-30",
+    "conversations": 183,
+    "qualifiedLeads": 26,
+    "handoffs": 13,
+    "unansweredQuestions": 16,
+    "averageConfidence": 0.65,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-03-03",
+    "conversations": 94,
+    "qualifiedLeads": 41,
+    "handoffs": 6,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.8,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-02-20",
+    "conversations": 69,
+    "qualifiedLeads": 16,
+    "handoffs": 7,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.72,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-05-27",
+    "conversations": 271,
+    "qualifiedLeads": 5,
+    "handoffs": 18,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.77,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-01-09",
+    "conversations": 140,
+    "qualifiedLeads": 28,
+    "handoffs": 9,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.93,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-05-30",
+    "conversations": 300,
+    "qualifiedLeads": 39,
+    "handoffs": 13,
+    "unansweredQuestions": 13,
+    "averageConfidence": 0.89,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-05-20",
+    "conversations": 64,
+    "qualifiedLeads": 33,
+    "handoffs": 24,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.82,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-02-12",
+    "conversations": 276,
+    "qualifiedLeads": 30,
+    "handoffs": 8,
+    "unansweredQuestions": 16,
+    "averageConfidence": 0.93,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-05-28",
+    "conversations": 236,
+    "qualifiedLeads": 38,
+    "handoffs": 0,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.64,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-04-12",
+    "conversations": 255,
+    "qualifiedLeads": 33,
+    "handoffs": 10,
+    "unansweredQuestions": 20,
+    "averageConfidence": 0.68,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-01",
+    "conversations": 143,
+    "qualifiedLeads": 9,
+    "handoffs": 13,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.84,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-09",
+    "conversations": 75,
+    "qualifiedLeads": 12,
+    "handoffs": 13,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.87,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-03-24",
+    "conversations": 154,
+    "qualifiedLeads": 17,
+    "handoffs": 5,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.83,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-02-22",
+    "conversations": 237,
+    "qualifiedLeads": 19,
+    "handoffs": 14,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.66,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-05-29",
+    "conversations": 178,
+    "qualifiedLeads": 34,
+    "handoffs": 8,
+    "unansweredQuestions": 19,
+    "averageConfidence": 0.8,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-02-24",
+    "conversations": 73,
+    "qualifiedLeads": 4,
+    "handoffs": 7,
+    "unansweredQuestions": 2,
+    "averageConfidence": 0.95,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-05-08",
+    "conversations": 228,
+    "qualifiedLeads": 44,
+    "handoffs": 15,
+    "unansweredQuestions": 11,
+    "averageConfidence": 0.65,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-01-24",
+    "conversations": 60,
+    "qualifiedLeads": 13,
+    "handoffs": 13,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.73,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-06-01",
+    "conversations": 218,
+    "qualifiedLeads": 31,
+    "handoffs": 0,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.94,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-26",
+    "conversations": 78,
+    "qualifiedLeads": 16,
+    "handoffs": 31,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.87,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-06-15",
+    "conversations": 30,
+    "qualifiedLeads": 40,
+    "handoffs": 23,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.69,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-03-24",
+    "conversations": 170,
+    "qualifiedLeads": 40,
+    "handoffs": 12,
+    "unansweredQuestions": 4,
+    "averageConfidence": 0.82,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-04-26",
+    "conversations": 164,
+    "qualifiedLeads": 14,
+    "handoffs": 6,
+    "unansweredQuestions": 2,
+    "averageConfidence": 0.85,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-03-02",
+    "conversations": 33,
+    "qualifiedLeads": 2,
+    "handoffs": 19,
+    "unansweredQuestions": 2,
+    "averageConfidence": 0.69,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-05-18",
+    "conversations": 168,
+    "qualifiedLeads": 43,
+    "handoffs": 16,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.76,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-05-10",
+    "conversations": 263,
+    "qualifiedLeads": 26,
+    "handoffs": 10,
+    "unansweredQuestions": 9,
+    "averageConfidence": 0.73,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-04-14",
+    "conversations": 204,
+    "qualifiedLeads": 12,
+    "handoffs": 19,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.65,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-04-01",
+    "conversations": 193,
+    "qualifiedLeads": 1,
+    "handoffs": 3,
+    "unansweredQuestions": 4,
+    "averageConfidence": 0.67,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-03-10",
+    "conversations": 146,
+    "qualifiedLeads": 35,
+    "handoffs": 21,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.8,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-04-05",
+    "conversations": 174,
+    "qualifiedLeads": 17,
+    "handoffs": 10,
+    "unansweredQuestions": 4,
+    "averageConfidence": 0.79,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-03-29",
+    "conversations": 296,
+    "qualifiedLeads": 36,
+    "handoffs": 24,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.77,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-06-13",
+    "conversations": 25,
+    "qualifiedLeads": 4,
+    "handoffs": 25,
+    "unansweredQuestions": 20,
+    "averageConfidence": 0.86,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-30",
+    "conversations": 21,
+    "qualifiedLeads": 11,
+    "handoffs": 31,
+    "unansweredQuestions": 19,
+    "averageConfidence": 0.81,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-04-03",
+    "conversations": 37,
+    "qualifiedLeads": 3,
+    "handoffs": 3,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.94,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-04-17",
+    "conversations": 161,
+    "qualifiedLeads": 17,
+    "handoffs": 23,
+    "unansweredQuestions": 2,
+    "averageConfidence": 0.89,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-01-04",
+    "conversations": 275,
+    "qualifiedLeads": 45,
+    "handoffs": 15,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.81,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-04-05",
+    "conversations": 129,
+    "qualifiedLeads": 43,
+    "handoffs": 22,
+    "unansweredQuestions": 19,
+    "averageConfidence": 0.79,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-03-16",
+    "conversations": 264,
+    "qualifiedLeads": 11,
+    "handoffs": 16,
+    "unansweredQuestions": 7,
+    "averageConfidence": 0.69,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-12",
+    "conversations": 284,
+    "qualifiedLeads": 10,
+    "handoffs": 31,
+    "unansweredQuestions": 15,
+    "averageConfidence": 0.89,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-05-05",
+    "conversations": 179,
+    "qualifiedLeads": 11,
+    "handoffs": 26,
+    "unansweredQuestions": 22,
+    "averageConfidence": 0.68,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-05-23",
+    "conversations": 288,
+    "qualifiedLeads": 34,
+    "handoffs": 13,
+    "unansweredQuestions": 5,
+    "averageConfidence": 0.79,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-03-20",
+    "conversations": 36,
+    "qualifiedLeads": 8,
+    "handoffs": 14,
+    "unansweredQuestions": 9,
+    "averageConfidence": 0.78,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-01-26",
+    "conversations": 239,
+    "qualifiedLeads": 15,
+    "handoffs": 14,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.75,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-01-15",
+    "conversations": 134,
+    "qualifiedLeads": 32,
+    "handoffs": 30,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.87,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-03-20",
+    "conversations": 260,
+    "qualifiedLeads": 14,
+    "handoffs": 19,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.66,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-04-11",
+    "conversations": 277,
+    "qualifiedLeads": 15,
+    "handoffs": 22,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.9,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-04-09",
+    "conversations": 65,
+    "qualifiedLeads": 44,
+    "handoffs": 3,
+    "unansweredQuestions": 1,
+    "averageConfidence": 0.76,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-03-25",
+    "conversations": 196,
+    "qualifiedLeads": 28,
+    "handoffs": 5,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.7,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-02-24",
+    "conversations": 278,
+    "qualifiedLeads": 1,
+    "handoffs": 10,
+    "unansweredQuestions": 6,
+    "averageConfidence": 0.68,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-31",
+    "conversations": 110,
+    "qualifiedLeads": 21,
+    "handoffs": 22,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.84,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-03-06",
+    "conversations": 217,
+    "qualifiedLeads": 20,
+    "handoffs": 10,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.69,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-03-06",
+    "conversations": 243,
+    "qualifiedLeads": 35,
+    "handoffs": 31,
+    "unansweredQuestions": 3,
+    "averageConfidence": 0.72,
+    "topIntent": "booking"
+  },
+  {
+    "day": "2026-05-18",
+    "conversations": 261,
+    "qualifiedLeads": 17,
+    "handoffs": 16,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.72,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-05",
+    "conversations": 22,
+    "qualifiedLeads": 29,
+    "handoffs": 14,
+    "unansweredQuestions": 21,
+    "averageConfidence": 0.73,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-10",
+    "conversations": 60,
+    "qualifiedLeads": 48,
+    "handoffs": 26,
+    "unansweredQuestions": 14,
+    "averageConfidence": 0.72,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-02-01",
+    "conversations": 283,
+    "qualifiedLeads": 38,
+    "handoffs": 9,
+    "unansweredQuestions": 13,
+    "averageConfidence": 0.77,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-04-06",
+    "conversations": 148,
+    "qualifiedLeads": 6,
+    "handoffs": 2,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.96,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-03-12",
+    "conversations": 276,
+    "qualifiedLeads": 25,
+    "handoffs": 14,
+    "unansweredQuestions": 17,
+    "averageConfidence": 0.85,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-04-08",
+    "conversations": 190,
+    "qualifiedLeads": 19,
+    "handoffs": 23,
+    "unansweredQuestions": 2,
+    "averageConfidence": 0.86,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-06-10",
+    "conversations": 173,
+    "qualifiedLeads": 8,
+    "handoffs": 30,
+    "unansweredQuestions": 24,
+    "averageConfidence": 0.75,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-23",
+    "conversations": 89,
+    "qualifiedLeads": 9,
+    "handoffs": 15,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.73,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-01-09",
+    "conversations": 206,
+    "qualifiedLeads": 4,
+    "handoffs": 14,
+    "unansweredQuestions": 0,
+    "averageConfidence": 0.69,
+    "topIntent": "integration"
+  },
+  {
+    "day": "2026-01-20",
+    "conversations": 127,
+    "qualifiedLeads": 8,
+    "handoffs": 1,
+    "unansweredQuestions": 10,
+    "averageConfidence": 0.96,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-03-30",
+    "conversations": 218,
+    "qualifiedLeads": 47,
+    "handoffs": 4,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.64,
+    "topIntent": "security"
+  },
+  {
+    "day": "2026-01-11",
+    "conversations": 76,
+    "qualifiedLeads": 26,
+    "handoffs": 24,
+    "unansweredQuestions": 23,
+    "averageConfidence": 0.87,
+    "topIntent": "timeline"
+  },
+  {
+    "day": "2026-02-23",
+    "conversations": 61,
+    "qualifiedLeads": 43,
+    "handoffs": 9,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.65,
+    "topIntent": "support"
+  },
+  {
+    "day": "2026-06-03",
+    "conversations": 273,
+    "qualifiedLeads": 41,
+    "handoffs": 24,
+    "unansweredQuestions": 12,
+    "averageConfidence": 0.7,
+    "topIntent": "pricing"
+  },
+  {
+    "day": "2026-01-29",
+    "conversations": 224,
+    "qualifiedLeads": 2,
+    "handoffs": 31,
+    "unansweredQuestions": 18,
+    "averageConfidence": 0.68,
+    "topIntent": "pricing"
+  }
+]

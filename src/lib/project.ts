@@ -1,14 +1,13 @@
 export const PROJECT = {
   name: "Astra Concierge",
-  tagline: "AI business concierge for modern service teams",
+  tagline: "Turn website visitors into qualified conversations",
   description:
-    "A portfolio-grade AI assistant that will answer from business knowledge, capture qualified leads, and support client-facing automation workflows.",
+    "A polished AI concierge for service businesses that answers customer questions, recommends the right next step, and captures sales-ready leads around the clock.",
 } as const;
 
 export const UPCOMING_CAPABILITIES = [
-  "Gemini-powered streaming chat",
-  "Knowledge base retrieval with citations",
+  "Live website concierge",
+  "Answers from your approved business content",
   "Lead capture and qualification",
   "Owner dashboard for conversations and insights",
 ] as const;
-

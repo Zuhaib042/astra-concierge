@@ -17,15 +17,16 @@ const eventIcon = {
 
 export function OperationsPanel() {
   return (
-    <section className="grid gap-4 lg:grid-cols-[0.92fr_1.08fr]">
-      <Card id="knowledge" className="bg-card/80">
+    <section id="outcomes" className="grid gap-4 lg:grid-cols-[0.92fr_1.08fr]">
+      <Card className="bg-card/80">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <FileSearch className="h-4 w-4 text-primary" aria-hidden="true" />
-            Knowledge workflow
+            Business-aware answers
           </CardTitle>
           <CardDescription>
-            A preview of how business content becomes reliable chat context.
+            Astra is shaped around the offers, policies, language, and buying
+            questions that matter to each business.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -47,14 +48,15 @@ export function OperationsPanel() {
         </CardContent>
       </Card>
 
-      <Card id="leads" className="bg-card/80">
+      <Card className="bg-card/80">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <LineChart className="h-4 w-4 text-primary" aria-hidden="true" />
-            Automation timeline
+            Sales-ready handoff
           </CardTitle>
           <CardDescription>
-            The client-facing chat can quietly prepare useful business actions.
+            The conversation moves from helpful answer to qualified opportunity
+            without forcing visitors through a cold form.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -87,4 +89,3 @@ export function OperationsPanel() {
     </section>
   );
 }
-

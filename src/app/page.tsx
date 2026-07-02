@@ -1,4 +1,5 @@
 import { ChatWorkspace } from "@/components/chat/chat-workspace";
+import { AboutSection } from "@/components/landing/about-section";
 import { HeroCopy } from "@/components/landing/hero-copy";
 import { OperationsPanel } from "@/components/landing/operations-panel";
 import { SiteHeader } from "@/components/landing/site-header";
@@ -20,6 +21,10 @@ export default function HomePage() {
 
         <div className="animate-panel-rise [animation-delay:220ms]">
           <OperationsPanel />
+        </div>
+
+        <div className="animate-panel-rise [animation-delay:320ms]">
+          <AboutSection />
         </div>
       </div>
     </main>

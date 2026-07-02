@@ -1,0 +1,533 @@
+[
+  {
+    "integration": "HubSpot",
+    "setupComplexity": 7,
+    "averageSetupHours": 38,
+    "monthlySyncVolume": 10118,
+    "failureRatePercent": 1.99,
+    "requiredFields": [
+      "email",
+      "name",
+      "phone",
+      "timeline"
+    ]
+  },
+  {
+    "integration": "Salesforce",
+    "setupComplexity": 10,
+    "averageSetupHours": 12,
+    "monthlySyncVolume": 9385,
+    "failureRatePercent": 2.42,
+    "requiredFields": [
+      "name",
+      "company",
+      "service_interest"
+    ]
+  },
+  {
+    "integration": "Airtable",
+    "setupComplexity": 7,
+    "averageSetupHours": 71,
+    "monthlySyncVolume": 10492,
+    "failureRatePercent": 2.78,
+    "requiredFields": [
+      "company",
+      "phone",
+      "name"
+    ]
+  },
+  {
+    "integration": "Notion",
+    "setupComplexity": 5,
+    "averageSetupHours": 70,
+    "monthlySyncVolume": 8566,
+    "failureRatePercent": 0.1,
+    "requiredFields": [
+      "email",
+      "service_interest",
+      "timeline",
+      "budget",
+      "company",
+      "name"
+    ]
+  },
+  {
+    "integration": "Slack",
+    "setupComplexity": 7,
+    "averageSetupHours": 57,
+    "monthlySyncVolume": 734,
+    "failureRatePercent": 3.78,
+    "requiredFields": [
+      "email",
+      "timeline",
+      "service_interest",
+      "name",
+      "phone",
+      "company"
+    ]
+  },
+  {
+    "integration": "Google Sheets",
+    "setupComplexity": 10,
+    "averageSetupHours": 70,
+    "monthlySyncVolume": 5179,
+    "failureRatePercent": 0.42,
+    "requiredFields": [
+      "timeline",
+      "email",
+      "budget",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Gmail",
+    "setupComplexity": 9,
+    "averageSetupHours": 35,
+    "monthlySyncVolume": 1607,
+    "failureRatePercent": 1.15,
+    "requiredFields": [
+      "phone",
+      "service_interest",
+      "timeline",
+      "company",
+      "email"
+    ]
+  },
+  {
+    "integration": "Calendly",
+    "setupComplexity": 5,
+    "averageSetupHours": 57,
+    "monthlySyncVolume": 17222,
+    "failureRatePercent": 2.9,
+    "requiredFields": [
+      "service_interest",
+      "phone",
+      "timeline"
+    ]
+  },
+  {
+    "integration": "Make",
+    "setupComplexity": 3,
+    "averageSetupHours": 12,
+    "monthlySyncVolume": 3377,
+    "failureRatePercent": 4.79,
+    "requiredFields": [
+      "service_interest",
+      "phone",
+      "email",
+      "timeline",
+      "company",
+      "budget"
+    ]
+  },
+  {
+    "integration": "Zapier",
+    "setupComplexity": 5,
+    "averageSetupHours": 70,
+    "monthlySyncVolume": 242,
+    "failureRatePercent": 4.15,
+    "requiredFields": [
+      "service_interest",
+      "company",
+      "email",
+      "phone",
+      "budget",
+      "timeline"
+    ]
+  },
+  {
+    "integration": "Pipedrive",
+    "setupComplexity": 4,
+    "averageSetupHours": 10,
+    "monthlySyncVolume": 6438,
+    "failureRatePercent": 0.73,
+    "requiredFields": [
+      "service_interest",
+      "company",
+      "timeline",
+      "budget",
+      "name"
+    ]
+  },
+  {
+    "integration": "Zoho CRM",
+    "setupComplexity": 4,
+    "averageSetupHours": 40,
+    "monthlySyncVolume": 4142,
+    "failureRatePercent": 2.9,
+    "requiredFields": [
+      "name",
+      "phone",
+      "budget",
+      "company",
+      "service_interest",
+      "email"
+    ]
+  },
+  {
+    "integration": "Intercom",
+    "setupComplexity": 7,
+    "averageSetupHours": 13,
+    "monthlySyncVolume": 15169,
+    "failureRatePercent": 0.49,
+    "requiredFields": [
+      "email",
+      "company",
+      "budget",
+      "timeline",
+      "service_interest",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Zendesk",
+    "setupComplexity": 7,
+    "averageSetupHours": 20,
+    "monthlySyncVolume": 15937,
+    "failureRatePercent": 2.48,
+    "requiredFields": [
+      "service_interest",
+      "timeline",
+      "budget",
+      "email"
+    ]
+  },
+  {
+    "integration": "Freshdesk",
+    "setupComplexity": 9,
+    "averageSetupHours": 15,
+    "monthlySyncVolume": 17620,
+    "failureRatePercent": 0.14,
+    "requiredFields": [
+      "service_interest",
+      "email",
+      "phone",
+      "company",
+      "timeline"
+    ]
+  },
+  {
+    "integration": "Typeform",
+    "setupComplexity": 7,
+    "averageSetupHours": 61,
+    "monthlySyncVolume": 13451,
+    "failureRatePercent": 3.21,
+    "requiredFields": [
+      "service_interest",
+      "name",
+      "timeline"
+    ]
+  },
+  {
+    "integration": "Jotform",
+    "setupComplexity": 10,
+    "averageSetupHours": 36,
+    "monthlySyncVolume": 5013,
+    "failureRatePercent": 0.32,
+    "requiredFields": [
+      "budget",
+      "service_interest",
+      "company",
+      "name",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Stripe",
+    "setupComplexity": 5,
+    "averageSetupHours": 50,
+    "monthlySyncVolume": 9159,
+    "failureRatePercent": 0.38,
+    "requiredFields": [
+      "name",
+      "service_interest",
+      "timeline",
+      "budget",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Square",
+    "setupComplexity": 8,
+    "averageSetupHours": 64,
+    "monthlySyncVolume": 12870,
+    "failureRatePercent": 4.4,
+    "requiredFields": [
+      "service_interest",
+      "name",
+      "company",
+      "budget",
+      "phone",
+      "email"
+    ]
+  },
+  {
+    "integration": "QuickBooks",
+    "setupComplexity": 2,
+    "averageSetupHours": 68,
+    "monthlySyncVolume": 2830,
+    "failureRatePercent": 0.79,
+    "requiredFields": [
+      "company",
+      "budget",
+      "email"
+    ]
+  },
+  {
+    "integration": "Google Calendar",
+    "setupComplexity": 6,
+    "averageSetupHours": 23,
+    "monthlySyncVolume": 11043,
+    "failureRatePercent": 3.58,
+    "requiredFields": [
+      "company",
+      "name",
+      "email",
+      "timeline",
+      "phone",
+      "budget"
+    ]
+  },
+  {
+    "integration": "Microsoft Teams",
+    "setupComplexity": 3,
+    "averageSetupHours": 36,
+    "monthlySyncVolume": 13376,
+    "failureRatePercent": 3.68,
+    "requiredFields": [
+      "budget",
+      "service_interest",
+      "email"
+    ]
+  },
+  {
+    "integration": "Outlook",
+    "setupComplexity": 9,
+    "averageSetupHours": 57,
+    "monthlySyncVolume": 10506,
+    "failureRatePercent": 2.63,
+    "requiredFields": [
+      "name",
+      "phone",
+      "email",
+      "service_interest",
+      "company"
+    ]
+  },
+  {
+    "integration": "Monday.com",
+    "setupComplexity": 2,
+    "averageSetupHours": 51,
+    "monthlySyncVolume": 14675,
+    "failureRatePercent": 3.49,
+    "requiredFields": [
+      "timeline",
+      "budget",
+      "name"
+    ]
+  },
+  {
+    "integration": "Asana",
+    "setupComplexity": 6,
+    "averageSetupHours": 52,
+    "monthlySyncVolume": 6438,
+    "failureRatePercent": 0.26,
+    "requiredFields": [
+      "service_interest",
+      "company",
+      "email",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Trello",
+    "setupComplexity": 4,
+    "averageSetupHours": 25,
+    "monthlySyncVolume": 2171,
+    "failureRatePercent": 1.45,
+    "requiredFields": [
+      "company",
+      "timeline",
+      "name"
+    ]
+  },
+  {
+    "integration": "ClickUp",
+    "setupComplexity": 6,
+    "averageSetupHours": 37,
+    "monthlySyncVolume": 8124,
+    "failureRatePercent": 2.49,
+    "requiredFields": [
+      "company",
+      "timeline",
+      "email"
+    ]
+  },
+  {
+    "integration": "Linear",
+    "setupComplexity": 8,
+    "averageSetupHours": 29,
+    "monthlySyncVolume": 1411,
+    "failureRatePercent": 1.25,
+    "requiredFields": [
+      "timeline",
+      "budget",
+      "name",
+      "company",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Jira",
+    "setupComplexity": 7,
+    "averageSetupHours": 34,
+    "monthlySyncVolume": 7677,
+    "failureRatePercent": 2.75,
+    "requiredFields": [
+      "company",
+      "name",
+      "service_interest"
+    ]
+  },
+  {
+    "integration": "Shopify",
+    "setupComplexity": 5,
+    "averageSetupHours": 42,
+    "monthlySyncVolume": 17100,
+    "failureRatePercent": 2.83,
+    "requiredFields": [
+      "phone",
+      "email",
+      "timeline",
+      "budget",
+      "company",
+      "name"
+    ]
+  },
+  {
+    "integration": "WooCommerce",
+    "setupComplexity": 2,
+    "averageSetupHours": 13,
+    "monthlySyncVolume": 7192,
+    "failureRatePercent": 3.76,
+    "requiredFields": [
+      "budget",
+      "company",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Webflow",
+    "setupComplexity": 4,
+    "averageSetupHours": 42,
+    "monthlySyncVolume": 15086,
+    "failureRatePercent": 4.78,
+    "requiredFields": [
+      "budget",
+      "company",
+      "timeline"
+    ]
+  },
+  {
+    "integration": "WordPress",
+    "setupComplexity": 2,
+    "averageSetupHours": 39,
+    "monthlySyncVolume": 7646,
+    "failureRatePercent": 1.32,
+    "requiredFields": [
+      "budget",
+      "name",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Twilio",
+    "setupComplexity": 2,
+    "averageSetupHours": 66,
+    "monthlySyncVolume": 7469,
+    "failureRatePercent": 2.61,
+    "requiredFields": [
+      "budget",
+      "timeline",
+      "service_interest",
+      "name",
+      "phone"
+    ]
+  },
+  {
+    "integration": "SendGrid",
+    "setupComplexity": 4,
+    "averageSetupHours": 22,
+    "monthlySyncVolume": 11765,
+    "failureRatePercent": 4.7,
+    "requiredFields": [
+      "budget",
+      "phone",
+      "timeline",
+      "email"
+    ]
+  },
+  {
+    "integration": "Resend",
+    "setupComplexity": 1,
+    "averageSetupHours": 35,
+    "monthlySyncVolume": 3709,
+    "failureRatePercent": 3.05,
+    "requiredFields": [
+      "name",
+      "service_interest",
+      "budget",
+      "phone"
+    ]
+  },
+  {
+    "integration": "Postmark",
+    "setupComplexity": 6,
+    "averageSetupHours": 62,
+    "monthlySyncVolume": 9474,
+    "failureRatePercent": 3.53,
+    "requiredFields": [
+      "timeline",
+      "phone",
+      "email"
+    ]
+  },
+  {
+    "integration": "Customer.io",
+    "setupComplexity": 2,
+    "averageSetupHours": 71,
+    "monthlySyncVolume": 11042,
+    "failureRatePercent": 1.3,
+    "requiredFields": [
+      "service_interest",
+      "timeline",
+      "email",
+      "budget",
+      "name"
+    ]
+  },
+  {
+    "integration": "Segment",
+    "setupComplexity": 3,
+    "averageSetupHours": 60,
+    "monthlySyncVolume": 8846,
+    "failureRatePercent": 0.45,
+    "requiredFields": [
+      "budget",
+      "service_interest",
+      "timeline"
+    ]
+  },
+  {
+    "integration": "Snowflake",
+    "setupComplexity": 1,
+    "averageSetupHours": 16,
+    "monthlySyncVolume": 5827,
+    "failureRatePercent": 1.75,
+    "requiredFields": [
+      "budget",
+      "email",
+      "phone"
+    ]
+  }
+]
